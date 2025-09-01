@@ -215,6 +215,51 @@ namespace VMwareSvgaII3D
             lastfence = InsertFence();
         }
 
+        public Image PresentToImage(SVGA3dSurfaceImageId image, SVGA3dRect rect)
+        {
+            uint width = rect.w;
+            uint height = rect.h;
+
+            if (width == 0 || height == 0)
+                return null;
+
+            const uint bytesPerPixel = 4u;
+            uint size = width * height * bytesPerPixel;
+
+            void* buffer = SVGA3DUtil_AllocDMABuffer(size, out SVGAGuestPtr gPtr);
+
+            SVGA3dGuestImage guestImage;
+            guestImage.ptr = gPtr;
+            guestImage.pitch = 0;
+
+            SVGA3dSurfaceImageId hostImage = image;
+
+            SVGA3dCopyBox* boxes;
+            BeginSurfaceDMA(&guestImage, &hostImage, SVGA3dTransferType.SVGA3D_READ_HOST_VRAM, &boxes, 1);
+
+            boxes[0].x = rect.x;
+            boxes[0].y = rect.y;
+            boxes[0].w = width;
+            boxes[0].h = height;
+            boxes[0].d = 1;
+
+            WaitForFifo();
+
+            uint fence = InsertFence();
+            SyncToFence(fence);
+
+            int pixelCount = (int)(width * height);
+            int[] pixels = new int[pixelCount];
+
+            fixed (int* pDest = &pixels[0])
+                MemoryOperations.Copy((byte*)pDest, (byte*)buffer, (int)size);
+
+            var bmp = new Bitmap(width,height,ColorDepth.ColorDepth32);
+            bmp.RawData = pixels;
+            return bmp;
+        }
+
+
         void BeginSurfaceDMA(
             SVGA3dGuestImage* guestImage,
             SVGA3dSurfaceImageId* hostImage,
@@ -234,7 +279,6 @@ namespace VMwareSvgaII3D
 
             MemoryOperations.Fill((byte*)*boxes, 0, (int)boxesSize);
         }
-
 
         void SurfaceDMA2D(
             uint sid,
@@ -261,20 +305,16 @@ namespace VMwareSvgaII3D
         {
             uint size = (uint)(data.Length * sizeof(T));
 
-            // Define the buffer surface (same as before)
             uint sid = DefineSurface(size, 1, SVGA3dSurfaceFormat.SVGA3D_BUFFER).sid;
 
-            // Allocate a framebuffer-backed region and get guest pointer
             SVGAGuestPtr gPtr;
             void* buffer = SVGA3DUtil_AllocDMABuffer(size, out gPtr);
 
-            // Copy data directly into framebuffer-backed memory (no extra staging)
             fixed (T* pData = &data[0])
             {
                 MemoryOperations.Copy((byte*)buffer, (byte*)pData, (int)size);
             }
 
-            // Tell the host to read from that guest pointer (host will read BAR1 + gPtr.offset)
             SurfaceDMA2D(sid, &gPtr, SVGA3dTransferType.SVGA3D_WRITE_HOST_VRAM, size, 1);
 
             return sid;
@@ -397,12 +437,6 @@ namespace VMwareSvgaII3D
             SVGA3dPrimitiveRange* pranges;
             BeginDrawPrimitives(cid, &vdecls, (uint)decls.Length, &pranges, (uint)ranges.Length);
 
-            //for (int i = 0; i < decls.Length; i++)
-            //    vdecls[i] = decls[i];
-
-            //for (int i = 0; i < ranges.Length; i++)
-            //    pranges[i] = ranges[i];
-
             fixed (SVGA3dVertexDecl* statesPtr = &decls[0])
             {
                 MemoryOperations.Copy((byte*)vdecls, (byte*)statesPtr, sizeof(SVGA3dVertexDecl) * decls.Length);
@@ -481,37 +515,32 @@ namespace VMwareSvgaII3D
             WaitForFifo();
         }
 
-        public void SetShaderUniform<T>(uint cid, uint reg, SVGA3dShaderType type, SVGA3dShaderConstType ctype, params T[] value) where T : unmanaged
+        public void SetShaderUniform<T>(uint cid, uint reg, SVGA3dShaderType type, SVGA3dShaderConstType ctype, T value) where T : unmanaged
         {
-            for (int i = 0; i < value.Length; i++)
-            {
-                SVGA3dCmdSetShaderConst* cmd;
+            SVGA3dCmdSetShaderConst* cmd;
+            cmd = (SVGA3dCmdSetShaderConst*)ReserveFIFO3D((uint)FIFOCommand.SET_SHADER_CONST,(uint)sizeof(SVGA3dCmdSetShaderConst));
 
-                cmd = (SVGA3dCmdSetShaderConst*)ReserveFIFO3D((uint)FIFOCommand.SET_SHADER_CONST, (uint)sizeof(SVGA3dCmdSetShaderConst));
-                cmd->cid = cid;
-                cmd->reg = reg + (uint)i;
-                cmd->type = type;
-                cmd->ctype = ctype;
+            cmd->cid = cid;
+            cmd->reg = reg;
+            cmd->type = type;
+            cmd->ctype = ctype;
 
-                T v = value[i];
+            cmd->values[0] = 0;
+            cmd->values[1] = 0;
+            cmd->values[2] = 0;
+            cmd->values[3] = 0;
 
-                switch (ctype)
-                {
-                    case SVGA3dShaderConstType.SVGA3D_CONST_TYPE_FLOAT:
-                    case SVGA3dShaderConstType.SVGA3D_CONST_TYPE_INT:
-                        MemoryOperations.Copy((byte*)&cmd->values, (byte*)&v, sizeof(T));
-                        break;
-                    case SVGA3dShaderConstType.SVGA3D_CONST_TYPE_BOOL:
-                        MemoryOperations.Fill((byte*)&cmd->values, 0, sizeof(T));
-                        cmd->values[0] = *(uint*)&v;
-                        break;
-                    default:
-                        throw new Exception("Unknown shader const type");
-                }
+            byte* src = (byte*)&value;
+            byte* dst = (byte*)cmd->values;
 
-                WaitForFifo();
-            }
+            int size = sizeof(T);
+            if (size > 16) size = 16;
+            for (int i = 0; i < size; i++)
+                dst[i] = src[i];
+
+            WaitForFifo();
         }
+
 
         public uint DefineContext()
         {
@@ -527,40 +556,25 @@ namespace VMwareSvgaII3D
 
         private static SVGAGuestPtr nextPtr = new SVGAGuestPtr { gmrId = 0, offset = 0 };
 
-        // Add near top of class:
-        private const uint SVGA_GMR_FRAMEBUFFER = 0xFFFFFFFEu; // (uint)-2
+        private const uint SVGA_GMR_FRAMEBUFFER = 0xFFFFFFFEu;
 
         public unsafe void* SVGA3DUtil_AllocDMABuffer(uint size, out SVGAGuestPtr ptr)
         {
-            // 4-byte alignment
             uint alignedSize = (size + 3u) & ~3u;
-
-            // make sure device supports GMR/framebuffer as a guest pointer
-            // Capability.Gmr is your capability bit you already read into `capabilities`
             if ((capabilities & (uint)Capability.Gmr) == 0)
-            {
-                // Fallback: keep previous behavior (may still work if you implement a real GMR)
-                // But warn (or throw) because using framebuffer GMR won't be available.
                 throw new InvalidOperationException("SVGA device does not support GMR — cannot allocate framebuffer-backed guest pointer.");
-            }
 
-            // Check available space in BAR1 (videoMemory)
             if (nextPtr.offset + alignedSize > videoMemory.Size)
-            {
                 throw new OutOfMemoryException("Not enough VRAM for framebuffer-backed buffer");
-            }
 
-            // Build the guest pointer to refer to the framebuffer GMR and offset
             ptr = new SVGAGuestPtr
             {
-                gmrId = SVGA_GMR_FRAMEBUFFER,    // tells host: this guest pointer refers to BAR1/framebuffer
-                offset = nextPtr.offset          // byte offset into BAR1
+                gmrId = SVGA_GMR_FRAMEBUFFER,
+                offset = nextPtr.offset      
             };
 
-            // the buffer pointer you can write to
             void* buffer = (void*)(videoMemory.Base + nextPtr.offset);
 
-            // advance allocation cursor
             nextPtr.offset += alignedSize;
 
             return buffer;
@@ -1041,7 +1055,5 @@ namespace VMwareSvgaII3D
         public uint FrameOffset;
 
         #endregion
-
-
     }
 }
