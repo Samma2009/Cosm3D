@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+  commentId: T:VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+  id: SVGA3dVertexArrayIdentity
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dVertexArrayIdentity.method
+  - VMwareSvgaII3D.SVGA3dVertexArrayIdentity.type
+  - VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usage
+  - VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usageIndex
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dVertexArrayIdentity
+  nameWithType: SVGA3dVertexArrayIdentity
+  fullName: VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+  type: Struct
+  source:
+    id: SVGA3dVertexArrayIdentity
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Structs\VertexArrayIdentity.cs
+    startLine: 9
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public struct SVGA3dVertexArrayIdentity
+    content.vb: Public Structure SVGA3dVertexArrayIdentity
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.type
+  commentId: F:VMwareSvgaII3D.SVGA3dVertexArrayIdentity.type
+  id: type
+  parent: VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: SVGA3dVertexArrayIdentity.type
+  fullName: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.type
+  type: Field
+  source:
+    id: type
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Structs\VertexArrayIdentity.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public SVGA3dDeclType type
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclType
+    content.vb: Public type As SVGA3dDeclType
+- uid: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.method
+  commentId: F:VMwareSvgaII3D.SVGA3dVertexArrayIdentity.method
+  id: method
+  parent: VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+  langs:
+  - csharp
+  - vb
+  name: method
+  nameWithType: SVGA3dVertexArrayIdentity.method
+  fullName: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.method
+  type: Field
+  source:
+    id: method
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Structs\VertexArrayIdentity.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public SVGA3dDeclMethod method
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+    content.vb: Public method As SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usage
+  commentId: F:VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usage
+  id: usage
+  parent: VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+  langs:
+  - csharp
+  - vb
+  name: usage
+  nameWithType: SVGA3dVertexArrayIdentity.usage
+  fullName: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usage
+  type: Field
+  source:
+    id: usage
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Structs\VertexArrayIdentity.cs
+    startLine: 14
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public SVGA3dDeclUsage usage
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclUsage
+    content.vb: Public usage As SVGA3dDeclUsage
+- uid: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usageIndex
+  commentId: F:VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usageIndex
+  id: usageIndex
+  parent: VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+  langs:
+  - csharp
+  - vb
+  name: usageIndex
+  nameWithType: SVGA3dVertexArrayIdentity.usageIndex
+  fullName: VMwareSvgaII3D.SVGA3dVertexArrayIdentity.usageIndex
+  type: Field
+  source:
+    id: usageIndex
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Structs\VertexArrayIdentity.cs
+    startLine: 15
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public uint usageIndex
+    return:
+      type: System.UInt32
+    content.vb: Public usageIndex As UInteger
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VMwareSvgaII3D.SVGA3dDeclType
+  commentId: T:VMwareSvgaII3D.SVGA3dDeclType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dDeclType.html
+  name: SVGA3dDeclType
+  nameWithType: SVGA3dDeclType
+  fullName: VMwareSvgaII3D.SVGA3dDeclType
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod
+  commentId: T:VMwareSvgaII3D.SVGA3dDeclMethod
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dDeclMethod.html
+  name: SVGA3dDeclMethod
+  nameWithType: SVGA3dDeclMethod
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclUsage
+  commentId: T:VMwareSvgaII3D.SVGA3dDeclUsage
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dDeclUsage.html
+  name: SVGA3dDeclUsage
+  nameWithType: SVGA3dDeclUsage
+  fullName: VMwareSvgaII3D.SVGA3dDeclUsage
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger

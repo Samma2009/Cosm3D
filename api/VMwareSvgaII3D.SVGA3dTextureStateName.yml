@@ -1,0 +1,751 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName
+  commentId: T:VMwareSvgaII3D.SVGA3dTextureStateName
+  id: SVGA3dTextureStateName
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSU
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSV
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSW
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG0
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG1
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG2
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAOP
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BIND_TEXTURE
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BORDERCOLOR
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLOFFSET
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLSCALE
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT00
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT01
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT10
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT11
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG0
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG1
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG2
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLOROP
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_GAMMA
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_INVALID
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAGFILTER
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAX
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MINFILTER
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MIPFILTER
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDGEN
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDINDEX
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURETRANSFORMFLAGS
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_LOD_BIAS
+  - VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dTextureStateName
+  nameWithType: SVGA3dTextureStateName
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName
+  type: Enum
+  source:
+    id: SVGA3dTextureStateName
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: 'public enum SVGA3dTextureStateName : uint'
+    content.vb: Public Enum SVGA3dTextureStateName As UInteger
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_INVALID
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_INVALID
+  id: SVGA3D_TS_INVALID
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_INVALID
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_INVALID
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_INVALID
+  type: Field
+  source:
+    id: SVGA3D_TS_INVALID
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_INVALID = 0
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BIND_TEXTURE
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BIND_TEXTURE
+  id: SVGA3D_TS_BIND_TEXTURE
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BIND_TEXTURE
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BIND_TEXTURE
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BIND_TEXTURE
+  type: Field
+  source:
+    id: SVGA3D_TS_BIND_TEXTURE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BIND_TEXTURE = 1
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLOROP
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLOROP
+  id: SVGA3D_TS_COLOROP
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_COLOROP
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_COLOROP
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLOROP
+  type: Field
+  source:
+    id: SVGA3D_TS_COLOROP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_COLOROP = 2
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG1
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG1
+  id: SVGA3D_TS_COLORARG1
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_COLORARG1
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_COLORARG1
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG1
+  type: Field
+  source:
+    id: SVGA3D_TS_COLORARG1
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_COLORARG1 = 3
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG2
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG2
+  id: SVGA3D_TS_COLORARG2
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_COLORARG2
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_COLORARG2
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG2
+  type: Field
+  source:
+    id: SVGA3D_TS_COLORARG2
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 14
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_COLORARG2 = 4
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAOP
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAOP
+  id: SVGA3D_TS_ALPHAOP
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_ALPHAOP
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_ALPHAOP
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAOP
+  type: Field
+  source:
+    id: SVGA3D_TS_ALPHAOP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 15
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_ALPHAOP = 5
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG1
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG1
+  id: SVGA3D_TS_ALPHAARG1
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_ALPHAARG1
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG1
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG1
+  type: Field
+  source:
+    id: SVGA3D_TS_ALPHAARG1
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 16
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_ALPHAARG1 = 6
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG2
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG2
+  id: SVGA3D_TS_ALPHAARG2
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_ALPHAARG2
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG2
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG2
+  type: Field
+  source:
+    id: SVGA3D_TS_ALPHAARG2
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 17
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_ALPHAARG2 = 7
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSU
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSU
+  id: SVGA3D_TS_ADDRESSU
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_ADDRESSU
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_ADDRESSU
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSU
+  type: Field
+  source:
+    id: SVGA3D_TS_ADDRESSU
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 18
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_ADDRESSU = 8
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSV
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSV
+  id: SVGA3D_TS_ADDRESSV
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_ADDRESSV
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_ADDRESSV
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSV
+  type: Field
+  source:
+    id: SVGA3D_TS_ADDRESSV
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 19
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_ADDRESSV = 9
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MIPFILTER
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MIPFILTER
+  id: SVGA3D_TS_MIPFILTER
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_MIPFILTER
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_MIPFILTER
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MIPFILTER
+  type: Field
+  source:
+    id: SVGA3D_TS_MIPFILTER
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 20
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_MIPFILTER = 10
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAGFILTER
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAGFILTER
+  id: SVGA3D_TS_MAGFILTER
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_MAGFILTER
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_MAGFILTER
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAGFILTER
+  type: Field
+  source:
+    id: SVGA3D_TS_MAGFILTER
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 21
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_MAGFILTER = 11
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MINFILTER
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MINFILTER
+  id: SVGA3D_TS_MINFILTER
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_MINFILTER
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_MINFILTER
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MINFILTER
+  type: Field
+  source:
+    id: SVGA3D_TS_MINFILTER
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 22
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_MINFILTER = 12
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BORDERCOLOR
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BORDERCOLOR
+  id: SVGA3D_TS_BORDERCOLOR
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BORDERCOLOR
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BORDERCOLOR
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BORDERCOLOR
+  type: Field
+  source:
+    id: SVGA3D_TS_BORDERCOLOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 23
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BORDERCOLOR = 13
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDINDEX
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDINDEX
+  id: SVGA3D_TS_TEXCOORDINDEX
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_TEXCOORDINDEX
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDINDEX
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDINDEX
+  type: Field
+  source:
+    id: SVGA3D_TS_TEXCOORDINDEX
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 24
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_TEXCOORDINDEX = 14
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURETRANSFORMFLAGS
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURETRANSFORMFLAGS
+  id: SVGA3D_TS_TEXTURETRANSFORMFLAGS
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_TEXTURETRANSFORMFLAGS
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_TEXTURETRANSFORMFLAGS
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURETRANSFORMFLAGS
+  type: Field
+  source:
+    id: SVGA3D_TS_TEXTURETRANSFORMFLAGS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 25
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_TEXTURETRANSFORMFLAGS = 15
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDGEN
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDGEN
+  id: SVGA3D_TS_TEXCOORDGEN
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_TEXCOORDGEN
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDGEN
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXCOORDGEN
+  type: Field
+  source:
+    id: SVGA3D_TS_TEXCOORDGEN
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 26
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_TEXCOORDGEN = 16
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT00
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT00
+  id: SVGA3D_TS_BUMPENVMAT00
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BUMPENVMAT00
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT00
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT00
+  type: Field
+  source:
+    id: SVGA3D_TS_BUMPENVMAT00
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 27
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BUMPENVMAT00 = 17
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT01
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT01
+  id: SVGA3D_TS_BUMPENVMAT01
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BUMPENVMAT01
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT01
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT01
+  type: Field
+  source:
+    id: SVGA3D_TS_BUMPENVMAT01
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 28
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BUMPENVMAT01 = 18
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT10
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT10
+  id: SVGA3D_TS_BUMPENVMAT10
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BUMPENVMAT10
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT10
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT10
+  type: Field
+  source:
+    id: SVGA3D_TS_BUMPENVMAT10
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 29
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BUMPENVMAT10 = 19
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT11
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT11
+  id: SVGA3D_TS_BUMPENVMAT11
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BUMPENVMAT11
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT11
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVMAT11
+  type: Field
+  source:
+    id: SVGA3D_TS_BUMPENVMAT11
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 30
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BUMPENVMAT11 = 20
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+  id: SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+  type: Field
+  source:
+    id: SVGA3D_TS_TEXTURE_MIPMAP_LEVEL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 31
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_TEXTURE_MIPMAP_LEVEL = 21
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_LOD_BIAS
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_LOD_BIAS
+  id: SVGA3D_TS_TEXTURE_LOD_BIAS
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_TEXTURE_LOD_BIAS
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_LOD_BIAS
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_LOD_BIAS
+  type: Field
+  source:
+    id: SVGA3D_TS_TEXTURE_LOD_BIAS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 32
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_TEXTURE_LOD_BIAS = 22
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+  id: SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+  type: Field
+  source:
+    id: SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 33
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_TEXTURE_ANISOTROPIC_LEVEL = 23
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSW
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSW
+  id: SVGA3D_TS_ADDRESSW
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_ADDRESSW
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_ADDRESSW
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ADDRESSW
+  type: Field
+  source:
+    id: SVGA3D_TS_ADDRESSW
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 34
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_ADDRESSW = 24
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_GAMMA
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_GAMMA
+  id: SVGA3D_TS_GAMMA
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_GAMMA
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_GAMMA
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_GAMMA
+  type: Field
+  source:
+    id: SVGA3D_TS_GAMMA
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 45
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_GAMMA = 25
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLSCALE
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLSCALE
+  id: SVGA3D_TS_BUMPENVLSCALE
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BUMPENVLSCALE
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLSCALE
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLSCALE
+  type: Field
+  source:
+    id: SVGA3D_TS_BUMPENVLSCALE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 46
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BUMPENVLSCALE = 26
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLOFFSET
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLOFFSET
+  id: SVGA3D_TS_BUMPENVLOFFSET
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_BUMPENVLOFFSET
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLOFFSET
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_BUMPENVLOFFSET
+  type: Field
+  source:
+    id: SVGA3D_TS_BUMPENVLOFFSET
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 47
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_BUMPENVLOFFSET = 27
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG0
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG0
+  id: SVGA3D_TS_COLORARG0
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_COLORARG0
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_COLORARG0
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_COLORARG0
+  type: Field
+  source:
+    id: SVGA3D_TS_COLORARG0
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 48
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_COLORARG0 = 28
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG0
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG0
+  id: SVGA3D_TS_ALPHAARG0
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_ALPHAARG0
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG0
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_ALPHAARG0
+  type: Field
+  source:
+    id: SVGA3D_TS_ALPHAARG0
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 49
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_ALPHAARG0 = 29
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAX
+  commentId: F:VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAX
+  id: SVGA3D_TS_MAX
+  parent: VMwareSvgaII3D.SVGA3dTextureStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_TS_MAX
+  nameWithType: SVGA3dTextureStateName.SVGA3D_TS_MAX
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName.SVGA3D_TS_MAX
+  type: Field
+  source:
+    id: SVGA3D_TS_MAX
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\TextureStateName.cs
+    startLine: 50
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_TS_MAX = 30
+    return:
+      type: VMwareSvgaII3D.SVGA3dTextureStateName
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.SVGA3dTextureStateName
+  commentId: T:VMwareSvgaII3D.SVGA3dTextureStateName
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dTextureStateName.html
+  name: SVGA3dTextureStateName
+  nameWithType: SVGA3dTextureStateName
+  fullName: VMwareSvgaII3D.SVGA3dTextureStateName

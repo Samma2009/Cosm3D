@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  commentId: T:VMwareSvgaII3D.SVGA3dSurfaceFlags
+  id: SVGA3dSurfaceFlags
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_AUTOGENMIPMAPS
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_CUBEMAP
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DYNAMIC
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_INDEXBUFFER
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_RENDERTARGET
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_STATIC
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_TEXTURE
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_VERTEXBUFFER
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_WRITEONLY
+  - VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dSurfaceFlags
+  nameWithType: SVGA3dSurfaceFlags
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  type: Enum
+  source:
+    id: SVGA3dSurfaceFlags
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: 'public enum SVGA3dSurfaceFlags : uint'
+    content.vb: Public Enum SVGA3dSurfaceFlags As UInteger
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_CUBEMAP
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_CUBEMAP
+  id: SVGA3D_SURFACE_CUBEMAP
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_CUBEMAP
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_CUBEMAP
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_CUBEMAP
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_CUBEMAP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_CUBEMAP = 1
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_STATIC
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_STATIC
+  id: SVGA3D_SURFACE_HINT_STATIC
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_STATIC
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_STATIC
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_STATIC
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_STATIC
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_STATIC = 2
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DYNAMIC
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DYNAMIC
+  id: SVGA3D_SURFACE_HINT_DYNAMIC
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_DYNAMIC
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DYNAMIC
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DYNAMIC
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_DYNAMIC
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_DYNAMIC = 4
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_INDEXBUFFER
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_INDEXBUFFER
+  id: SVGA3D_SURFACE_HINT_INDEXBUFFER
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_INDEXBUFFER
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_INDEXBUFFER
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_INDEXBUFFER
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_INDEXBUFFER
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_INDEXBUFFER = 8
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_VERTEXBUFFER
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_VERTEXBUFFER
+  id: SVGA3D_SURFACE_HINT_VERTEXBUFFER
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_VERTEXBUFFER
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_VERTEXBUFFER
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_VERTEXBUFFER
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_VERTEXBUFFER
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 14
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_VERTEXBUFFER = 16
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_TEXTURE
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_TEXTURE
+  id: SVGA3D_SURFACE_HINT_TEXTURE
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_TEXTURE
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_TEXTURE
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_TEXTURE
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_TEXTURE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 15
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_TEXTURE = 32
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_RENDERTARGET
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_RENDERTARGET
+  id: SVGA3D_SURFACE_HINT_RENDERTARGET
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_RENDERTARGET
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_RENDERTARGET
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_RENDERTARGET
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_RENDERTARGET
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 16
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_RENDERTARGET = 64
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+  id: SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_DEPTHSTENCIL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 17
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_DEPTHSTENCIL = 128
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_WRITEONLY
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_WRITEONLY
+  id: SVGA3D_SURFACE_HINT_WRITEONLY
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_HINT_WRITEONLY
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_WRITEONLY
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_HINT_WRITEONLY
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_HINT_WRITEONLY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 18
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_HINT_WRITEONLY = 256
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+  id: SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_MASKABLE_ANTIALIAS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 19
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_MASKABLE_ANTIALIAS = 512
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_AUTOGENMIPMAPS
+  commentId: F:VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_AUTOGENMIPMAPS
+  id: SVGA3D_SURFACE_AUTOGENMIPMAPS
+  parent: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SURFACE_AUTOGENMIPMAPS
+  nameWithType: SVGA3dSurfaceFlags.SVGA3D_SURFACE_AUTOGENMIPMAPS
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags.SVGA3D_SURFACE_AUTOGENMIPMAPS
+  type: Field
+  source:
+    id: SVGA3D_SURFACE_AUTOGENMIPMAPS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\SurfaceFlags.cs
+    startLine: 20
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SURFACE_AUTOGENMIPMAPS = 1024
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceFlags
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFlags
+  commentId: T:VMwareSvgaII3D.SVGA3dSurfaceFlags
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dSurfaceFlags.html
+  name: SVGA3dSurfaceFlags
+  nameWithType: SVGA3dSurfaceFlags
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFlags

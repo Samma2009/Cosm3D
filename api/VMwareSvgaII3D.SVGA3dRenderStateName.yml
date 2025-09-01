@@ -1,0 +1,2361 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName
+  commentId: T:VMwareSvgaII3D.SVGA3dRenderStateName
+  id: SVGA3dRenderStateName
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAFUNC
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAREF
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHATESTENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENT
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENTMATERIALSOURCE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ANTIALIASEDLINEENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDCOLOR
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATION
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATIONALPHA
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFAIL
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFUNC
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILPASS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILZFAIL
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPING
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPLANEENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE1
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE2
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE3
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COORDINATETYPE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CULLMODE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DEPTHBIAS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DIFFUSEMATERIALSOURCE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DITHERENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLEND
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLENDALPHA
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_EMISSIVEMATERIALSOURCE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FILLMODE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGCOLOR
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGDENSITY
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGEND
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGMODE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGSTART
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FRONTWINDING
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INVALID
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LASTPIXEL
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LIGHTINGENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEAA
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEPATTERN
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEWIDTH
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LOCALVIEWER
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MAX
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEANTIALIAS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEMASK
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_NORMALIZENORMALS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_OUTPUTGAMMA
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALEENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_A
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_B
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_C
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMAX
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMIN
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSPRITEENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_RANGEFOGENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SCISSORTESTENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SEPARATEALPHABLENDENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SHADEMODE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SLOPESCALEDEPTHBIAS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARMATERIALSOURCE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLEND
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLENDALPHA
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE2SIDED
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFAIL
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFUNC
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILMASK
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILPASS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILREF
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILWRITEMASK
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILZFAIL
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TEXTUREFACTOR
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TRANSPARENCYANTIALIAS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TWEENFACTOR
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXBLEND
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXMATERIALENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP0
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP1
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP10
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP11
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP12
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP13
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP14
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP15
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP2
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP3
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP4
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP5
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP6
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP7
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP8
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP9
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZBIAS
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZENABLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZFUNC
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZVISIBLE
+  - VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZWRITEENABLE
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dRenderStateName
+  nameWithType: SVGA3dRenderStateName
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName
+  type: Enum
+  source:
+    id: SVGA3dRenderStateName
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: 'public enum SVGA3dRenderStateName : uint'
+    content.vb: Public Enum SVGA3dRenderStateName As UInteger
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INVALID
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INVALID
+  id: SVGA3D_RS_INVALID
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_INVALID
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_INVALID
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INVALID
+  type: Field
+  source:
+    id: SVGA3D_RS_INVALID
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_INVALID = 0
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZENABLE
+  id: SVGA3D_RS_ZENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ZENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ZENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_ZENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ZENABLE = 1
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZWRITEENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZWRITEENABLE
+  id: SVGA3D_RS_ZWRITEENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ZWRITEENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ZWRITEENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZWRITEENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_ZWRITEENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ZWRITEENABLE = 2
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHATESTENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHATESTENABLE
+  id: SVGA3D_RS_ALPHATESTENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ALPHATESTENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ALPHATESTENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHATESTENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_ALPHATESTENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ALPHATESTENABLE = 3
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DITHERENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DITHERENABLE
+  id: SVGA3D_RS_DITHERENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_DITHERENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_DITHERENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DITHERENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_DITHERENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 14
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_DITHERENABLE = 4
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDENABLE
+  id: SVGA3D_RS_BLENDENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_BLENDENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_BLENDENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_BLENDENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 15
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_BLENDENABLE = 5
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGENABLE
+  id: SVGA3D_RS_FOGENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FOGENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FOGENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_FOGENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 16
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FOGENABLE = 6
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARENABLE
+  id: SVGA3D_RS_SPECULARENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SPECULARENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SPECULARENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_SPECULARENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 17
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SPECULARENABLE = 7
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE
+  id: SVGA3D_RS_STENCILENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 18
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILENABLE = 8
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LIGHTINGENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LIGHTINGENABLE
+  id: SVGA3D_RS_LIGHTINGENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_LIGHTINGENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_LIGHTINGENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LIGHTINGENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_LIGHTINGENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 19
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_LIGHTINGENABLE = 9
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_NORMALIZENORMALS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_NORMALIZENORMALS
+  id: SVGA3D_RS_NORMALIZENORMALS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_NORMALIZENORMALS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_NORMALIZENORMALS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_NORMALIZENORMALS
+  type: Field
+  source:
+    id: SVGA3D_RS_NORMALIZENORMALS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 20
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_NORMALIZENORMALS = 10
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSPRITEENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSPRITEENABLE
+  id: SVGA3D_RS_POINTSPRITEENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSPRITEENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSPRITEENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSPRITEENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSPRITEENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 21
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSPRITEENABLE = 11
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALEENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALEENABLE
+  id: SVGA3D_RS_POINTSCALEENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSCALEENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSCALEENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALEENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSCALEENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 22
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSCALEENABLE = 12
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILREF
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILREF
+  id: SVGA3D_RS_STENCILREF
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILREF
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILREF
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILREF
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILREF
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 23
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILREF = 13
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILMASK
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILMASK
+  id: SVGA3D_RS_STENCILMASK
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILMASK
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILMASK
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILMASK
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILMASK
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 24
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILMASK = 14
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILWRITEMASK
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILWRITEMASK
+  id: SVGA3D_RS_STENCILWRITEMASK
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILWRITEMASK
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILWRITEMASK
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILWRITEMASK
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILWRITEMASK
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 25
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILWRITEMASK = 15
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGSTART
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGSTART
+  id: SVGA3D_RS_FOGSTART
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FOGSTART
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FOGSTART
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGSTART
+  type: Field
+  source:
+    id: SVGA3D_RS_FOGSTART
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 26
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FOGSTART = 16
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGEND
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGEND
+  id: SVGA3D_RS_FOGEND
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FOGEND
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FOGEND
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGEND
+  type: Field
+  source:
+    id: SVGA3D_RS_FOGEND
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 27
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FOGEND = 17
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGDENSITY
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGDENSITY
+  id: SVGA3D_RS_FOGDENSITY
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FOGDENSITY
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FOGDENSITY
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGDENSITY
+  type: Field
+  source:
+    id: SVGA3D_RS_FOGDENSITY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 28
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FOGDENSITY = 18
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZE
+  id: SVGA3D_RS_POINTSIZE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSIZE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSIZE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZE
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSIZE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 29
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSIZE = 19
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMIN
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMIN
+  id: SVGA3D_RS_POINTSIZEMIN
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSIZEMIN
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMIN
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMIN
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSIZEMIN
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 30
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSIZEMIN = 20
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMAX
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMAX
+  id: SVGA3D_RS_POINTSIZEMAX
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSIZEMAX
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMAX
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSIZEMAX
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSIZEMAX
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 31
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSIZEMAX = 21
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_A
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_A
+  id: SVGA3D_RS_POINTSCALE_A
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSCALE_A
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_A
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_A
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSCALE_A
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 32
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSCALE_A = 22
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_B
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_B
+  id: SVGA3D_RS_POINTSCALE_B
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSCALE_B
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_B
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_B
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSCALE_B
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 33
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSCALE_B = 23
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_C
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_C
+  id: SVGA3D_RS_POINTSCALE_C
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_POINTSCALE_C
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_C
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_POINTSCALE_C
+  type: Field
+  source:
+    id: SVGA3D_RS_POINTSCALE_C
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 34
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_POINTSCALE_C = 24
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGCOLOR
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGCOLOR
+  id: SVGA3D_RS_FOGCOLOR
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FOGCOLOR
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FOGCOLOR
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGCOLOR
+  type: Field
+  source:
+    id: SVGA3D_RS_FOGCOLOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 35
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FOGCOLOR = 25
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENT
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENT
+  id: SVGA3D_RS_AMBIENT
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_AMBIENT
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_AMBIENT
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENT
+  type: Field
+  source:
+    id: SVGA3D_RS_AMBIENT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 36
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_AMBIENT = 26
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPLANEENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPLANEENABLE
+  id: SVGA3D_RS_CLIPPLANEENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_CLIPPLANEENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_CLIPPLANEENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPLANEENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_CLIPPLANEENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 37
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_CLIPPLANEENABLE = 27
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGMODE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGMODE
+  id: SVGA3D_RS_FOGMODE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FOGMODE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FOGMODE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FOGMODE
+  type: Field
+  source:
+    id: SVGA3D_RS_FOGMODE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 38
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FOGMODE = 28
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FILLMODE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FILLMODE
+  id: SVGA3D_RS_FILLMODE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FILLMODE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FILLMODE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FILLMODE
+  type: Field
+  source:
+    id: SVGA3D_RS_FILLMODE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 39
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FILLMODE = 29
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SHADEMODE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SHADEMODE
+  id: SVGA3D_RS_SHADEMODE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SHADEMODE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SHADEMODE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SHADEMODE
+  type: Field
+  source:
+    id: SVGA3D_RS_SHADEMODE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 40
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SHADEMODE = 30
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEPATTERN
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEPATTERN
+  id: SVGA3D_RS_LINEPATTERN
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_LINEPATTERN
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_LINEPATTERN
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEPATTERN
+  type: Field
+  source:
+    id: SVGA3D_RS_LINEPATTERN
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 41
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_LINEPATTERN = 31
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLEND
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLEND
+  id: SVGA3D_RS_SRCBLEND
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SRCBLEND
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SRCBLEND
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLEND
+  type: Field
+  source:
+    id: SVGA3D_RS_SRCBLEND
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 42
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SRCBLEND = 32
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLEND
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLEND
+  id: SVGA3D_RS_DSTBLEND
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_DSTBLEND
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_DSTBLEND
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLEND
+  type: Field
+  source:
+    id: SVGA3D_RS_DSTBLEND
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 43
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_DSTBLEND = 33
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATION
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATION
+  id: SVGA3D_RS_BLENDEQUATION
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_BLENDEQUATION
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATION
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATION
+  type: Field
+  source:
+    id: SVGA3D_RS_BLENDEQUATION
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 44
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_BLENDEQUATION = 34
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CULLMODE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CULLMODE
+  id: SVGA3D_RS_CULLMODE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_CULLMODE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_CULLMODE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CULLMODE
+  type: Field
+  source:
+    id: SVGA3D_RS_CULLMODE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 45
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_CULLMODE = 35
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZFUNC
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZFUNC
+  id: SVGA3D_RS_ZFUNC
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ZFUNC
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ZFUNC
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZFUNC
+  type: Field
+  source:
+    id: SVGA3D_RS_ZFUNC
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 46
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ZFUNC = 36
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAFUNC
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAFUNC
+  id: SVGA3D_RS_ALPHAFUNC
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ALPHAFUNC
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ALPHAFUNC
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAFUNC
+  type: Field
+  source:
+    id: SVGA3D_RS_ALPHAFUNC
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 47
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ALPHAFUNC = 37
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFUNC
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFUNC
+  id: SVGA3D_RS_STENCILFUNC
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILFUNC
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILFUNC
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFUNC
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILFUNC
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 48
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILFUNC = 38
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFAIL
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFAIL
+  id: SVGA3D_RS_STENCILFAIL
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILFAIL
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILFAIL
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILFAIL
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILFAIL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 49
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILFAIL = 39
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILZFAIL
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILZFAIL
+  id: SVGA3D_RS_STENCILZFAIL
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILZFAIL
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILZFAIL
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILZFAIL
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILZFAIL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 50
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILZFAIL = 40
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILPASS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILPASS
+  id: SVGA3D_RS_STENCILPASS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILPASS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILPASS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILPASS
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILPASS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 51
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILPASS = 41
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAREF
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAREF
+  id: SVGA3D_RS_ALPHAREF
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ALPHAREF
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ALPHAREF
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ALPHAREF
+  type: Field
+  source:
+    id: SVGA3D_RS_ALPHAREF
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 52
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ALPHAREF = 42
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FRONTWINDING
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FRONTWINDING
+  id: SVGA3D_RS_FRONTWINDING
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_FRONTWINDING
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_FRONTWINDING
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_FRONTWINDING
+  type: Field
+  source:
+    id: SVGA3D_RS_FRONTWINDING
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 53
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_FRONTWINDING = 43
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COORDINATETYPE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COORDINATETYPE
+  id: SVGA3D_RS_COORDINATETYPE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_COORDINATETYPE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_COORDINATETYPE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COORDINATETYPE
+  type: Field
+  source:
+    id: SVGA3D_RS_COORDINATETYPE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 54
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_COORDINATETYPE = 44
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZBIAS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZBIAS
+  id: SVGA3D_RS_ZBIAS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ZBIAS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ZBIAS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZBIAS
+  type: Field
+  source:
+    id: SVGA3D_RS_ZBIAS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 55
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ZBIAS = 45
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_RANGEFOGENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_RANGEFOGENABLE
+  id: SVGA3D_RS_RANGEFOGENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_RANGEFOGENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_RANGEFOGENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_RANGEFOGENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_RANGEFOGENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 56
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_RANGEFOGENABLE = 46
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE
+  id: SVGA3D_RS_COLORWRITEENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_COLORWRITEENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_COLORWRITEENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 57
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_COLORWRITEENABLE = 47
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXMATERIALENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXMATERIALENABLE
+  id: SVGA3D_RS_VERTEXMATERIALENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_VERTEXMATERIALENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_VERTEXMATERIALENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXMATERIALENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_VERTEXMATERIALENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 58
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_VERTEXMATERIALENABLE = 48
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DIFFUSEMATERIALSOURCE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DIFFUSEMATERIALSOURCE
+  id: SVGA3D_RS_DIFFUSEMATERIALSOURCE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_DIFFUSEMATERIALSOURCE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_DIFFUSEMATERIALSOURCE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DIFFUSEMATERIALSOURCE
+  type: Field
+  source:
+    id: SVGA3D_RS_DIFFUSEMATERIALSOURCE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 59
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_DIFFUSEMATERIALSOURCE = 49
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARMATERIALSOURCE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARMATERIALSOURCE
+  id: SVGA3D_RS_SPECULARMATERIALSOURCE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SPECULARMATERIALSOURCE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SPECULARMATERIALSOURCE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SPECULARMATERIALSOURCE
+  type: Field
+  source:
+    id: SVGA3D_RS_SPECULARMATERIALSOURCE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 60
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SPECULARMATERIALSOURCE = 50
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENTMATERIALSOURCE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENTMATERIALSOURCE
+  id: SVGA3D_RS_AMBIENTMATERIALSOURCE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_AMBIENTMATERIALSOURCE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_AMBIENTMATERIALSOURCE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_AMBIENTMATERIALSOURCE
+  type: Field
+  source:
+    id: SVGA3D_RS_AMBIENTMATERIALSOURCE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 61
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_AMBIENTMATERIALSOURCE = 51
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_EMISSIVEMATERIALSOURCE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_EMISSIVEMATERIALSOURCE
+  id: SVGA3D_RS_EMISSIVEMATERIALSOURCE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_EMISSIVEMATERIALSOURCE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_EMISSIVEMATERIALSOURCE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_EMISSIVEMATERIALSOURCE
+  type: Field
+  source:
+    id: SVGA3D_RS_EMISSIVEMATERIALSOURCE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 62
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_EMISSIVEMATERIALSOURCE = 52
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TEXTUREFACTOR
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TEXTUREFACTOR
+  id: SVGA3D_RS_TEXTUREFACTOR
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_TEXTUREFACTOR
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_TEXTUREFACTOR
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TEXTUREFACTOR
+  type: Field
+  source:
+    id: SVGA3D_RS_TEXTUREFACTOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 63
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_TEXTUREFACTOR = 53
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LOCALVIEWER
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LOCALVIEWER
+  id: SVGA3D_RS_LOCALVIEWER
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_LOCALVIEWER
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_LOCALVIEWER
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LOCALVIEWER
+  type: Field
+  source:
+    id: SVGA3D_RS_LOCALVIEWER
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 64
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_LOCALVIEWER = 54
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SCISSORTESTENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SCISSORTESTENABLE
+  id: SVGA3D_RS_SCISSORTESTENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SCISSORTESTENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SCISSORTESTENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SCISSORTESTENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_SCISSORTESTENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 65
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SCISSORTESTENABLE = 55
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDCOLOR
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDCOLOR
+  id: SVGA3D_RS_BLENDCOLOR
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_BLENDCOLOR
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_BLENDCOLOR
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDCOLOR
+  type: Field
+  source:
+    id: SVGA3D_RS_BLENDCOLOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 66
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_BLENDCOLOR = 56
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE2SIDED
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE2SIDED
+  id: SVGA3D_RS_STENCILENABLE2SIDED
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_STENCILENABLE2SIDED
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE2SIDED
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_STENCILENABLE2SIDED
+  type: Field
+  source:
+    id: SVGA3D_RS_STENCILENABLE2SIDED
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 67
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_STENCILENABLE2SIDED = 57
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFUNC
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFUNC
+  id: SVGA3D_RS_CCWSTENCILFUNC
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_CCWSTENCILFUNC
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFUNC
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFUNC
+  type: Field
+  source:
+    id: SVGA3D_RS_CCWSTENCILFUNC
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 68
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_CCWSTENCILFUNC = 58
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFAIL
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFAIL
+  id: SVGA3D_RS_CCWSTENCILFAIL
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_CCWSTENCILFAIL
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFAIL
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILFAIL
+  type: Field
+  source:
+    id: SVGA3D_RS_CCWSTENCILFAIL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 69
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_CCWSTENCILFAIL = 59
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILZFAIL
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILZFAIL
+  id: SVGA3D_RS_CCWSTENCILZFAIL
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_CCWSTENCILZFAIL
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILZFAIL
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILZFAIL
+  type: Field
+  source:
+    id: SVGA3D_RS_CCWSTENCILZFAIL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 70
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_CCWSTENCILZFAIL = 60
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILPASS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILPASS
+  id: SVGA3D_RS_CCWSTENCILPASS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_CCWSTENCILPASS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILPASS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CCWSTENCILPASS
+  type: Field
+  source:
+    id: SVGA3D_RS_CCWSTENCILPASS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 71
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_CCWSTENCILPASS = 61
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXBLEND
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXBLEND
+  id: SVGA3D_RS_VERTEXBLEND
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_VERTEXBLEND
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_VERTEXBLEND
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_VERTEXBLEND
+  type: Field
+  source:
+    id: SVGA3D_RS_VERTEXBLEND
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 72
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_VERTEXBLEND = 62
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SLOPESCALEDEPTHBIAS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SLOPESCALEDEPTHBIAS
+  id: SVGA3D_RS_SLOPESCALEDEPTHBIAS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SLOPESCALEDEPTHBIAS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SLOPESCALEDEPTHBIAS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SLOPESCALEDEPTHBIAS
+  type: Field
+  source:
+    id: SVGA3D_RS_SLOPESCALEDEPTHBIAS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 73
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SLOPESCALEDEPTHBIAS = 63
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DEPTHBIAS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DEPTHBIAS
+  id: SVGA3D_RS_DEPTHBIAS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_DEPTHBIAS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_DEPTHBIAS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DEPTHBIAS
+  type: Field
+  source:
+    id: SVGA3D_RS_DEPTHBIAS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 74
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_DEPTHBIAS = 64
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_OUTPUTGAMMA
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_OUTPUTGAMMA
+  id: SVGA3D_RS_OUTPUTGAMMA
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_OUTPUTGAMMA
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_OUTPUTGAMMA
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_OUTPUTGAMMA
+  type: Field
+  source:
+    id: SVGA3D_RS_OUTPUTGAMMA
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 86
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_OUTPUTGAMMA = 65
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZVISIBLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZVISIBLE
+  id: SVGA3D_RS_ZVISIBLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ZVISIBLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ZVISIBLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ZVISIBLE
+  type: Field
+  source:
+    id: SVGA3D_RS_ZVISIBLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 87
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ZVISIBLE = 66
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LASTPIXEL
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LASTPIXEL
+  id: SVGA3D_RS_LASTPIXEL
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_LASTPIXEL
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_LASTPIXEL
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LASTPIXEL
+  type: Field
+  source:
+    id: SVGA3D_RS_LASTPIXEL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 88
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_LASTPIXEL = 67
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPING
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPING
+  id: SVGA3D_RS_CLIPPING
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_CLIPPING
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_CLIPPING
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_CLIPPING
+  type: Field
+  source:
+    id: SVGA3D_RS_CLIPPING
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 89
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_CLIPPING = 68
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP0
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP0
+  id: SVGA3D_RS_WRAP0
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP0
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP0
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP0
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP0
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 90
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP0 = 69
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP1
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP1
+  id: SVGA3D_RS_WRAP1
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP1
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP1
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP1
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP1
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 91
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP1 = 70
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP2
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP2
+  id: SVGA3D_RS_WRAP2
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP2
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP2
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP2
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP2
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 92
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP2 = 71
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP3
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP3
+  id: SVGA3D_RS_WRAP3
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP3
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP3
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP3
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP3
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 93
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP3 = 72
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP4
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP4
+  id: SVGA3D_RS_WRAP4
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP4
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP4
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP4
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP4
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 94
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP4 = 73
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP5
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP5
+  id: SVGA3D_RS_WRAP5
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP5
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP5
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP5
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP5
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 95
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP5 = 74
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP6
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP6
+  id: SVGA3D_RS_WRAP6
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP6
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP6
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP6
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP6
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 96
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP6 = 75
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP7
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP7
+  id: SVGA3D_RS_WRAP7
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP7
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP7
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP7
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP7
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 97
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP7 = 76
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP8
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP8
+  id: SVGA3D_RS_WRAP8
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP8
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP8
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP8
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP8
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 98
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP8 = 77
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP9
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP9
+  id: SVGA3D_RS_WRAP9
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP9
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP9
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP9
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP9
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 99
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP9 = 78
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP10
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP10
+  id: SVGA3D_RS_WRAP10
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP10
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP10
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP10
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP10
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 100
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP10 = 79
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP11
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP11
+  id: SVGA3D_RS_WRAP11
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP11
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP11
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP11
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP11
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 101
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP11 = 80
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP12
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP12
+  id: SVGA3D_RS_WRAP12
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP12
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP12
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP12
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP12
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 102
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP12 = 81
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP13
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP13
+  id: SVGA3D_RS_WRAP13
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP13
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP13
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP13
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP13
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 103
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP13 = 82
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP14
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP14
+  id: SVGA3D_RS_WRAP14
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP14
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP14
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP14
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP14
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 104
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP14 = 83
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP15
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP15
+  id: SVGA3D_RS_WRAP15
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_WRAP15
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_WRAP15
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_WRAP15
+  type: Field
+  source:
+    id: SVGA3D_RS_WRAP15
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 105
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_WRAP15 = 84
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEANTIALIAS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEANTIALIAS
+  id: SVGA3D_RS_MULTISAMPLEANTIALIAS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_MULTISAMPLEANTIALIAS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEANTIALIAS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEANTIALIAS
+  type: Field
+  source:
+    id: SVGA3D_RS_MULTISAMPLEANTIALIAS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 106
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_MULTISAMPLEANTIALIAS = 85
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEMASK
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEMASK
+  id: SVGA3D_RS_MULTISAMPLEMASK
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_MULTISAMPLEMASK
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEMASK
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MULTISAMPLEMASK
+  type: Field
+  source:
+    id: SVGA3D_RS_MULTISAMPLEMASK
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 107
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_MULTISAMPLEMASK = 86
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+  id: SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_INDEXEDVERTEXBLENDENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 108
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_INDEXEDVERTEXBLENDENABLE = 87
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TWEENFACTOR
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TWEENFACTOR
+  id: SVGA3D_RS_TWEENFACTOR
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_TWEENFACTOR
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_TWEENFACTOR
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TWEENFACTOR
+  type: Field
+  source:
+    id: SVGA3D_RS_TWEENFACTOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 109
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_TWEENFACTOR = 88
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ANTIALIASEDLINEENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ANTIALIASEDLINEENABLE
+  id: SVGA3D_RS_ANTIALIASEDLINEENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_ANTIALIASEDLINEENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_ANTIALIASEDLINEENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_ANTIALIASEDLINEENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_ANTIALIASEDLINEENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 110
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_ANTIALIASEDLINEENABLE = 89
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE1
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE1
+  id: SVGA3D_RS_COLORWRITEENABLE1
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_COLORWRITEENABLE1
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE1
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE1
+  type: Field
+  source:
+    id: SVGA3D_RS_COLORWRITEENABLE1
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 111
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_COLORWRITEENABLE1 = 90
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE2
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE2
+  id: SVGA3D_RS_COLORWRITEENABLE2
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_COLORWRITEENABLE2
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE2
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE2
+  type: Field
+  source:
+    id: SVGA3D_RS_COLORWRITEENABLE2
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 112
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_COLORWRITEENABLE2 = 91
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE3
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE3
+  id: SVGA3D_RS_COLORWRITEENABLE3
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_COLORWRITEENABLE3
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE3
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_COLORWRITEENABLE3
+  type: Field
+  source:
+    id: SVGA3D_RS_COLORWRITEENABLE3
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 113
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_COLORWRITEENABLE3 = 92
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SEPARATEALPHABLENDENABLE
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SEPARATEALPHABLENDENABLE
+  id: SVGA3D_RS_SEPARATEALPHABLENDENABLE
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SEPARATEALPHABLENDENABLE
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SEPARATEALPHABLENDENABLE
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SEPARATEALPHABLENDENABLE
+  type: Field
+  source:
+    id: SVGA3D_RS_SEPARATEALPHABLENDENABLE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 114
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SEPARATEALPHABLENDENABLE = 93
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLENDALPHA
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLENDALPHA
+  id: SVGA3D_RS_SRCBLENDALPHA
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_SRCBLENDALPHA
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_SRCBLENDALPHA
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_SRCBLENDALPHA
+  type: Field
+  source:
+    id: SVGA3D_RS_SRCBLENDALPHA
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 115
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_SRCBLENDALPHA = 94
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLENDALPHA
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLENDALPHA
+  id: SVGA3D_RS_DSTBLENDALPHA
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_DSTBLENDALPHA
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_DSTBLENDALPHA
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_DSTBLENDALPHA
+  type: Field
+  source:
+    id: SVGA3D_RS_DSTBLENDALPHA
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 116
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_DSTBLENDALPHA = 95
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATIONALPHA
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATIONALPHA
+  id: SVGA3D_RS_BLENDEQUATIONALPHA
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_BLENDEQUATIONALPHA
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATIONALPHA
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_BLENDEQUATIONALPHA
+  type: Field
+  source:
+    id: SVGA3D_RS_BLENDEQUATIONALPHA
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 117
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_BLENDEQUATIONALPHA = 96
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TRANSPARENCYANTIALIAS
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TRANSPARENCYANTIALIAS
+  id: SVGA3D_RS_TRANSPARENCYANTIALIAS
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_TRANSPARENCYANTIALIAS
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_TRANSPARENCYANTIALIAS
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_TRANSPARENCYANTIALIAS
+  type: Field
+  source:
+    id: SVGA3D_RS_TRANSPARENCYANTIALIAS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 118
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_TRANSPARENCYANTIALIAS = 97
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEAA
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEAA
+  id: SVGA3D_RS_LINEAA
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_LINEAA
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_LINEAA
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEAA
+  type: Field
+  source:
+    id: SVGA3D_RS_LINEAA
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 119
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_LINEAA = 98
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEWIDTH
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEWIDTH
+  id: SVGA3D_RS_LINEWIDTH
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_LINEWIDTH
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_LINEWIDTH
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_LINEWIDTH
+  type: Field
+  source:
+    id: SVGA3D_RS_LINEWIDTH
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 120
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_LINEWIDTH = 99
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MAX
+  commentId: F:VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MAX
+  id: SVGA3D_RS_MAX
+  parent: VMwareSvgaII3D.SVGA3dRenderStateName
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_RS_MAX
+  nameWithType: SVGA3dRenderStateName.SVGA3D_RS_MAX
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName.SVGA3D_RS_MAX
+  type: Field
+  source:
+    id: SVGA3D_RS_MAX
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\RenderStateName.cs
+    startLine: 121
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_RS_MAX = 100
+    return:
+      type: VMwareSvgaII3D.SVGA3dRenderStateName
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.SVGA3dRenderStateName
+  commentId: T:VMwareSvgaII3D.SVGA3dRenderStateName
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dRenderStateName.html
+  name: SVGA3dRenderStateName
+  nameWithType: SVGA3dRenderStateName
+  fullName: VMwareSvgaII3D.SVGA3dRenderStateName

@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType
+  commentId: T:VMwareSvgaII3D.SVGA3dPrimitiveType
+  id: SVGA3dPrimitiveType
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_INVALID
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINELIST
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINESTRIP
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_MAX
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_POINTLIST
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLEFAN
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLELIST
+  - VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLESTRIP
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dPrimitiveType
+  nameWithType: SVGA3dPrimitiveType
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType
+  type: Enum
+  source:
+    id: SVGA3dPrimitiveType
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public enum SVGA3dPrimitiveType
+    content.vb: Public Enum SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_INVALID
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_INVALID
+  id: SVGA3D_PRIMITIVE_INVALID
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_INVALID
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_INVALID
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_INVALID
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_INVALID
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_INVALID = 0
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLELIST
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLELIST
+  id: SVGA3D_PRIMITIVE_TRIANGLELIST
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_TRIANGLELIST
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLELIST
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLELIST
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_TRIANGLELIST
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_TRIANGLELIST = 1
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_POINTLIST
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_POINTLIST
+  id: SVGA3D_PRIMITIVE_POINTLIST
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_POINTLIST
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_POINTLIST
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_POINTLIST
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_POINTLIST
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_POINTLIST = 2
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINELIST
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINELIST
+  id: SVGA3D_PRIMITIVE_LINELIST
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_LINELIST
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINELIST
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINELIST
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_LINELIST
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_LINELIST = 3
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINESTRIP
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINESTRIP
+  id: SVGA3D_PRIMITIVE_LINESTRIP
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_LINESTRIP
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINESTRIP
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_LINESTRIP
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_LINESTRIP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 14
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_LINESTRIP = 4
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLESTRIP
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLESTRIP
+  id: SVGA3D_PRIMITIVE_TRIANGLESTRIP
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_TRIANGLESTRIP
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLESTRIP
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLESTRIP
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_TRIANGLESTRIP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 15
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_TRIANGLESTRIP = 5
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLEFAN
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLEFAN
+  id: SVGA3D_PRIMITIVE_TRIANGLEFAN
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_TRIANGLEFAN
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLEFAN
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_TRIANGLEFAN
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_TRIANGLEFAN
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 16
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_TRIANGLEFAN = 6
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_MAX
+  commentId: F:VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_MAX
+  id: SVGA3D_PRIMITIVE_MAX
+  parent: VMwareSvgaII3D.SVGA3dPrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_PRIMITIVE_MAX
+  nameWithType: SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_MAX
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType.SVGA3D_PRIMITIVE_MAX
+  type: Field
+  source:
+    id: SVGA3D_PRIMITIVE_MAX
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\PrimitiveType.cs
+    startLine: 17
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_PRIMITIVE_MAX = 7
+    return:
+      type: VMwareSvgaII3D.SVGA3dPrimitiveType
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveType
+  commentId: T:VMwareSvgaII3D.SVGA3dPrimitiveType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dPrimitiveType.html
+  name: SVGA3dPrimitiveType
+  nameWithType: SVGA3dPrimitiveType
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveType

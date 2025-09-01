@@ -1,0 +1,1071 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.FIFOCommand
+  commentId: T:VMwareSvgaII3D.FIFOCommand
+  id: FIFOCommand
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.FIFOCommand.CLEAR
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_ALPHA_CURSOR
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP_SCANLINE
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_CONTEXT
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_CURSOR
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP_SCANLINE
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE
+  - VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE_V2
+  - VMwareSvgaII3D.FIFOCommand.DESTROY_CONTEXT
+  - VMwareSvgaII3D.FIFOCommand.DESTROY_SURFACE
+  - VMwareSvgaII3D.FIFOCommand.DISPLAY_CURSOR
+  - VMwareSvgaII3D.FIFOCommand.DRAW_PRIMITIVES
+  - VMwareSvgaII3D.FIFOCommand.FREE_OBJECT
+  - VMwareSvgaII3D.FIFOCommand.MOVE_CURSOR
+  - VMwareSvgaII3D.FIFOCommand.PRESENT
+  - VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_COPY
+  - VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_FILL
+  - VMwareSvgaII3D.FIFOCommand.RECT_COPY
+  - VMwareSvgaII3D.FIFOCommand.RECT_FILL
+  - VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_COPY
+  - VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_FILL
+  - VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_COPY
+  - VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_FILL
+  - VMwareSvgaII3D.FIFOCommand.RECT_ROP_COPY
+  - VMwareSvgaII3D.FIFOCommand.RECT_ROP_FILL
+  - VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_COPY
+  - VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_FILL
+  - VMwareSvgaII3D.FIFOCommand.SETRENDERSTATE
+  - VMwareSvgaII3D.FIFOCommand.SETTEXTURESTATE
+  - VMwareSvgaII3D.FIFOCommand.SETTRANSFORM
+  - VMwareSvgaII3D.FIFOCommand.SETVIEWPORT
+  - VMwareSvgaII3D.FIFOCommand.SETZRANGE
+  - VMwareSvgaII3D.FIFOCommand.SET_RENDER_TARGET
+  - VMwareSvgaII3D.FIFOCommand.SET_SHADER
+  - VMwareSvgaII3D.FIFOCommand.SET_SHADER_CONST
+  - VMwareSvgaII3D.FIFOCommand.SET_VIEWPORT
+  - VMwareSvgaII3D.FIFOCommand.SET_ZRANGE
+  - VMwareSvgaII3D.FIFOCommand.SHADER_DEFINE
+  - VMwareSvgaII3D.FIFOCommand.SURFACE_COPY
+  - VMwareSvgaII3D.FIFOCommand.SURFACE_DMA
+  - VMwareSvgaII3D.FIFOCommand.Update
+  langs:
+  - csharp
+  - vb
+  name: FIFOCommand
+  nameWithType: FIFOCommand
+  fullName: VMwareSvgaII3D.FIFOCommand
+  type: Enum
+  source:
+    id: FIFOCommand
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public enum FIFOCommand
+    content.vb: Public Enum FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.Update
+  commentId: F:VMwareSvgaII3D.FIFOCommand.Update
+  id: Update
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: FIFOCommand.Update
+  fullName: VMwareSvgaII3D.FIFOCommand.Update
+  type: Field
+  source:
+    id: Update
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Update.
+  example: []
+  syntax:
+    content: Update = 1
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_FILL
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_FILL
+  id: RECT_FILL
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_FILL
+  nameWithType: FIFOCommand.RECT_FILL
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_FILL
+  type: Field
+  source:
+    id: RECT_FILL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 17
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectange fill.
+  example: []
+  syntax:
+    content: RECT_FILL = 2
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_COPY
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_COPY
+  id: RECT_COPY
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_COPY
+  nameWithType: FIFOCommand.RECT_COPY
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_COPY
+  type: Field
+  source:
+    id: RECT_COPY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 21
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectange copy.
+  example: []
+  syntax:
+    content: RECT_COPY = 3
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP
+  id: DEFINE_BITMAP
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_BITMAP
+  nameWithType: FIFOCommand.DEFINE_BITMAP
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP
+  type: Field
+  source:
+    id: DEFINE_BITMAP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 25
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define bitmap.
+  example: []
+  syntax:
+    content: DEFINE_BITMAP = 4
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP_SCANLINE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP_SCANLINE
+  id: DEFINE_BITMAP_SCANLINE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_BITMAP_SCANLINE
+  nameWithType: FIFOCommand.DEFINE_BITMAP_SCANLINE
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_BITMAP_SCANLINE
+  type: Field
+  source:
+    id: DEFINE_BITMAP_SCANLINE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 29
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define bitmap scanline.
+  example: []
+  syntax:
+    content: DEFINE_BITMAP_SCANLINE = 5
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP
+  id: DEFINE_PIXMAP
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_PIXMAP
+  nameWithType: FIFOCommand.DEFINE_PIXMAP
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP
+  type: Field
+  source:
+    id: DEFINE_PIXMAP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 33
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define pixmap.
+  example: []
+  syntax:
+    content: DEFINE_PIXMAP = 6
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP_SCANLINE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP_SCANLINE
+  id: DEFINE_PIXMAP_SCANLINE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_PIXMAP_SCANLINE
+  nameWithType: FIFOCommand.DEFINE_PIXMAP_SCANLINE
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_PIXMAP_SCANLINE
+  type: Field
+  source:
+    id: DEFINE_PIXMAP_SCANLINE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 37
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define pixmap scanline.
+  example: []
+  syntax:
+    content: DEFINE_PIXMAP_SCANLINE = 7
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_FILL
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_FILL
+  id: RECT_BITMAP_FILL
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_BITMAP_FILL
+  nameWithType: FIFOCommand.RECT_BITMAP_FILL
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_FILL
+  type: Field
+  source:
+    id: RECT_BITMAP_FILL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 41
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectange bitmap fill.
+  example: []
+  syntax:
+    content: RECT_BITMAP_FILL = 8
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_FILL
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_FILL
+  id: RECT_PIXMAP_FILL
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_PIXMAP_FILL
+  nameWithType: FIFOCommand.RECT_PIXMAP_FILL
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_FILL
+  type: Field
+  source:
+    id: RECT_PIXMAP_FILL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 45
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectange pixmap fill.
+  example: []
+  syntax:
+    content: RECT_PIXMAP_FILL = 9
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_COPY
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_COPY
+  id: RECT_BITMAP_COPY
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_BITMAP_COPY
+  nameWithType: FIFOCommand.RECT_BITMAP_COPY
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_BITMAP_COPY
+  type: Field
+  source:
+    id: RECT_BITMAP_COPY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 49
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectange bitmap copy.
+  example: []
+  syntax:
+    content: RECT_BITMAP_COPY = 10
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_COPY
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_COPY
+  id: RECT_PIXMAP_COPY
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_PIXMAP_COPY
+  nameWithType: FIFOCommand.RECT_PIXMAP_COPY
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_PIXMAP_COPY
+  type: Field
+  source:
+    id: RECT_PIXMAP_COPY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 53
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectange pixmap fill.
+  example: []
+  syntax:
+    content: RECT_PIXMAP_COPY = 11
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.FREE_OBJECT
+  commentId: F:VMwareSvgaII3D.FIFOCommand.FREE_OBJECT
+  id: FREE_OBJECT
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: FREE_OBJECT
+  nameWithType: FIFOCommand.FREE_OBJECT
+  fullName: VMwareSvgaII3D.FIFOCommand.FREE_OBJECT
+  type: Field
+  source:
+    id: FREE_OBJECT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 57
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Free object.
+  example: []
+  syntax:
+    content: FREE_OBJECT = 12
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_ROP_FILL
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_ROP_FILL
+  id: RECT_ROP_FILL
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_ROP_FILL
+  nameWithType: FIFOCommand.RECT_ROP_FILL
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_ROP_FILL
+  type: Field
+  source:
+    id: RECT_ROP_FILL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 61
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectangle raster operation fill.
+  example: []
+  syntax:
+    content: RECT_ROP_FILL = 13
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_ROP_COPY
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_ROP_COPY
+  id: RECT_ROP_COPY
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_ROP_COPY
+  nameWithType: FIFOCommand.RECT_ROP_COPY
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_ROP_COPY
+  type: Field
+  source:
+    id: RECT_ROP_COPY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 65
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectangle raster operation copy.
+  example: []
+  syntax:
+    content: RECT_ROP_COPY = 14
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_FILL
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_FILL
+  id: RECT_ROP_BITMAP_FILL
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_ROP_BITMAP_FILL
+  nameWithType: FIFOCommand.RECT_ROP_BITMAP_FILL
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_FILL
+  type: Field
+  source:
+    id: RECT_ROP_BITMAP_FILL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 69
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectangle raster operation bitmap fill.
+  example: []
+  syntax:
+    content: RECT_ROP_BITMAP_FILL = 15
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_FILL
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_FILL
+  id: RECT_ROP_PIXMAP_FILL
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_ROP_PIXMAP_FILL
+  nameWithType: FIFOCommand.RECT_ROP_PIXMAP_FILL
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_FILL
+  type: Field
+  source:
+    id: RECT_ROP_PIXMAP_FILL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 73
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectangle raster operation pixmap fill.
+  example: []
+  syntax:
+    content: RECT_ROP_PIXMAP_FILL = 16
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_COPY
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_COPY
+  id: RECT_ROP_BITMAP_COPY
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_ROP_BITMAP_COPY
+  nameWithType: FIFOCommand.RECT_ROP_BITMAP_COPY
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_ROP_BITMAP_COPY
+  type: Field
+  source:
+    id: RECT_ROP_BITMAP_COPY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 77
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectangle raster operation bitmap copy.
+  example: []
+  syntax:
+    content: RECT_ROP_BITMAP_COPY = 17
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_COPY
+  commentId: F:VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_COPY
+  id: RECT_ROP_PIXMAP_COPY
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: RECT_ROP_PIXMAP_COPY
+  nameWithType: FIFOCommand.RECT_ROP_PIXMAP_COPY
+  fullName: VMwareSvgaII3D.FIFOCommand.RECT_ROP_PIXMAP_COPY
+  type: Field
+  source:
+    id: RECT_ROP_PIXMAP_COPY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 81
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Rectangle raster operation pixmap copy.
+  example: []
+  syntax:
+    content: RECT_ROP_PIXMAP_COPY = 18
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_CURSOR
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_CURSOR
+  id: DEFINE_CURSOR
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_CURSOR
+  nameWithType: FIFOCommand.DEFINE_CURSOR
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_CURSOR
+  type: Field
+  source:
+    id: DEFINE_CURSOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 85
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define cursor.
+  example: []
+  syntax:
+    content: DEFINE_CURSOR = 19
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DISPLAY_CURSOR
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DISPLAY_CURSOR
+  id: DISPLAY_CURSOR
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DISPLAY_CURSOR
+  nameWithType: FIFOCommand.DISPLAY_CURSOR
+  fullName: VMwareSvgaII3D.FIFOCommand.DISPLAY_CURSOR
+  type: Field
+  source:
+    id: DISPLAY_CURSOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 89
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Display cursor.
+  example: []
+  syntax:
+    content: DISPLAY_CURSOR = 20
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.MOVE_CURSOR
+  commentId: F:VMwareSvgaII3D.FIFOCommand.MOVE_CURSOR
+  id: MOVE_CURSOR
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: MOVE_CURSOR
+  nameWithType: FIFOCommand.MOVE_CURSOR
+  fullName: VMwareSvgaII3D.FIFOCommand.MOVE_CURSOR
+  type: Field
+  source:
+    id: MOVE_CURSOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 93
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Move cursor.
+  example: []
+  syntax:
+    content: MOVE_CURSOR = 21
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_ALPHA_CURSOR
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_ALPHA_CURSOR
+  id: DEFINE_ALPHA_CURSOR
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_ALPHA_CURSOR
+  nameWithType: FIFOCommand.DEFINE_ALPHA_CURSOR
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_ALPHA_CURSOR
+  type: Field
+  source:
+    id: DEFINE_ALPHA_CURSOR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 97
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define alpha cursor.
+  example: []
+  syntax:
+    content: DEFINE_ALPHA_CURSOR = 22
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE
+  id: DEFINE_SURFACE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_SURFACE
+  nameWithType: FIFOCommand.DEFINE_SURFACE
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE
+  type: Field
+  source:
+    id: DEFINE_SURFACE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 98
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: DEFINE_SURFACE = 1040
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SURFACE_COPY
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SURFACE_COPY
+  id: SURFACE_COPY
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SURFACE_COPY
+  nameWithType: FIFOCommand.SURFACE_COPY
+  fullName: VMwareSvgaII3D.FIFOCommand.SURFACE_COPY
+  type: Field
+  source:
+    id: SURFACE_COPY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 99
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SURFACE_COPY = 1042
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SETVIEWPORT
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SETVIEWPORT
+  id: SETVIEWPORT
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SETVIEWPORT
+  nameWithType: FIFOCommand.SETVIEWPORT
+  fullName: VMwareSvgaII3D.FIFOCommand.SETVIEWPORT
+  type: Field
+  source:
+    id: SETVIEWPORT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 100
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SETVIEWPORT = 1055
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SETZRANGE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SETZRANGE
+  id: SETZRANGE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SETZRANGE
+  nameWithType: FIFOCommand.SETZRANGE
+  fullName: VMwareSvgaII3D.FIFOCommand.SETZRANGE
+  type: Field
+  source:
+    id: SETZRANGE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 101
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SETZRANGE = 1048
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_CONTEXT
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_CONTEXT
+  id: DEFINE_CONTEXT
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_CONTEXT
+  nameWithType: FIFOCommand.DEFINE_CONTEXT
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_CONTEXT
+  type: Field
+  source:
+    id: DEFINE_CONTEXT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 103
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: DEFINE_CONTEXT = 1045
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DESTROY_CONTEXT
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DESTROY_CONTEXT
+  id: DESTROY_CONTEXT
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DESTROY_CONTEXT
+  nameWithType: FIFOCommand.DESTROY_CONTEXT
+  fullName: VMwareSvgaII3D.FIFOCommand.DESTROY_CONTEXT
+  type: Field
+  source:
+    id: DESTROY_CONTEXT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 104
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: DESTROY_CONTEXT = 1046
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE_V2
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE_V2
+  id: DEFINE_SURFACE_V2
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DEFINE_SURFACE_V2
+  nameWithType: FIFOCommand.DEFINE_SURFACE_V2
+  fullName: VMwareSvgaII3D.FIFOCommand.DEFINE_SURFACE_V2
+  type: Field
+  source:
+    id: DEFINE_SURFACE_V2
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 105
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: DEFINE_SURFACE_V2 = 1070
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DESTROY_SURFACE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DESTROY_SURFACE
+  id: DESTROY_SURFACE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DESTROY_SURFACE
+  nameWithType: FIFOCommand.DESTROY_SURFACE
+  fullName: VMwareSvgaII3D.FIFOCommand.DESTROY_SURFACE
+  type: Field
+  source:
+    id: DESTROY_SURFACE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 106
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: DESTROY_SURFACE = 1041
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SET_RENDER_TARGET
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SET_RENDER_TARGET
+  id: SET_RENDER_TARGET
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SET_RENDER_TARGET
+  nameWithType: FIFOCommand.SET_RENDER_TARGET
+  fullName: VMwareSvgaII3D.FIFOCommand.SET_RENDER_TARGET
+  type: Field
+  source:
+    id: SET_RENDER_TARGET
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 107
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SET_RENDER_TARGET = 1050
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.CLEAR
+  commentId: F:VMwareSvgaII3D.FIFOCommand.CLEAR
+  id: CLEAR
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: CLEAR
+  nameWithType: FIFOCommand.CLEAR
+  fullName: VMwareSvgaII3D.FIFOCommand.CLEAR
+  type: Field
+  source:
+    id: CLEAR
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 108
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: CLEAR = 1057
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SET_VIEWPORT
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SET_VIEWPORT
+  id: SET_VIEWPORT
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SET_VIEWPORT
+  nameWithType: FIFOCommand.SET_VIEWPORT
+  fullName: VMwareSvgaII3D.FIFOCommand.SET_VIEWPORT
+  type: Field
+  source:
+    id: SET_VIEWPORT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 109
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SET_VIEWPORT = 1055
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SET_ZRANGE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SET_ZRANGE
+  id: SET_ZRANGE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SET_ZRANGE
+  nameWithType: FIFOCommand.SET_ZRANGE
+  fullName: VMwareSvgaII3D.FIFOCommand.SET_ZRANGE
+  type: Field
+  source:
+    id: SET_ZRANGE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 110
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SET_ZRANGE = 1048
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.PRESENT
+  commentId: F:VMwareSvgaII3D.FIFOCommand.PRESENT
+  id: PRESENT
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: PRESENT
+  nameWithType: FIFOCommand.PRESENT
+  fullName: VMwareSvgaII3D.FIFOCommand.PRESENT
+  type: Field
+  source:
+    id: PRESENT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 111
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: PRESENT = 1058
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SETRENDERSTATE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SETRENDERSTATE
+  id: SETRENDERSTATE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SETRENDERSTATE
+  nameWithType: FIFOCommand.SETRENDERSTATE
+  fullName: VMwareSvgaII3D.FIFOCommand.SETRENDERSTATE
+  type: Field
+  source:
+    id: SETRENDERSTATE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 112
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SETRENDERSTATE = 1049
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SURFACE_DMA
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SURFACE_DMA
+  id: SURFACE_DMA
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SURFACE_DMA
+  nameWithType: FIFOCommand.SURFACE_DMA
+  fullName: VMwareSvgaII3D.FIFOCommand.SURFACE_DMA
+  type: Field
+  source:
+    id: SURFACE_DMA
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 113
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SURFACE_DMA = 1044
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.DRAW_PRIMITIVES
+  commentId: F:VMwareSvgaII3D.FIFOCommand.DRAW_PRIMITIVES
+  id: DRAW_PRIMITIVES
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: DRAW_PRIMITIVES
+  nameWithType: FIFOCommand.DRAW_PRIMITIVES
+  fullName: VMwareSvgaII3D.FIFOCommand.DRAW_PRIMITIVES
+  type: Field
+  source:
+    id: DRAW_PRIMITIVES
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 114
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: DRAW_PRIMITIVES = 1063
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SETTRANSFORM
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SETTRANSFORM
+  id: SETTRANSFORM
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SETTRANSFORM
+  nameWithType: FIFOCommand.SETTRANSFORM
+  fullName: VMwareSvgaII3D.FIFOCommand.SETTRANSFORM
+  type: Field
+  source:
+    id: SETTRANSFORM
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 115
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SETTRANSFORM = 1047
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SETTEXTURESTATE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SETTEXTURESTATE
+  id: SETTEXTURESTATE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SETTEXTURESTATE
+  nameWithType: FIFOCommand.SETTEXTURESTATE
+  fullName: VMwareSvgaII3D.FIFOCommand.SETTEXTURESTATE
+  type: Field
+  source:
+    id: SETTEXTURESTATE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 116
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SETTEXTURESTATE = 1051
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SHADER_DEFINE
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SHADER_DEFINE
+  id: SHADER_DEFINE
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SHADER_DEFINE
+  nameWithType: FIFOCommand.SHADER_DEFINE
+  fullName: VMwareSvgaII3D.FIFOCommand.SHADER_DEFINE
+  type: Field
+  source:
+    id: SHADER_DEFINE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 117
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SHADER_DEFINE = 1059
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SET_SHADER
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SET_SHADER
+  id: SET_SHADER
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SET_SHADER
+  nameWithType: FIFOCommand.SET_SHADER
+  fullName: VMwareSvgaII3D.FIFOCommand.SET_SHADER
+  type: Field
+  source:
+    id: SET_SHADER
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 118
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SET_SHADER = 1061
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+- uid: VMwareSvgaII3D.FIFOCommand.SET_SHADER_CONST
+  commentId: F:VMwareSvgaII3D.FIFOCommand.SET_SHADER_CONST
+  id: SET_SHADER_CONST
+  parent: VMwareSvgaII3D.FIFOCommand
+  langs:
+  - csharp
+  - vb
+  name: SET_SHADER_CONST
+  nameWithType: FIFOCommand.SET_SHADER_CONST
+  fullName: VMwareSvgaII3D.FIFOCommand.SET_SHADER_CONST
+  type: Field
+  source:
+    id: SET_SHADER_CONST
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\FIFOCommand.cs
+    startLine: 119
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SET_SHADER_CONST = 1062
+    return:
+      type: VMwareSvgaII3D.FIFOCommand
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.FIFOCommand
+  commentId: T:VMwareSvgaII3D.FIFOCommand
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.FIFOCommand.html
+  name: FIFOCommand
+  nameWithType: FIFOCommand
+  fullName: VMwareSvgaII3D.FIFOCommand

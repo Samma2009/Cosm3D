@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Installing Cosmos | Cosm3D </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Installing Cosmos | Cosm3D ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/cosm3d.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="installing-cosmos">Installing Cosmos</h1>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Windows10/11 or Linux</li>
+<li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">.Net6</a></li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=26999&amp;msockid=19eaa39fc49d6d381175b70dc57c6c43">vcpp2010</a></li>
+<li><a href="https://visualstudio.microsoft.com/downloads/">VisualStudio2022 (Windows only)</a></li>
+</ul>
+<h2 id="installing-the-workloads-you-do-not-need-vs2022-if-you-are-on-linux">Installing the workloads (you do not need VS2022 if you are on Linux)</h2>
+<p>Cosmos requires a workload for Visual Studio to work. To install it, select the Extensions Development workload in the Visual Studio installer before installing Visual Studio 2022, or if you already have it installed, you can modify the install and add the workload.</p>
+<p><img src="https://samma2009.github.io/blog/workloads.PNG" alt="image"></p>
+<h2 id="downloading-the-devkit">Downloading the devkit</h2>
+<p>If you have Git installed, run this command in an empty folder:</p>
+<pre><code class="lang-bash">git clone https://github.com/CosmosOS/Cosmos.git
+</code></pre>
+<p>Else, you can go to the <a href="https://github.com/CosmosOS/Cosmos.git">CosmosOS</a> repo and clone it manually. Remember to put it in an empty folder.</p>
+<p>After cloning the repo, you need to rename the Cosmos-master folder to Cosmos.</p>
+<h2 id="building-the-devkit">Building the devkit</h2>
+<h3 id="windows">Windows</h3>
+<p>Run the install-VS2022.bat file with administrator privileges and make sure to have Visual Studio closed.</p>
+<h3 id="linux">Linux</h3>
+<p>In the makefile change line 19 from:</p>
+<pre><code class="lang-makefile">BUILDMODE=Release
+</code></pre>
+<p>to:</p>
+<pre><code class="lang-makefile">BUILDMODE=Debug
+</code></pre>
+<p>Open a terminal in the Cosmos folder and run the make command. You might want to also install the Cosmos template. To install it, run:</p>
+<pre><code class="lang-bash">dotnet new install source/templates/csharp
+</code></pre>
+<p>Optionally, you can install <a href="https://github.com/PratyushKing/CosmosCLI">CosmosCLI</a> for better project management on Linux.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

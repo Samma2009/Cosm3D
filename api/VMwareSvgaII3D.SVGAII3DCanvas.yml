@@ -1,0 +1,4266 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGAII3DCanvas
+  commentId: T:VMwareSvgaII3D.SVGAII3DCanvas
+  id: SVGAII3DCanvas
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGAII3DCanvas.#ctor
+  - VMwareSvgaII3D.SVGAII3DCanvas.#ctor(Cosmos.System.Graphics.Mode)
+  - VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes
+  - VMwareSvgaII3D.SVGAII3DCanvas.Clear(System.Drawing.Color)
+  - VMwareSvgaII3D.SVGAII3DCanvas.Clear(System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor
+  - VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode
+  - VMwareSvgaII3D.SVGAII3DCanvas.Disable
+  - VMwareSvgaII3D.SVGAII3DCanvas.Display
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.GetPixel(System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor(System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor(System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.Mode
+  - VMwareSvgaII3D.SVGAII3DCanvas.MovePixel(System.Int32,System.Int32,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.Name
+  - VMwareSvgaII3D.SVGAII3DCanvas.SetCursor(System.Boolean,System.Int32,System.Int32)
+  - VMwareSvgaII3D.SVGAII3DCanvas.driver
+  langs:
+  - csharp
+  - vb
+  name: SVGAII3DCanvas
+  nameWithType: SVGAII3DCanvas
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas
+  type: Class
+  source:
+    id: SVGAII3DCanvas
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 17
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: >-
+    Defines a VMWare SVGAII canvas implementation. Please note that this implementation
+
+    of <xref href="Cosmos.System.Graphics.Canvas" data-throw-if-not-resolved="false"></xref> can only be used with virtualizers that do implement
+
+    SVGAII, meaning that this class will not work on regular hardware.
+  example: []
+  syntax:
+    content: 'public class SVGAII3DCanvas : Canvas'
+    content.vb: Public Class SVGAII3DCanvas Inherits Canvas
+  inheritance:
+  - System.Object
+  - Cosmos.System.Graphics.Canvas
+  inheritedMembers:
+  - Cosmos.System.Graphics.Canvas.Clear
+  - Cosmos.System.Graphics.Canvas.DrawLine(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawFilledCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawFilledEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawPolygon(System.Drawing.Color,System.Drawing.Point[])
+  - Cosmos.System.Graphics.Canvas.DrawSquare(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawTriangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  - Cosmos.System.Graphics.Canvas.DrawImageAlpha(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  - Cosmos.System.Graphics.Canvas.CheckIfModeIsValid(Cosmos.System.Graphics.Mode)
+  - Cosmos.System.Graphics.Canvas.ThrowIfModeIsNotValid(Cosmos.System.Graphics.Mode)
+  - Cosmos.System.Graphics.Canvas.ThrowIfCoordNotValid(System.Int32,System.Int32)
+  - Cosmos.System.Graphics.Canvas.TrimLine(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  - Cosmos.System.Graphics.Canvas.AlphaBlend(System.Drawing.Color,System.Drawing.Color,System.Byte)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.driver
+  commentId: F:VMwareSvgaII3D.SVGAII3DCanvas.driver
+  id: driver
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: driver
+  nameWithType: SVGAII3DCanvas.driver
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.driver
+  type: Field
+  source:
+    id: driver
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 25
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public readonly VMWareSVGAII3D driver
+    return:
+      type: VMwareSvgaII3D.VMWareSVGAII3D
+    content.vb: Public ReadOnly driver As VMWareSVGAII3D
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.#ctor
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.#ctor
+  id: '#ctor'
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: SVGAII3DCanvas()
+  nameWithType: SVGAII3DCanvas.SVGAII3DCanvas()
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.SVGAII3DCanvas()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 30
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Initializes a new instance of the <xref href="VMwareSvgaII3D.SVGAII3DCanvas" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public SVGAII3DCanvas()
+    content.vb: Public Sub New()
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.#ctor*
+  nameWithType.vb: SVGAII3DCanvas.New()
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.New()
+  name.vb: New()
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.#ctor(Cosmos.System.Graphics.Mode)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.#ctor(Cosmos.System.Graphics.Mode)
+  id: '#ctor(Cosmos.System.Graphics.Mode)'
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: SVGAII3DCanvas(Mode)
+  nameWithType: SVGAII3DCanvas.SVGAII3DCanvas(Mode)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.SVGAII3DCanvas(Cosmos.System.Graphics.Mode)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 39
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Initializes a new instance of the <xref href="VMwareSvgaII3D.SVGAII3DCanvas" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public SVGAII3DCanvas(Mode aMode)
+    parameters:
+    - id: aMode
+      type: Cosmos.System.Graphics.Mode
+      description: The graphics mode.
+    content.vb: Public Sub New(aMode As Mode)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.#ctor*
+  nameWithType.vb: SVGAII3DCanvas.New(Mode)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.New(Cosmos.System.Graphics.Mode)
+  name.vb: New(Mode)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Name
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.Name
+  id: Name
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: Name()
+  nameWithType: SVGAII3DCanvas.Name()
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Name()
+  type: Method
+  source:
+    id: Name
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 52
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: The name of the Canvas implementation.
+  example: []
+  syntax:
+    content: public override string Name()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Name() As String
+  overridden: Cosmos.System.Graphics.Canvas.Name
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.Name*
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Mode
+  commentId: P:VMwareSvgaII3D.SVGAII3DCanvas.Mode
+  id: Mode
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: SVGAII3DCanvas.Mode
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Mode
+  type: Property
+  source:
+    id: Mode
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 58
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Get and set graphics mode.
+  example: []
+  syntax:
+    content: public override Mode Mode { get; set; }
+    parameters: []
+    return:
+      type: Cosmos.System.Graphics.Mode
+    content.vb: Public Overrides Property Mode As Mode
+  overridden: Cosmos.System.Graphics.Canvas.Mode
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.Mode*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: (set) Thrown if mode is not suppoted.
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode
+  commentId: P:VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode
+  id: DefaultGraphicsMode
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DefaultGraphicsMode
+  nameWithType: SVGAII3DCanvas.DefaultGraphicsMode
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode
+  type: Property
+  source:
+    id: DefaultGraphicsMode
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 69
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: The default graphics mode.
+  example: []
+  syntax:
+    content: public override Mode DefaultGraphicsMode { get; }
+    parameters: []
+    return:
+      type: Cosmos.System.Graphics.Mode
+    content.vb: Public Overrides ReadOnly Property DefaultGraphicsMode As Mode
+  overridden: Cosmos.System.Graphics.Canvas.DefaultGraphicsMode
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode*
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Disable
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.Disable
+  id: Disable
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: Disable()
+  nameWithType: SVGAII3DCanvas.Disable()
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Disable()
+  type: Method
+  source:
+    id: Disable
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 71
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Disables the canvas.
+  example: []
+  syntax:
+    content: public override void Disable()
+    content.vb: Public Overrides Sub Disable()
+  overridden: Cosmos.System.Graphics.Canvas.Disable
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.Disable*
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+  id: DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawPoint(Color, int, int)
+  nameWithType: SVGAII3DCanvas.DrawPoint(Color, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Drawing.Color, int, int)
+  type: Method
+  source:
+    id: DrawPoint
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 76
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets the pixel at the given coordinates to the specified <code class="paramref">color</code>.
+  example: []
+  syntax:
+    content: public override void DrawPoint(Color color, int x, int y)
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+      description: The color to draw with.
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    content.vb: Public Overrides Sub DrawPoint(color As Color, x As Integer, y As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint*
+  nameWithType.vb: SVGAII3DCanvas.DrawPoint(Color, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Drawing.Color, Integer, Integer)
+  name.vb: DrawPoint(Color, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+  id: DrawPoint(System.UInt32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawPoint(uint, int, int)
+  nameWithType: SVGAII3DCanvas.DrawPoint(uint, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(uint, int, int)
+  type: Method
+  source:
+    id: DrawPoint
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 91
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets the pixel at the given coordinates to the specified <code class="paramref">color</code>, without unnecessary color operations.
+  example: []
+  syntax:
+    content: public override void DrawPoint(uint color, int x, int y)
+    parameters:
+    - id: color
+      type: System.UInt32
+      description: The color to draw with (raw argb).
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    content.vb: Public Overrides Sub DrawPoint(color As UInteger, x As Integer, y As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint*
+  nameWithType.vb: SVGAII3DCanvas.DrawPoint(UInteger, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(UInteger, Integer, Integer)
+  name.vb: DrawPoint(UInteger, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+  id: DrawPoint(System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawPoint(int, int, int)
+  nameWithType: SVGAII3DCanvas.DrawPoint(int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(int, int, int)
+  type: Method
+  source:
+    id: DrawPoint
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 96
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets the pixel at the given coordinates to the specified <code class="paramref">color</code>. without ToArgb()
+  example: []
+  syntax:
+    content: public override void DrawPoint(int color, int x, int y)
+    parameters:
+    - id: color
+      type: System.Int32
+      description: The color to draw with (raw argb).
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    content.vb: Public Overrides Sub DrawPoint(color As Integer, x As Integer, y As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint*
+  nameWithType.vb: SVGAII3DCanvas.DrawPoint(Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint(Integer, Integer, Integer)
+  name.vb: DrawPoint(Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  id: DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawArray(Color[], int, int, int, int)
+  nameWithType: SVGAII3DCanvas.DrawArray(Color[], int, int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Drawing.Color[], int, int, int, int)
+  type: Method
+  source:
+    id: DrawArray
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 101
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: >-
+    Draws an array of pixels to the canvas, starting at the given coordinates,
+
+    using the given width.
+  example: []
+  syntax:
+    content: public override void DrawArray(Color[] colors, int x, int y, int width, int height)
+    parameters:
+    - id: colors
+      type: System.Drawing.Color[]
+      description: The pixels to draw.
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    - id: width
+      type: System.Int32
+      description: The width of the drawn bitmap.
+    - id: height
+      type: System.Int32
+      description: This parameter is unused.
+    content.vb: Public Overrides Sub DrawArray(colors As Color(), x As Integer, y As Integer, width As Integer, height As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray*
+  nameWithType.vb: SVGAII3DCanvas.DrawArray(Color(), Integer, Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Drawing.Color(), Integer, Integer, Integer, Integer)
+  name.vb: DrawArray(Color(), Integer, Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+  id: DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawArray(int[], int, int, int, int)
+  nameWithType: SVGAII3DCanvas.DrawArray(int[], int, int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(int[], int, int, int, int)
+  type: Method
+  source:
+    id: DrawArray
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 120
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: >-
+    Draws an array of pixels to the canvas, starting at the given coordinates,
+
+    using the given width.
+  example: []
+  syntax:
+    content: public override void DrawArray(int[] colors, int x, int y, int width, int height)
+    parameters:
+    - id: colors
+      type: System.Int32[]
+      description: The pixels to draw.
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    - id: width
+      type: System.Int32
+      description: The width of the drawn bitmap.
+    - id: height
+      type: System.Int32
+      description: The height of the drawn bitmap.
+    content.vb: Public Overrides Sub DrawArray(colors As Integer(), x As Integer, y As Integer, width As Integer, height As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray*
+  nameWithType.vb: SVGAII3DCanvas.DrawArray(Integer(), Integer, Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(Integer(), Integer, Integer, Integer, Integer)
+  name.vb: DrawArray(Integer(), Integer, Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawArray(int[], int, int, int, int, int)
+  nameWithType: SVGAII3DCanvas.DrawArray(int[], int, int, int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(int[], int, int, int, int, int)
+  type: Method
+  source:
+    id: DrawArray
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 130
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: >-
+    Draws an array of pixels to the canvas, starting at the given coordinates,
+
+    using the given width.
+  example: []
+  syntax:
+    content: public override void DrawArray(int[] colors, int x, int y, int width, int height, int startIndex)
+    parameters:
+    - id: colors
+      type: System.Int32[]
+      description: The pixels to draw.
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    - id: width
+      type: System.Int32
+      description: The width of the drawn bitmap.
+    - id: height
+      type: System.Int32
+      description: The height of the drawn bitmap.
+    - id: startIndex
+      type: System.Int32
+      description: int[] colors tarting position
+    content.vb: Public Overrides Sub DrawArray(colors As Integer(), x As Integer, y As Integer, width As Integer, height As Integer, startIndex As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray*
+  nameWithType.vb: SVGAII3DCanvas.DrawArray(Integer(), Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray(Integer(), Integer, Integer, Integer, Integer, Integer)
+  name.vb: DrawArray(Integer(), Integer, Integer, Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  id: DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawFilledRectangle(Color, int, int, int, int, bool)
+  nameWithType: SVGAII3DCanvas.DrawFilledRectangle(Color, int, int, int, int, bool)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle(System.Drawing.Color, int, int, int, int, bool)
+  type: Method
+  source:
+    id: DrawFilledRectangle
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 140
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Draws a filled rectangle.
+  example: []
+  syntax:
+    content: public override void DrawFilledRectangle(Color color, int xStart, int yStart, int width, int height, bool preventOffBoundPixels = true)
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+      description: The color to draw the rectangle with.
+    - id: xStart
+      type: System.Int32
+      description: The starting point X coordinate.
+    - id: yStart
+      type: System.Int32
+      description: The starting point Y coordinate.
+    - id: width
+      type: System.Int32
+      description: The width of the rectangle.
+    - id: height
+      type: System.Int32
+      description: The height of the rectangle.
+    - id: preventOffBoundPixels
+      type: System.Boolean
+    content.vb: Public Overrides Sub DrawFilledRectangle(color As Color, xStart As Integer, yStart As Integer, width As Integer, height As Integer, preventOffBoundPixels As Boolean = True)
+  overridden: Cosmos.System.Graphics.Canvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle*
+  nameWithType.vb: SVGAII3DCanvas.DrawFilledRectangle(Color, Integer, Integer, Integer, Integer, Boolean)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle(System.Drawing.Color, Integer, Integer, Integer, Integer, Boolean)
+  name.vb: DrawFilledRectangle(Color, Integer, Integer, Integer, Integer, Boolean)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawRectangle(Color, int, int, int, int)
+  nameWithType: SVGAII3DCanvas.DrawRectangle(Color, int, int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle(System.Drawing.Color, int, int, int, int)
+  type: Method
+  source:
+    id: DrawRectangle
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 155
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Draws a rectangle.
+  example: []
+  syntax:
+    content: public override void DrawRectangle(Color color, int x, int y, int width, int height)
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+      description: The color to draw with.
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    - id: width
+      type: System.Int32
+      description: The width of the rectangle.
+    - id: height
+      type: System.Int32
+      description: The height of the rectangle.
+    content.vb: Public Overrides Sub DrawRectangle(color As Color, x As Integer, y As Integer, width As Integer, height As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle*
+  nameWithType.vb: SVGAII3DCanvas.DrawRectangle(Color, Integer, Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle(System.Drawing.Color, Integer, Integer, Integer, Integer)
+  name.vb: DrawRectangle(Color, Integer, Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes
+  commentId: P:VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes
+  id: AvailableModes
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: AvailableModes
+  nameWithType: SVGAII3DCanvas.AvailableModes
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes
+  type: Property
+  source:
+    id: AvailableModes
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 196
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: The available graphics modes.
+  example: []
+  syntax:
+    content: public override List<Mode> AvailableModes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Cosmos.System.Graphics.Mode}
+    content.vb: Public Overrides ReadOnly Property AvailableModes As List(Of Mode)
+  overridden: Cosmos.System.Graphics.Canvas.AvailableModes
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes*
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Clear(System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.Clear(System.Int32)
+  id: Clear(System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: Clear(int)
+  nameWithType: SVGAII3DCanvas.Clear(int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Clear(int)
+  type: Method
+  source:
+    id: Clear
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 251
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Clears the entire canvas with the specified color.
+  example: []
+  syntax:
+    content: public override void Clear(int color)
+    parameters:
+    - id: color
+      type: System.Int32
+      description: The ARGB color to clear the screen with.
+    content.vb: Public Overrides Sub Clear(color As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.Clear(System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.Clear*
+  nameWithType.vb: SVGAII3DCanvas.Clear(Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.Clear(Integer)
+  name.vb: Clear(Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Clear(System.Drawing.Color)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.Clear(System.Drawing.Color)
+  id: Clear(System.Drawing.Color)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: Clear(Color)
+  nameWithType: SVGAII3DCanvas.Clear(Color)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Clear(System.Drawing.Color)
+  type: Method
+  source:
+    id: Clear
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 256
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Clears the entire canvas with the specified color.
+  example: []
+  syntax:
+    content: public override void Clear(Color color)
+    parameters:
+    - id: color
+      type: System.Drawing.Color
+      description: The color to clear the screen with.
+    content.vb: Public Overrides Sub Clear(color As Color)
+  overridden: Cosmos.System.Graphics.Canvas.Clear(System.Drawing.Color)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.Clear*
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetPixel(System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.GetPixel(System.Int32,System.Int32)
+  id: GetPixel(System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetPixel(int, int)
+  nameWithType: SVGAII3DCanvas.GetPixel(int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetPixel(int, int)
+  type: Method
+  source:
+    id: GetPixel
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 261
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public Color GetPixel(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+    - id: y
+      type: System.Int32
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Function GetPixel(x As Integer, y As Integer) As Color
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.GetPixel*
+  nameWithType.vb: SVGAII3DCanvas.GetPixel(Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.GetPixel(Integer, Integer)
+  name.vb: GetPixel(Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.SetCursor(System.Boolean,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.SetCursor(System.Boolean,System.Int32,System.Int32)
+  id: SetCursor(System.Boolean,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: SetCursor(bool, int, int)
+  nameWithType: SVGAII3DCanvas.SetCursor(bool, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.SetCursor(bool, int, int)
+  type: Method
+  source:
+    id: SetCursor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 273
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets the state of the cursor.
+  example: []
+  syntax:
+    content: public void SetCursor(bool visible, int x, int y)
+    parameters:
+    - id: visible
+      type: System.Boolean
+      description: Whether the cursor should be visible.
+    - id: x
+      type: System.Int32
+      description: The X coordinate of the cursor.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate of the cursor.
+    content.vb: Public Sub SetCursor(visible As Boolean, x As Integer, y As Integer)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.SetCursor*
+  nameWithType.vb: SVGAII3DCanvas.SetCursor(Boolean, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.SetCursor(Boolean, Integer, Integer)
+  name.vb: SetCursor(Boolean, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor
+  id: CreateCursor
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: CreateCursor()
+  nameWithType: SVGAII3DCanvas.CreateCursor()
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor()
+  type: Method
+  source:
+    id: CreateCursor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 281
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Creates the hardware cursor.
+  example: []
+  syntax:
+    content: public void CreateCursor()
+    content.vb: Public Sub CreateCursor()
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor*
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: CopyPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: CopyPixels(int, int, int, int, int, int)
+  nameWithType: SVGAII3DCanvas.CopyPixels(int, int, int, int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels(int, int, int, int, int, int)
+  type: Method
+  source:
+    id: CopyPixels
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 297
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: >-
+    Performs a bit blit operation, copying pixels from one region
+
+    to another.
+  example: []
+  syntax:
+    content: public void CopyPixels(int srcX, int srcY, int dstX, int dstY, int width = 1, int height = 1)
+    parameters:
+    - id: srcX
+      type: System.Int32
+      description: The source X coordinate.
+    - id: srcY
+      type: System.Int32
+      description: The source Y coordinate.
+    - id: dstX
+      type: System.Int32
+      description: The destination X coordinate.
+    - id: dstY
+      type: System.Int32
+      description: The destination Y coordinate.
+    - id: width
+      type: System.Int32
+      description: The width of the region.
+    - id: height
+      type: System.Int32
+      description: The height of the region.
+    content.vb: Public Sub CopyPixels(srcX As Integer, srcY As Integer, dstX As Integer, dstY As Integer, width As Integer = 1, height As Integer = 1)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels*
+  exceptions:
+  - type: System.NotImplementedException
+    commentId: T:System.NotImplementedException
+    description: Thrown if VMWare SVGA 2 has no rectangle copy capability
+  nameWithType.vb: SVGAII3DCanvas.CopyPixels(Integer, Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels(Integer, Integer, Integer, Integer, Integer, Integer)
+  name.vb: CopyPixels(Integer, Integer, Integer, Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.MovePixel(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.MovePixel(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: MovePixel(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: MovePixel(int, int, int, int)
+  nameWithType: SVGAII3DCanvas.MovePixel(int, int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.MovePixel(int, int, int, int)
+  type: Method
+  source:
+    id: MovePixel
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 309
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Moves a single pixel.
+  example: []
+  syntax:
+    content: public void MovePixel(int x, int y, int newX, int newY)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    - id: newX
+      type: System.Int32
+      description: The new X coordinate.
+    - id: newY
+      type: System.Int32
+      description: The new Y coordinate.
+    content.vb: Public Sub MovePixel(x As Integer, y As Integer, newX As Integer, newY As Integer)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.MovePixel*
+  nameWithType.vb: SVGAII3DCanvas.MovePixel(Integer, Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.MovePixel(Integer, Integer, Integer, Integer)
+  name.vb: MovePixel(Integer, Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor(System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor(System.Int32,System.Int32)
+  id: GetPointColor(System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetPointColor(int, int)
+  nameWithType: SVGAII3DCanvas.GetPointColor(int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor(int, int)
+  type: Method
+  source:
+    id: GetPointColor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 315
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Gets the color of the pixel at the given coordinates.
+  example: []
+  syntax:
+    content: public override Color GetPointColor(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Overrides Function GetPointColor(x As Integer, y As Integer) As Color
+  overridden: Cosmos.System.Graphics.Canvas.GetPointColor(System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor*
+  nameWithType.vb: SVGAII3DCanvas.GetPointColor(Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor(Integer, Integer)
+  name.vb: GetPointColor(Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor(System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor(System.Int32,System.Int32)
+  id: GetRawPointColor(System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetRawPointColor(int, int)
+  nameWithType: SVGAII3DCanvas.GetRawPointColor(int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor(int, int)
+  type: Method
+  source:
+    id: GetRawPointColor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 320
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Gets the color of the pixel at the given coordinates in ARGB.
+  example: []
+  syntax:
+    content: public override int GetRawPointColor(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The X coordinate.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate.
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetRawPointColor(x As Integer, y As Integer) As Integer
+  overridden: Cosmos.System.Graphics.Canvas.GetRawPointColor(System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor*
+  nameWithType.vb: SVGAII3DCanvas.GetRawPointColor(Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor(Integer, Integer)
+  name.vb: GetRawPointColor(Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetImage(int, int, int, int)
+  nameWithType: SVGAII3DCanvas.GetImage(int, int, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetImage(int, int, int, int)
+  type: Method
+  source:
+    id: GetImage
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 325
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Creates a bitmap by copying a portion of your canvas from the specified coordinates and dimensions.
+  example: []
+  syntax:
+    content: public override Bitmap GetImage(int x, int y, int width, int height)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The starting X coordinate of the region to copy.
+    - id: y
+      type: System.Int32
+      description: The starting Y coordinate of the region to copy.
+    - id: width
+      type: System.Int32
+      description: The width of the region to copy.
+    - id: height
+      type: System.Int32
+      description: The height of the region to copy.
+    return:
+      type: Cosmos.System.Graphics.Bitmap
+      description: A new <xref href="Cosmos.System.Graphics.Bitmap" data-throw-if-not-resolved="false"></xref> containing the copied region.
+    content.vb: Public Overrides Function GetImage(x As Integer, y As Integer, width As Integer, height As Integer) As Bitmap
+  overridden: Cosmos.System.Graphics.Canvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.GetImage*
+  nameWithType.vb: SVGAII3DCanvas.GetImage(Integer, Integer, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.GetImage(Integer, Integer, Integer, Integer)
+  name.vb: GetImage(Integer, Integer, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Display
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.Display
+  id: Display
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: Display()
+  nameWithType: SVGAII3DCanvas.Display()
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Display()
+  type: Method
+  source:
+    id: Display
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 341
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: >-
+    Updates the screen to display the underlying frame-buffer.
+
+    Call this method in order to synchronize the screen with the canvas.
+  example: []
+  syntax:
+    content: public override void Display()
+    content.vb: Public Overrides Sub Display()
+  overridden: Cosmos.System.Graphics.Canvas.Display
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.Display*
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  id: DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawString(string, Font, Color, int, int)
+  nameWithType: SVGAII3DCanvas.DrawString(string, Font, Color, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawString(string, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, int, int)
+  type: Method
+  source:
+    id: DrawString
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 346
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Draws a string using the given bitmap font.
+  example: []
+  syntax:
+    content: public override void DrawString(string str, Font font, Color color, int x, int y)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string to draw.
+    - id: font
+      type: Cosmos.System.Graphics.Fonts.Font
+      description: The bitmap font to use.
+    - id: color
+      type: System.Drawing.Color
+      description: The color to write the string with.
+    - id: x
+      type: System.Int32
+      description: The origin X coordinate.
+    - id: y
+      type: System.Int32
+      description: The origin Y coordinate.
+    content.vb: Public Overrides Sub DrawString(str As String, font As Font, color As Color, x As Integer, y As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawString*
+  nameWithType.vb: SVGAII3DCanvas.DrawString(String, Font, Color, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawString(String, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, Integer, Integer)
+  name.vb: DrawString(String, Font, Color, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  id: DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawChar(char, Font, Color, int, int)
+  nameWithType: SVGAII3DCanvas.DrawChar(char, Font, Color, int, int)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawChar(char, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, int, int)
+  type: Method
+  source:
+    id: DrawChar
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 358
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Draws a single character using the given bitmap font.
+  example: []
+  syntax:
+    content: public override void DrawChar(char c, Font font, Color color, int x, int y)
+    parameters:
+    - id: c
+      type: System.Char
+      description: The character to draw.
+    - id: font
+      type: Cosmos.System.Graphics.Fonts.Font
+      description: The bitmap font to use.
+    - id: color
+      type: System.Drawing.Color
+      description: The color to write the string with.
+    - id: x
+      type: System.Int32
+      description: The origin X coordinate.
+    - id: y
+      type: System.Int32
+      description: The origin Y coordinate.
+    content.vb: Public Overrides Sub DrawChar(c As Char, font As Font, color As Color, x As Integer, y As Integer)
+  overridden: Cosmos.System.Graphics.Canvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawChar*
+  nameWithType.vb: SVGAII3DCanvas.DrawChar(Char, Font, Color, Integer, Integer)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawChar(Char, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, Integer, Integer)
+  name.vb: DrawChar(Char, Font, Color, Integer, Integer)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  id: DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawImage(Image, int, int, bool)
+  nameWithType: SVGAII3DCanvas.DrawImage(Image, int, int, bool)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawImage(Cosmos.System.Graphics.Image, int, int, bool)
+  type: Method
+  source:
+    id: DrawImage
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 377
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Draws the given image at the specified coordinates.
+  example: []
+  syntax:
+    content: public override void DrawImage(Image image, int x, int y, bool preventOffBoundPixels = true)
+    parameters:
+    - id: image
+      type: Cosmos.System.Graphics.Image
+      description: The image to draw.
+    - id: x
+      type: System.Int32
+      description: The origin X coordinate.
+    - id: y
+      type: System.Int32
+      description: The origin Y coordinate.
+    - id: preventOffBoundPixels
+      type: System.Boolean
+      description: Prevents drawing outside the bounds of the canvas.
+    content.vb: Public Overrides Sub DrawImage(image As Image, x As Integer, y As Integer, preventOffBoundPixels As Boolean = True)
+  overridden: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.DrawImage*
+  nameWithType.vb: SVGAII3DCanvas.DrawImage(Image, Integer, Integer, Boolean)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.DrawImage(Cosmos.System.Graphics.Image, Integer, Integer, Boolean)
+  name.vb: DrawImage(Image, Integer, Integer, Boolean)
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  id: CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  parent: VMwareSvgaII3D.SVGAII3DCanvas
+  langs:
+  - csharp
+  - vb
+  name: CroppedDrawImage(Image, int, int, int, int, bool)
+  nameWithType: SVGAII3DCanvas.CroppedDrawImage(Image, int, int, int, int, bool)
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage(Cosmos.System.Graphics.Image, int, int, int, int, bool)
+  type: Method
+  source:
+    id: CroppedDrawImage
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\SVGAII3DCanvas.cs
+    startLine: 413
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Draws the given image at the specified coordinates, cropping the image to fit within the maximum width and height.
+  example: []
+  syntax:
+    content: public override void CroppedDrawImage(Image image, int x, int y, int width, int height, bool preventOffBoundPixels = true)
+    parameters:
+    - id: image
+      type: Cosmos.System.Graphics.Image
+      description: The image to draw.
+    - id: x
+      type: System.Int32
+      description: The X coordinate where the image will be drawn.
+    - id: y
+      type: System.Int32
+      description: The Y coordinate where the image will be drawn.
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: preventOffBoundPixels
+      type: System.Boolean
+      description: Prevents drawing outside the bounds of the canvas.
+    content.vb: Public Overrides Sub CroppedDrawImage(image As Image, x As Integer, y As Integer, width As Integer, height As Integer, preventOffBoundPixels As Boolean = True)
+  overridden: Cosmos.System.Graphics.Canvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  overload: VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage*
+  nameWithType.vb: SVGAII3DCanvas.CroppedDrawImage(Image, Integer, Integer, Integer, Integer, Boolean)
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage(Cosmos.System.Graphics.Image, Integer, Integer, Integer, Integer, Boolean)
+  name.vb: CroppedDrawImage(Image, Integer, Integer, Integer, Integer, Boolean)
+references:
+- uid: Cosmos.System.Graphics.Canvas
+  commentId: T:Cosmos.System.Graphics.Canvas
+  parent: Cosmos.System.Graphics
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Cosmos.System.Graphics.Canvas
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Cosmos.System.Graphics.Canvas.Clear
+  commentId: M:Cosmos.System.Graphics.Canvas.Clear
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: Clear()
+  nameWithType: Canvas.Clear()
+  fullName: Cosmos.System.Graphics.Canvas.Clear()
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.Clear
+    name: Clear
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawLine(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawLine(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawLine(Color, int, int, int, int)
+  nameWithType: Canvas.DrawLine(Color, int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawLine(System.Drawing.Color, int, int, int, int)
+  nameWithType.vb: Canvas.DrawLine(Color, Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawLine(System.Drawing.Color, Integer, Integer, Integer, Integer)
+  name.vb: DrawLine(Color, Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawLine(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawLine
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawLine(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawLine
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawCircle(Color, int, int, int)
+  nameWithType: Canvas.DrawCircle(Color, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawCircle(System.Drawing.Color, int, int, int)
+  nameWithType.vb: Canvas.DrawCircle(Color, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawCircle(System.Drawing.Color, Integer, Integer, Integer)
+  name.vb: DrawCircle(Color, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+    name: DrawCircle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+    name: DrawCircle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawFilledCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawFilledCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawFilledCircle(Color, int, int, int)
+  nameWithType: Canvas.DrawFilledCircle(Color, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawFilledCircle(System.Drawing.Color, int, int, int)
+  nameWithType.vb: Canvas.DrawFilledCircle(Color, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawFilledCircle(System.Drawing.Color, Integer, Integer, Integer)
+  name.vb: DrawFilledCircle(Color, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawFilledCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+    name: DrawFilledCircle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawFilledCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+    name: DrawFilledCircle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawEllipse(Color, int, int, int, int)
+  nameWithType: Canvas.DrawEllipse(Color, int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawEllipse(System.Drawing.Color, int, int, int, int)
+  nameWithType.vb: Canvas.DrawEllipse(Color, Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawEllipse(System.Drawing.Color, Integer, Integer, Integer, Integer)
+  name.vb: DrawEllipse(Color, Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawEllipse
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawEllipse
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawFilledEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawFilledEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawFilledEllipse(Color, int, int, int, int)
+  nameWithType: Canvas.DrawFilledEllipse(Color, int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawFilledEllipse(System.Drawing.Color, int, int, int, int)
+  nameWithType.vb: Canvas.DrawFilledEllipse(Color, Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawFilledEllipse(System.Drawing.Color, Integer, Integer, Integer, Integer)
+  name.vb: DrawFilledEllipse(Color, Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawFilledEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawFilledEllipse
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawFilledEllipse(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawFilledEllipse
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawArc(int, int, int, int, Color, int, int)
+  nameWithType: Canvas.DrawArc(int, int, int, int, Color, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawArc(int, int, int, int, System.Drawing.Color, int, int)
+  nameWithType.vb: Canvas.DrawArc(Integer, Integer, Integer, Integer, Color, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawArc(Integer, Integer, Integer, Integer, System.Drawing.Color, Integer, Integer)
+  name.vb: DrawArc(Integer, Integer, Integer, Integer, Color, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawArc
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArc(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawArc
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawPolygon(System.Drawing.Color,System.Drawing.Point[])
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawPolygon(System.Drawing.Color,System.Drawing.Point[])
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawPolygon(Color, params Point[])
+  nameWithType: Canvas.DrawPolygon(Color, params Point[])
+  fullName: Cosmos.System.Graphics.Canvas.DrawPolygon(System.Drawing.Color, params System.Drawing.Point[])
+  nameWithType.vb: Canvas.DrawPolygon(Color, ParamArray Point())
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawPolygon(System.Drawing.Color, ParamArray System.Drawing.Point())
+  name.vb: DrawPolygon(Color, ParamArray Point())
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPolygon(System.Drawing.Color,System.Drawing.Point[])
+    name: DrawPolygon
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - name: params
+  - name: " "
+  - uid: System.Drawing.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPolygon(System.Drawing.Color,System.Drawing.Point[])
+    name: DrawPolygon
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - name: ParamArray
+  - name: " "
+  - uid: System.Drawing.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  - name: (
+  - name: )
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawSquare(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawSquare(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawSquare(Color, int, int, int)
+  nameWithType: Canvas.DrawSquare(Color, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawSquare(System.Drawing.Color, int, int, int)
+  nameWithType.vb: Canvas.DrawSquare(Color, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawSquare(System.Drawing.Color, Integer, Integer, Integer)
+  name.vb: DrawSquare(Color, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawSquare(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+    name: DrawSquare
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawSquare(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+    name: DrawSquare
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawTriangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawTriangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawTriangle(Color, int, int, int, int, int, int)
+  nameWithType: Canvas.DrawTriangle(Color, int, int, int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawTriangle(System.Drawing.Color, int, int, int, int, int, int)
+  nameWithType.vb: Canvas.DrawTriangle(Color, Integer, Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawTriangle(System.Drawing.Color, Integer, Integer, Integer, Integer, Integer, Integer)
+  name.vb: DrawTriangle(Color, Integer, Integer, Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawTriangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawTriangle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawTriangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawTriangle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawImage(Image, int, int, int, int, bool)
+  nameWithType: Canvas.DrawImage(Image, int, int, int, int, bool)
+  fullName: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image, int, int, int, int, bool)
+  nameWithType.vb: Canvas.DrawImage(Image, Integer, Integer, Integer, Integer, Boolean)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image, Integer, Integer, Integer, Integer, Boolean)
+  name.vb: DrawImage(Image, Integer, Integer, Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+    name: DrawImage
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+    name: DrawImage
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawImageAlpha(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawImageAlpha(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawImageAlpha(Image, int, int, bool)
+  nameWithType: Canvas.DrawImageAlpha(Image, int, int, bool)
+  fullName: Cosmos.System.Graphics.Canvas.DrawImageAlpha(Cosmos.System.Graphics.Image, int, int, bool)
+  nameWithType.vb: Canvas.DrawImageAlpha(Image, Integer, Integer, Boolean)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawImageAlpha(Cosmos.System.Graphics.Image, Integer, Integer, Boolean)
+  name.vb: DrawImageAlpha(Image, Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawImageAlpha(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+    name: DrawImageAlpha
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawImageAlpha(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+    name: DrawImageAlpha
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.CheckIfModeIsValid(Cosmos.System.Graphics.Mode)
+  commentId: M:Cosmos.System.Graphics.Canvas.CheckIfModeIsValid(Cosmos.System.Graphics.Mode)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: CheckIfModeIsValid(Mode)
+  nameWithType: Canvas.CheckIfModeIsValid(Mode)
+  fullName: Cosmos.System.Graphics.Canvas.CheckIfModeIsValid(Cosmos.System.Graphics.Mode)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.CheckIfModeIsValid(Cosmos.System.Graphics.Mode)
+    name: CheckIfModeIsValid
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Mode
+    name: Mode
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.CheckIfModeIsValid(Cosmos.System.Graphics.Mode)
+    name: CheckIfModeIsValid
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Mode
+    name: Mode
+    isExternal: true
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.ThrowIfModeIsNotValid(Cosmos.System.Graphics.Mode)
+  commentId: M:Cosmos.System.Graphics.Canvas.ThrowIfModeIsNotValid(Cosmos.System.Graphics.Mode)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: ThrowIfModeIsNotValid(Mode)
+  nameWithType: Canvas.ThrowIfModeIsNotValid(Mode)
+  fullName: Cosmos.System.Graphics.Canvas.ThrowIfModeIsNotValid(Cosmos.System.Graphics.Mode)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.ThrowIfModeIsNotValid(Cosmos.System.Graphics.Mode)
+    name: ThrowIfModeIsNotValid
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Mode
+    name: Mode
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.ThrowIfModeIsNotValid(Cosmos.System.Graphics.Mode)
+    name: ThrowIfModeIsNotValid
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Mode
+    name: Mode
+    isExternal: true
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.ThrowIfCoordNotValid(System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.ThrowIfCoordNotValid(System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: ThrowIfCoordNotValid(int, int)
+  nameWithType: Canvas.ThrowIfCoordNotValid(int, int)
+  fullName: Cosmos.System.Graphics.Canvas.ThrowIfCoordNotValid(int, int)
+  nameWithType.vb: Canvas.ThrowIfCoordNotValid(Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.ThrowIfCoordNotValid(Integer, Integer)
+  name.vb: ThrowIfCoordNotValid(Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.ThrowIfCoordNotValid(System.Int32,System.Int32)
+    name: ThrowIfCoordNotValid
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.ThrowIfCoordNotValid(System.Int32,System.Int32)
+    name: ThrowIfCoordNotValid
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.TrimLine(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  commentId: M:Cosmos.System.Graphics.Canvas.TrimLine(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: TrimLine(ref int, ref int, ref int, ref int)
+  nameWithType: Canvas.TrimLine(ref int, ref int, ref int, ref int)
+  fullName: Cosmos.System.Graphics.Canvas.TrimLine(ref int, ref int, ref int, ref int)
+  nameWithType.vb: Canvas.TrimLine(Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.TrimLine(Integer, Integer, Integer, Integer)
+  name.vb: TrimLine(Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.TrimLine(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+    name: TrimLine
+    isExternal: true
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: ref
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.TrimLine(System.Int32@,System.Int32@,System.Int32@,System.Int32@)
+    name: TrimLine
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.AlphaBlend(System.Drawing.Color,System.Drawing.Color,System.Byte)
+  commentId: M:Cosmos.System.Graphics.Canvas.AlphaBlend(System.Drawing.Color,System.Drawing.Color,System.Byte)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: AlphaBlend(Color, Color, byte)
+  nameWithType: Canvas.AlphaBlend(Color, Color, byte)
+  fullName: Cosmos.System.Graphics.Canvas.AlphaBlend(System.Drawing.Color, System.Drawing.Color, byte)
+  nameWithType.vb: Canvas.AlphaBlend(Color, Color, Byte)
+  fullName.vb: Cosmos.System.Graphics.Canvas.AlphaBlend(System.Drawing.Color, System.Drawing.Color, Byte)
+  name.vb: AlphaBlend(Color, Color, Byte)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.AlphaBlend(System.Drawing.Color,System.Drawing.Color,System.Byte)
+    name: AlphaBlend
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.AlphaBlend(System.Drawing.Color,System.Drawing.Color,System.Byte)
+    name: AlphaBlend
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Cosmos.System.Graphics
+  commentId: N:Cosmos.System.Graphics
+  isExternal: true
+  name: Cosmos.System.Graphics
+  nameWithType: Cosmos.System.Graphics
+  fullName: Cosmos.System.Graphics
+  spec.csharp:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics
+    name: Graphics
+    isExternal: true
+  spec.vb:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics
+    name: Graphics
+    isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VMwareSvgaII3D.VMWareSVGAII3D
+  commentId: T:VMwareSvgaII3D.VMWareSVGAII3D
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html
+  name: VMWareSVGAII3D
+  nameWithType: VMWareSVGAII3D
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D
+- uid: VMwareSvgaII3D.SVGAII3DCanvas
+  commentId: T:VMwareSvgaII3D.SVGAII3DCanvas
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html
+  name: SVGAII3DCanvas
+  nameWithType: SVGAII3DCanvas
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.#ctor*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.#ctor
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas__ctor
+  name: SVGAII3DCanvas
+  nameWithType: SVGAII3DCanvas.SVGAII3DCanvas
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.SVGAII3DCanvas
+  nameWithType.vb: SVGAII3DCanvas.New
+  fullName.vb: VMwareSvgaII3D.SVGAII3DCanvas.New
+  name.vb: New
+- uid: Cosmos.System.Graphics.Mode
+  commentId: T:Cosmos.System.Graphics.Mode
+  parent: Cosmos.System.Graphics
+  isExternal: true
+  name: Mode
+  nameWithType: Mode
+  fullName: Cosmos.System.Graphics.Mode
+- uid: Cosmos.System.Graphics.Canvas.Name
+  commentId: M:Cosmos.System.Graphics.Canvas.Name
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: Name()
+  nameWithType: Canvas.Name()
+  fullName: Cosmos.System.Graphics.Canvas.Name()
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.Name
+    name: Name
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.Name
+    name: Name
+    isExternal: true
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Name*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.Name
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_Name
+  name: Name
+  nameWithType: SVGAII3DCanvas.Name
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: Cosmos.System.Graphics.Canvas.Mode
+  commentId: P:Cosmos.System.Graphics.Canvas.Mode
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: Mode
+  nameWithType: Canvas.Mode
+  fullName: Cosmos.System.Graphics.Canvas.Mode
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Mode*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.Mode
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_Mode
+  name: Mode
+  nameWithType: SVGAII3DCanvas.Mode
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Mode
+- uid: Cosmos.System.Graphics.Canvas.DefaultGraphicsMode
+  commentId: P:Cosmos.System.Graphics.Canvas.DefaultGraphicsMode
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: DefaultGraphicsMode
+  nameWithType: Canvas.DefaultGraphicsMode
+  fullName: Cosmos.System.Graphics.Canvas.DefaultGraphicsMode
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DefaultGraphicsMode
+  name: DefaultGraphicsMode
+  nameWithType: SVGAII3DCanvas.DefaultGraphicsMode
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DefaultGraphicsMode
+- uid: Cosmos.System.Graphics.Canvas.Disable
+  commentId: M:Cosmos.System.Graphics.Canvas.Disable
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: Disable()
+  nameWithType: Canvas.Disable()
+  fullName: Cosmos.System.Graphics.Canvas.Disable()
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.Disable
+    name: Disable
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.Disable
+    name: Disable
+    isExternal: true
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Disable*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.Disable
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_Disable
+  name: Disable
+  nameWithType: SVGAII3DCanvas.Disable
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Disable
+- uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawPoint(Color, int, int)
+  nameWithType: Canvas.DrawPoint(Color, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawPoint(System.Drawing.Color, int, int)
+  nameWithType.vb: Canvas.DrawPoint(Color, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawPoint(System.Drawing.Color, Integer, Integer)
+  name.vb: DrawPoint(Color, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawPoint
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawPoint
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DrawPoint_System_Drawing_Color_System_Int32_System_Int32_
+  name: DrawPoint
+  nameWithType: SVGAII3DCanvas.DrawPoint
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawPoint
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: DrawPoint(uint, int, int)
+  nameWithType: Canvas.DrawPoint(uint, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawPoint(uint, int, int)
+  nameWithType.vb: Canvas.DrawPoint(UInteger, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawPoint(UInteger, Integer, Integer)
+  name.vb: DrawPoint(UInteger, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+    name: DrawPoint
+    isExternal: true
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.UInt32,System.Int32,System.Int32)
+    name: DrawPoint
+    isExternal: true
+  - name: (
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawPoint(int, int, int)
+  nameWithType: Canvas.DrawPoint(int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawPoint(int, int, int)
+  nameWithType.vb: Canvas.DrawPoint(Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawPoint(Integer, Integer, Integer)
+  name.vb: DrawPoint(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+    name: DrawPoint
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawPoint(System.Int32,System.Int32,System.Int32)
+    name: DrawPoint
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawArray(Color[], int, int, int, int)
+  nameWithType: Canvas.DrawArray(Color[], int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawArray(System.Drawing.Color[], int, int, int, int)
+  nameWithType.vb: Canvas.DrawArray(Color(), Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawArray(System.Drawing.Color(), Integer, Integer, Integer, Integer)
+  name.vb: DrawArray(Color(), Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawArray
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Drawing.Color[],System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawArray
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DrawArray
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DrawArray_System_Drawing_Color___System_Int32_System_Int32_System_Int32_System_Int32_
+  name: DrawArray
+  nameWithType: SVGAII3DCanvas.DrawArray
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawArray
+- uid: System.Drawing.Color[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color[]
+  nameWithType: Color[]
+  fullName: System.Drawing.Color[]
+  nameWithType.vb: Color()
+  fullName.vb: System.Drawing.Color()
+  name.vb: Color()
+  spec.csharp:
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: (
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawArray(int[], int, int, int, int)
+  nameWithType: Canvas.DrawArray(int[], int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawArray(int[], int, int, int, int)
+  nameWithType.vb: Canvas.DrawArray(Integer(), Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawArray(Integer(), Integer, Integer, Integer, Integer)
+  name.vb: DrawArray(Integer(), Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawArray
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawArray
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawArray(int[], int, int, int, int, int)
+  nameWithType: Canvas.DrawArray(int[], int, int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawArray(int[], int, int, int, int, int)
+  nameWithType.vb: Canvas.DrawArray(Integer(), Integer, Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawArray(Integer(), Integer, Integer, Integer, Integer, Integer)
+  name.vb: DrawArray(Integer(), Integer, Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawArray
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawArray(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawArray
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Cosmos.System.Graphics.Canvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawFilledRectangle(Color, int, int, int, int, bool)
+  nameWithType: Canvas.DrawFilledRectangle(Color, int, int, int, int, bool)
+  fullName: Cosmos.System.Graphics.Canvas.DrawFilledRectangle(System.Drawing.Color, int, int, int, int, bool)
+  nameWithType.vb: Canvas.DrawFilledRectangle(Color, Integer, Integer, Integer, Integer, Boolean)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawFilledRectangle(System.Drawing.Color, Integer, Integer, Integer, Integer, Boolean)
+  name.vb: DrawFilledRectangle(Color, Integer, Integer, Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+    name: DrawFilledRectangle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawFilledRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+    name: DrawFilledRectangle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DrawFilledRectangle_System_Drawing_Color_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_
+  name: DrawFilledRectangle
+  nameWithType: SVGAII3DCanvas.DrawFilledRectangle
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawFilledRectangle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Cosmos.System.Graphics.Canvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: DrawRectangle(Color, int, int, int, int)
+  nameWithType: Canvas.DrawRectangle(Color, int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawRectangle(System.Drawing.Color, int, int, int, int)
+  nameWithType.vb: Canvas.DrawRectangle(Color, Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawRectangle(System.Drawing.Color, Integer, Integer, Integer, Integer)
+  name.vb: DrawRectangle(Color, Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawRectangle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawRectangle
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DrawRectangle_System_Drawing_Color_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: DrawRectangle
+  nameWithType: SVGAII3DCanvas.DrawRectangle
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawRectangle
+- uid: Cosmos.System.Graphics.Canvas.AvailableModes
+  commentId: P:Cosmos.System.Graphics.Canvas.AvailableModes
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: AvailableModes
+  nameWithType: Canvas.AvailableModes
+  fullName: Cosmos.System.Graphics.Canvas.AvailableModes
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_AvailableModes
+  name: AvailableModes
+  nameWithType: SVGAII3DCanvas.AvailableModes
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.AvailableModes
+- uid: System.Collections.Generic.List{Cosmos.System.Graphics.Mode}
+  commentId: T:System.Collections.Generic.List{Cosmos.System.Graphics.Mode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Mode>
+  nameWithType: List<Mode>
+  fullName: System.Collections.Generic.List<Cosmos.System.Graphics.Mode>
+  nameWithType.vb: List(Of Mode)
+  fullName.vb: System.Collections.Generic.List(Of Cosmos.System.Graphics.Mode)
+  name.vb: List(Of Mode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Cosmos.System.Graphics.Mode
+    name: Mode
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Cosmos.System.Graphics.Mode
+    name: Mode
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Cosmos.System.Graphics.Canvas.Clear(System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.Clear(System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: Clear(int)
+  nameWithType: Canvas.Clear(int)
+  fullName: Cosmos.System.Graphics.Canvas.Clear(int)
+  nameWithType.vb: Canvas.Clear(Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.Clear(Integer)
+  name.vb: Clear(Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.Clear(System.Int32)
+    name: Clear
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.Clear(System.Int32)
+    name: Clear
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Clear*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.Clear
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_Clear_System_Int32_
+  name: Clear
+  nameWithType: SVGAII3DCanvas.Clear
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Clear
+- uid: Cosmos.System.Graphics.Canvas.Clear(System.Drawing.Color)
+  commentId: M:Cosmos.System.Graphics.Canvas.Clear(System.Drawing.Color)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Clear(Color)
+  nameWithType: Canvas.Clear(Color)
+  fullName: Cosmos.System.Graphics.Canvas.Clear(System.Drawing.Color)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.Clear(System.Drawing.Color)
+    name: Clear
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.Clear(System.Drawing.Color)
+    name: Clear
+    isExternal: true
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetPixel*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.GetPixel
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_GetPixel_System_Int32_System_Int32_
+  name: GetPixel
+  nameWithType: SVGAII3DCanvas.GetPixel
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetPixel
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.SetCursor*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.SetCursor
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_SetCursor_System_Boolean_System_Int32_System_Int32_
+  name: SetCursor
+  nameWithType: SVGAII3DCanvas.SetCursor
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.SetCursor
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_CreateCursor
+  name: CreateCursor
+  nameWithType: SVGAII3DCanvas.CreateCursor
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.CreateCursor
+- uid: System.NotImplementedException
+  commentId: T:System.NotImplementedException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.notimplementedexception
+  name: NotImplementedException
+  nameWithType: NotImplementedException
+  fullName: System.NotImplementedException
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_CopyPixels_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: CopyPixels
+  nameWithType: SVGAII3DCanvas.CopyPixels
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.CopyPixels
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.MovePixel*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.MovePixel
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_MovePixel_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: MovePixel
+  nameWithType: SVGAII3DCanvas.MovePixel
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.MovePixel
+- uid: Cosmos.System.Graphics.Canvas.GetPointColor(System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.GetPointColor(System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetPointColor(int, int)
+  nameWithType: Canvas.GetPointColor(int, int)
+  fullName: Cosmos.System.Graphics.Canvas.GetPointColor(int, int)
+  nameWithType.vb: Canvas.GetPointColor(Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.GetPointColor(Integer, Integer)
+  name.vb: GetPointColor(Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.GetPointColor(System.Int32,System.Int32)
+    name: GetPointColor
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.GetPointColor(System.Int32,System.Int32)
+    name: GetPointColor
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_GetPointColor_System_Int32_System_Int32_
+  name: GetPointColor
+  nameWithType: SVGAII3DCanvas.GetPointColor
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetPointColor
+- uid: Cosmos.System.Graphics.Canvas.GetRawPointColor(System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.GetRawPointColor(System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetRawPointColor(int, int)
+  nameWithType: Canvas.GetRawPointColor(int, int)
+  fullName: Cosmos.System.Graphics.Canvas.GetRawPointColor(int, int)
+  nameWithType.vb: Canvas.GetRawPointColor(Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.GetRawPointColor(Integer, Integer)
+  name.vb: GetRawPointColor(Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.GetRawPointColor(System.Int32,System.Int32)
+    name: GetRawPointColor
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.GetRawPointColor(System.Int32,System.Int32)
+    name: GetRawPointColor
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_GetRawPointColor_System_Int32_System_Int32_
+  name: GetRawPointColor
+  nameWithType: SVGAII3DCanvas.GetRawPointColor
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetRawPointColor
+- uid: Cosmos.System.Graphics.Bitmap
+  commentId: T:Cosmos.System.Graphics.Bitmap
+  parent: Cosmos.System.Graphics
+  isExternal: true
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: Cosmos.System.Graphics.Bitmap
+- uid: Cosmos.System.Graphics.Canvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetImage(int, int, int, int)
+  nameWithType: Canvas.GetImage(int, int, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.GetImage(int, int, int, int)
+  nameWithType.vb: Canvas.GetImage(Integer, Integer, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.GetImage(Integer, Integer, Integer, Integer)
+  name.vb: GetImage(Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: GetImage
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.GetImage(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: GetImage
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.GetImage*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.GetImage
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_GetImage_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: GetImage
+  nameWithType: SVGAII3DCanvas.GetImage
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.GetImage
+- uid: Cosmos.System.Graphics.Canvas.Display
+  commentId: M:Cosmos.System.Graphics.Canvas.Display
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  name: Display()
+  nameWithType: Canvas.Display()
+  fullName: Cosmos.System.Graphics.Canvas.Display()
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.Display
+    name: Display
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.Display
+    name: Display
+    isExternal: true
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.Display*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.Display
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_Display
+  name: Display
+  nameWithType: SVGAII3DCanvas.Display
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.Display
+- uid: Cosmos.System.Graphics.Canvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: DrawString(string, Font, Color, int, int)
+  nameWithType: Canvas.DrawString(string, Font, Color, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawString(string, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, int, int)
+  nameWithType.vb: Canvas.DrawString(String, Font, Color, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawString(String, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, Integer, Integer)
+  name.vb: DrawString(String, Font, Color, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawString
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Cosmos.System.Graphics.Fonts.Font
+    name: Font
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawString(System.String,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawString
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: Cosmos.System.Graphics.Fonts.Font
+    name: Font
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawString*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DrawString
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DrawString_System_String_Cosmos_System_Graphics_Fonts_Font_System_Drawing_Color_System_Int32_System_Int32_
+  name: DrawString
+  nameWithType: SVGAII3DCanvas.DrawString
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawString
+- uid: Cosmos.System.Graphics.Fonts.Font
+  commentId: T:Cosmos.System.Graphics.Fonts.Font
+  parent: Cosmos.System.Graphics.Fonts
+  isExternal: true
+  name: Font
+  nameWithType: Font
+  fullName: Cosmos.System.Graphics.Fonts.Font
+- uid: Cosmos.System.Graphics.Fonts
+  commentId: N:Cosmos.System.Graphics.Fonts
+  isExternal: true
+  name: Cosmos.System.Graphics.Fonts
+  nameWithType: Cosmos.System.Graphics.Fonts
+  fullName: Cosmos.System.Graphics.Fonts
+  spec.csharp:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics
+    name: Graphics
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics.Fonts
+    name: Fonts
+    isExternal: true
+  spec.vb:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics
+    name: Graphics
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics.Fonts
+    name: Fonts
+    isExternal: true
+- uid: Cosmos.System.Graphics.Canvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: DrawChar(char, Font, Color, int, int)
+  nameWithType: Canvas.DrawChar(char, Font, Color, int, int)
+  fullName: Cosmos.System.Graphics.Canvas.DrawChar(char, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, int, int)
+  nameWithType.vb: Canvas.DrawChar(Char, Font, Color, Integer, Integer)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawChar(Char, Cosmos.System.Graphics.Fonts.Font, System.Drawing.Color, Integer, Integer)
+  name.vb: DrawChar(Char, Font, Color, Integer, Integer)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawChar
+    isExternal: true
+  - name: (
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: ','
+  - name: " "
+  - uid: Cosmos.System.Graphics.Fonts.Font
+    name: Font
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawChar(System.Char,Cosmos.System.Graphics.Fonts.Font,System.Drawing.Color,System.Int32,System.Int32)
+    name: DrawChar
+    isExternal: true
+  - name: (
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: ','
+  - name: " "
+  - uid: Cosmos.System.Graphics.Fonts.Font
+    name: Font
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawChar*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DrawChar
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DrawChar_System_Char_Cosmos_System_Graphics_Fonts_Font_System_Drawing_Color_System_Int32_System_Int32_
+  name: DrawChar
+  nameWithType: SVGAII3DCanvas.DrawChar
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawChar
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawImage(Image, int, int, bool)
+  nameWithType: Canvas.DrawImage(Image, int, int, bool)
+  fullName: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image, int, int, bool)
+  nameWithType.vb: Canvas.DrawImage(Image, Integer, Integer, Boolean)
+  fullName.vb: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image, Integer, Integer, Boolean)
+  name.vb: DrawImage(Image, Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+    name: DrawImage
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.DrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Boolean)
+    name: DrawImage
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.DrawImage*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.DrawImage
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_DrawImage_Cosmos_System_Graphics_Image_System_Int32_System_Int32_System_Boolean_
+  name: DrawImage
+  nameWithType: SVGAII3DCanvas.DrawImage
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.DrawImage
+- uid: Cosmos.System.Graphics.Image
+  commentId: T:Cosmos.System.Graphics.Image
+  parent: Cosmos.System.Graphics
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Cosmos.System.Graphics.Image
+- uid: Cosmos.System.Graphics.Canvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:Cosmos.System.Graphics.Canvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  parent: Cosmos.System.Graphics.Canvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: CroppedDrawImage(Image, int, int, int, int, bool)
+  nameWithType: Canvas.CroppedDrawImage(Image, int, int, int, int, bool)
+  fullName: Cosmos.System.Graphics.Canvas.CroppedDrawImage(Cosmos.System.Graphics.Image, int, int, int, int, bool)
+  nameWithType.vb: Canvas.CroppedDrawImage(Image, Integer, Integer, Integer, Integer, Boolean)
+  fullName.vb: Cosmos.System.Graphics.Canvas.CroppedDrawImage(Cosmos.System.Graphics.Image, Integer, Integer, Integer, Integer, Boolean)
+  name.vb: CroppedDrawImage(Image, Integer, Integer, Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: Cosmos.System.Graphics.Canvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+    name: CroppedDrawImage
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: Cosmos.System.Graphics.Canvas.CroppedDrawImage(Cosmos.System.Graphics.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+    name: CroppedDrawImage
+    isExternal: true
+  - name: (
+  - uid: Cosmos.System.Graphics.Image
+    name: Image
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage*
+  commentId: Overload:VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage
+  href: VMwareSvgaII3D.SVGAII3DCanvas.html#VMwareSvgaII3D_SVGAII3DCanvas_CroppedDrawImage_Cosmos_System_Graphics_Image_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_
+  name: CroppedDrawImage
+  nameWithType: SVGAII3DCanvas.CroppedDrawImage
+  fullName: VMwareSvgaII3D.SVGAII3DCanvas.CroppedDrawImage

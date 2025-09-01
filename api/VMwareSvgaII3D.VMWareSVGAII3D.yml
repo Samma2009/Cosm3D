@@ -1,0 +1,2632 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.VMWareSVGAII3D
+  commentId: T:VMwareSvgaII3D.VMWareSVGAII3D
+  id: VMWareSVGAII3D
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.VMWareSVGAII3D.#ctor
+  - VMwareSvgaII3D.VMWareSVGAII3D.Clear(System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.Clear3D(System.UInt32,VMwareSvgaII3D.ClearFlags,VMwareSvgaII3D.SVGA3dRect,System.UInt32,System.Single,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.Copy(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer``1(``0[])
+  - VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor(System.UInt32,System.UInt32,System.Int32[])
+  - VMwareSvgaII3D.VMWareSVGAII3D.DefineContext
+  - VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor
+  - VMwareSvgaII3D.VMWareSVGAII3D.DefineShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.Byte[])
+  - VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dSurfaceFormat)
+  - VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage(Cosmos.System.Graphics.Image)
+  - VMwareSvgaII3D.VMWareSVGAII3D.Disable
+  - VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate
+  - VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives(System.UInt32,VMwareSvgaII3D.SVGA3dVertexDecl[],VMwareSvgaII3D.SVGA3dPrimitiveRange[])
+  - VMwareSvgaII3D.VMWareSVGAII3D.Enable
+  - VMwareSvgaII3D.VMWareSVGAII3D.Fill(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.FrameOffset
+  - VMwareSvgaII3D.VMWareSVGAII3D.FrameSize
+  - VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO)
+  - VMwareSvgaII3D.VMWareSVGAII3D.GetPixel(System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.HW3DVer
+  - VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO
+  - VMwareSvgaII3D.VMWareSVGAII3D.Is3DEnabled
+  - VMwareSvgaII3D.VMWareSVGAII3D.Present(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  - VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  - VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister(VMwareSvgaII3D.Register)
+  - VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO(System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D(System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer(System.UInt32,VMwareSvgaII3D.SVGAGuestPtr@)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetCursor(System.Boolean,System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange(System.UInt32,System.Single,System.Single)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetMode(System.UInt32,System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetPixel(System.UInt32,System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState(System.UInt32,VMwareSvgaII3D.SVGA3dRenderState[])
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget(System.UInt32,VMwareSvgaII3D.SVGA3dRenderTargetType,VMwareSvgaII3D.SVGA3dSurfaceImageId)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform``1(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,VMwareSvgaII3D.SVGA3dShaderConstType,``0)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState(System.UInt32,VMwareSvgaII3D.SVGA3dTextureState[])
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetTransform``1(System.UInt32,VMwareSvgaII3D.SVGA3dTransformType,``0)
+  - VMwareSvgaII3D.VMWareSVGAII3D.SetViewport(System.UInt32,VMwareSvgaII3D.SVGA3dRect)
+  - VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer
+  - VMwareSvgaII3D.VMWareSVGAII3D.Update(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo
+  - VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister(VMwareSvgaII3D.Register,System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo(System.UInt32)
+  - VMwareSvgaII3D.VMWareSVGAII3D.capabilities
+  - VMwareSvgaII3D.VMWareSVGAII3D.videoMemory
+  langs:
+  - csharp
+  - vb
+  name: VMWareSVGAII3D
+  nameWithType: VMWareSVGAII3D
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D
+  type: Class
+  source:
+    id: VMWareSVGAII3D
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public class VMWareSVGAII3D
+    content.vb: Public Class VMWareSVGAII3D
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D(System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D(System.UInt32,System.UInt32)
+  id: ReserveFIFO3D(System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: ReserveFIFO3D(uint, uint)
+  nameWithType: VMWareSVGAII3D.ReserveFIFO3D(uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D(uint, uint)
+  type: Method
+  source:
+    id: ReserveFIFO3D
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 59
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Reserves space in the FIFO for a 3D command
+  example: []
+  syntax:
+    content: public void* ReserveFIFO3D(uint cmd, uint cmdSize)
+    parameters:
+    - id: cmd
+      type: System.UInt32
+      description: command id
+    - id: cmdSize
+      type: System.UInt32
+      description: size to resereve
+    return:
+      type: System.Void*
+      description: command pointer
+    content.vb: Public Function ReserveFIFO3D(cmd As UInteger, cmdSize As UInteger) As Void*
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D*
+  nameWithType.vb: VMWareSVGAII3D.ReserveFIFO3D(UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D(UInteger, UInteger)
+  name.vb: ReserveFIFO3D(UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dSurfaceFormat)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dSurfaceFormat)
+  id: DefineSurface(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dSurfaceFormat)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DefineSurface(uint, uint, SVGA3dSurfaceFormat)
+  nameWithType: VMWareSVGAII3D.DefineSurface(uint, uint, SVGA3dSurfaceFormat)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface(uint, uint, VMwareSvgaII3D.SVGA3dSurfaceFormat)
+  type: Method
+  source:
+    id: DefineSurface
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 103
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Defines a surface
+  example:
+  - var ColorSurface = canv.driver.DefineSurface(1280,720,SVGA3dSurfaceFormat.SVGA3D_X8R8G8B8);
+  syntax:
+    content: public SVGA3dSurfaceImageId DefineSurface(uint width, uint height, SVGA3dSurfaceFormat format)
+    parameters:
+    - id: width
+      type: System.UInt32
+      description: width of the surface
+    - id: height
+      type: System.UInt32
+      description: height of the surface
+    - id: format
+      type: VMwareSvgaII3D.SVGA3dSurfaceFormat
+      description: format of the surface
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceImageId
+      description: Surface object
+    content.vb: Public Function DefineSurface(width As UInteger, height As UInteger, format As SVGA3dSurfaceFormat) As SVGA3dSurfaceImageId
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface*
+  nameWithType.vb: VMWareSVGAII3D.DefineSurface(UInteger, UInteger, SVGA3dSurfaceFormat)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface(UInteger, UInteger, VMwareSvgaII3D.SVGA3dSurfaceFormat)
+  name.vb: DefineSurface(UInteger, UInteger, SVGA3dSurfaceFormat)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget(System.UInt32,VMwareSvgaII3D.SVGA3dRenderTargetType,VMwareSvgaII3D.SVGA3dSurfaceImageId)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget(System.UInt32,VMwareSvgaII3D.SVGA3dRenderTargetType,VMwareSvgaII3D.SVGA3dSurfaceImageId)
+  id: SetRenderTarget(System.UInt32,VMwareSvgaII3D.SVGA3dRenderTargetType,VMwareSvgaII3D.SVGA3dSurfaceImageId)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetRenderTarget(uint, SVGA3dRenderTargetType, SVGA3dSurfaceImageId)
+  nameWithType: VMWareSVGAII3D.SetRenderTarget(uint, SVGA3dRenderTargetType, SVGA3dSurfaceImageId)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget(uint, VMwareSvgaII3D.SVGA3dRenderTargetType, VMwareSvgaII3D.SVGA3dSurfaceImageId)
+  type: Method
+  source:
+    id: SetRenderTarget
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 130
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets a surface as a render target for a context
+  example:
+  - canv.driver.SetRenderTarget(context,SVGA3dRenderTargetType.Color,ColorSurface);
+  syntax:
+    content: public void SetRenderTarget(uint cid, SVGA3dRenderTargetType type, SVGA3dSurfaceImageId target)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: type
+      type: VMwareSvgaII3D.SVGA3dRenderTargetType
+      description: type of render target
+    - id: target
+      type: VMwareSvgaII3D.SVGA3dSurfaceImageId
+      description: target surface
+    content.vb: Public Sub SetRenderTarget(cid As UInteger, type As SVGA3dRenderTargetType, target As SVGA3dSurfaceImageId)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget*
+  nameWithType.vb: VMWareSVGAII3D.SetRenderTarget(UInteger, SVGA3dRenderTargetType, SVGA3dSurfaceImageId)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget(UInteger, VMwareSvgaII3D.SVGA3dRenderTargetType, VMwareSvgaII3D.SVGA3dSurfaceImageId)
+  name.vb: SetRenderTarget(UInteger, SVGA3dRenderTargetType, SVGA3dSurfaceImageId)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetViewport(System.UInt32,VMwareSvgaII3D.SVGA3dRect)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetViewport(System.UInt32,VMwareSvgaII3D.SVGA3dRect)
+  id: SetViewport(System.UInt32,VMwareSvgaII3D.SVGA3dRect)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetViewport(uint, SVGA3dRect)
+  nameWithType: VMWareSVGAII3D.SetViewport(uint, SVGA3dRect)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetViewport(uint, VMwareSvgaII3D.SVGA3dRect)
+  type: Method
+  source:
+    id: SetViewport
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 148
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets the viewport for a context
+  example:
+  - canv.driver.SetViewport(context,new(0, 0, 1280, 720));
+  syntax:
+    content: public void SetViewport(uint cid, SVGA3dRect rect)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: rect
+      type: VMwareSvgaII3D.SVGA3dRect
+      description: viewport rectangle
+    content.vb: Public Sub SetViewport(cid As UInteger, rect As SVGA3dRect)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetViewport*
+  nameWithType.vb: VMWareSVGAII3D.SetViewport(UInteger, SVGA3dRect)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetViewport(UInteger, VMwareSvgaII3D.SVGA3dRect)
+  name.vb: SetViewport(UInteger, SVGA3dRect)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange(System.UInt32,System.Single,System.Single)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange(System.UInt32,System.Single,System.Single)
+  id: SetDepthRange(System.UInt32,System.Single,System.Single)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetDepthRange(uint, float, float)
+  nameWithType: VMWareSVGAII3D.SetDepthRange(uint, float, float)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange(uint, float, float)
+  type: Method
+  source:
+    id: SetDepthRange
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 166
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets the depth range for a context
+  example:
+  - canv.driver.SetDepthRange(context, 0.0f, 1.0f);
+  syntax:
+    content: public void SetDepthRange(uint cid, float min, float max)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: min
+      type: System.Single
+      description: minimum depth
+    - id: max
+      type: System.Single
+      description: maximum depth
+    content.vb: Public Sub SetDepthRange(cid As UInteger, min As Single, max As Single)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange*
+  nameWithType.vb: VMWareSVGAII3D.SetDepthRange(UInteger, Single, Single)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange(UInteger, Single, Single)
+  name.vb: SetDepthRange(UInteger, Single, Single)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Clear3D(System.UInt32,VMwareSvgaII3D.ClearFlags,VMwareSvgaII3D.SVGA3dRect,System.UInt32,System.Single,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Clear3D(System.UInt32,VMwareSvgaII3D.ClearFlags,VMwareSvgaII3D.SVGA3dRect,System.UInt32,System.Single,System.UInt32)
+  id: Clear3D(System.UInt32,VMwareSvgaII3D.ClearFlags,VMwareSvgaII3D.SVGA3dRect,System.UInt32,System.Single,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Clear3D(uint, ClearFlags, SVGA3dRect, uint, float, uint)
+  nameWithType: VMWareSVGAII3D.Clear3D(uint, ClearFlags, SVGA3dRect, uint, float, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Clear3D(uint, VMwareSvgaII3D.ClearFlags, VMwareSvgaII3D.SVGA3dRect, uint, float, uint)
+  type: Method
+  source:
+    id: Clear3D
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 208
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Clears the currenly binded render targets
+  example:
+  - canv.driver.Clear3D(context,ClearFlags.Color | ClearFlags.Depth,rect, 0x113366,1f,0);
+  syntax:
+    content: public void Clear3D(uint cid, ClearFlags flags, SVGA3dRect ClearRect, uint color = 0, float dpeth = 1, uint stencil = 0)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: flags
+      type: VMwareSvgaII3D.ClearFlags
+      description: clear flags
+    - id: ClearRect
+      type: VMwareSvgaII3D.SVGA3dRect
+      description: area to clear
+    - id: color
+      type: System.UInt32
+      description: color value
+    - id: dpeth
+      type: System.Single
+      description: depth value
+    - id: stencil
+      type: System.UInt32
+      description: stenil buffer value
+    content.vb: Public Sub Clear3D(cid As UInteger, flags As ClearFlags, ClearRect As SVGA3dRect, color As UInteger = 0, dpeth As Single = 1, stencil As UInteger = 0)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Clear3D*
+  nameWithType.vb: VMWareSVGAII3D.Clear3D(UInteger, ClearFlags, SVGA3dRect, UInteger, Single, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.Clear3D(UInteger, VMwareSvgaII3D.ClearFlags, VMwareSvgaII3D.SVGA3dRect, UInteger, Single, UInteger)
+  name.vb: Clear3D(UInteger, ClearFlags, SVGA3dRect, UInteger, Single, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Present(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Present(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  id: Present(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Present(SVGA3dSurfaceImageId, SVGA3dRect)
+  nameWithType: VMWareSVGAII3D.Present(SVGA3dSurfaceImageId, SVGA3dRect)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Present(VMwareSvgaII3D.SVGA3dSurfaceImageId, VMwareSvgaII3D.SVGA3dRect)
+  type: Method
+  source:
+    id: Present
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 238
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Presents a surface to the screen
+  example:
+  - canv.driver.Present(ColorSurface,new(0, 0, 1280, 720));
+  syntax:
+    content: public void Present(SVGA3dSurfaceImageId image, SVGA3dRect PresentRect)
+    parameters:
+    - id: image
+      type: VMwareSvgaII3D.SVGA3dSurfaceImageId
+      description: surface to present
+    - id: PresentRect
+      type: VMwareSvgaII3D.SVGA3dRect
+      description: area to present to
+    content.vb: Public Sub Present(image As SVGA3dSurfaceImageId, PresentRect As SVGA3dRect)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Present*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  id: PresentToImage(VMwareSvgaII3D.SVGA3dSurfaceImageId,VMwareSvgaII3D.SVGA3dRect)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: PresentToImage(SVGA3dSurfaceImageId, SVGA3dRect)
+  nameWithType: VMWareSVGAII3D.PresentToImage(SVGA3dSurfaceImageId, SVGA3dRect)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage(VMwareSvgaII3D.SVGA3dSurfaceImageId, VMwareSvgaII3D.SVGA3dRect)
+  type: Method
+  source:
+    id: PresentToImage
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 264
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Presents a surface to an image
+  remarks: This functions is really slow, and allocates a lot of memory
+  example:
+  - var img = canv.driver.PresentToImage(ColorSurface,new(0, 0, 1280, 720));
+  syntax:
+    content: public Image PresentToImage(SVGA3dSurfaceImageId image, SVGA3dRect rect)
+    parameters:
+    - id: image
+      type: VMwareSvgaII3D.SVGA3dSurfaceImageId
+      description: surface to present
+    - id: rect
+      type: VMwareSvgaII3D.SVGA3dRect
+      description: area to present to
+    return:
+      type: Cosmos.System.Graphics.Image
+    content.vb: Public Function PresentToImage(image As SVGA3dSurfaceImageId, rect As SVGA3dRect) As Image
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer``1(``0[])
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer``1(``0[])
+  id: CreateStaticArrayBuffer``1(``0[])
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: CreateStaticArrayBuffer<T>(T[])
+  nameWithType: VMWareSVGAII3D.CreateStaticArrayBuffer<T>(T[])
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer<T>(T[])
+  type: Method
+  source:
+    id: CreateStaticArrayBuffer
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 359
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Creates a static array buffer
+  example:
+  - var VertBuffer = canv.driver.CreateStaticArrayBuffer(VertData);
+  syntax:
+    content: 'public uint CreateStaticArrayBuffer<T>(T[] data) where T : unmanaged'
+    parameters:
+    - id: data
+      type: '{T}[]'
+      description: data of the buffer
+    typeParameters:
+    - id: T
+      description: this parameter can be anything that has a Sequential layout
+    return:
+      type: System.UInt32
+      description: id of the buffer
+    content.vb: Public Function CreateStaticArrayBuffer(Of T As Structure)(data As T()) As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer*
+  nameWithType.vb: VMWareSVGAII3D.CreateStaticArrayBuffer(Of T)(T())
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer(Of T)(T())
+  name.vb: CreateStaticArrayBuffer(Of T)(T())
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer
+  id: TestDebugBuffer
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: TestDebugBuffer()
+  nameWithType: VMWareSVGAII3D.TestDebugBuffer()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer()
+  type: Method
+  source:
+    id: TestDebugBuffer
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 382
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Tests a debug buffer by creating a surface, filling it with a color and presenting it to the screen
+  example: []
+  syntax:
+    content: public uint TestDebugBuffer()
+    return:
+      type: System.UInt32
+      description: sid
+    content.vb: Public Function TestDebugBuffer() As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage(Cosmos.System.Graphics.Image)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage(Cosmos.System.Graphics.Image)
+  id: DefineSurfaceFromImage(Cosmos.System.Graphics.Image)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DefineSurfaceFromImage(Image)
+  nameWithType: VMWareSVGAII3D.DefineSurfaceFromImage(Image)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage(Cosmos.System.Graphics.Image)
+  type: Method
+  source:
+    id: DefineSurfaceFromImage
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 405
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Defines a surface from an image
+  example:
+  - var tex = canv.driver.DefineSurfaceFromImage(new Bitmap(Data));
+  syntax:
+    content: public SVGA3dSurfaceImageId DefineSurfaceFromImage(Image image)
+    parameters:
+    - id: image
+      type: Cosmos.System.Graphics.Image
+      description: image to define the surface with
+    return:
+      type: VMwareSvgaII3D.SVGA3dSurfaceImageId
+      description: Surface object
+    content.vb: Public Function DefineSurfaceFromImage(image As Image) As SVGA3dSurfaceImageId
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState(System.UInt32,VMwareSvgaII3D.SVGA3dRenderState[])
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState(System.UInt32,VMwareSvgaII3D.SVGA3dRenderState[])
+  id: SetRenderState(System.UInt32,VMwareSvgaII3D.SVGA3dRenderState[])
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetRenderState(uint, SVGA3dRenderState[])
+  nameWithType: VMWareSVGAII3D.SetRenderState(uint, SVGA3dRenderState[])
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState(uint, VMwareSvgaII3D.SVGA3dRenderState[])
+  type: Method
+  source:
+    id: SetRenderState
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 438
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets render states for a context
+  example: []
+  syntax:
+    content: public void SetRenderState(uint cid, SVGA3dRenderState[] states)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: states
+      type: VMwareSvgaII3D.SVGA3dRenderState[]
+      description: states to set
+    content.vb: Public Sub SetRenderState(cid As UInteger, states As SVGA3dRenderState())
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState*
+  nameWithType.vb: VMWareSVGAII3D.SetRenderState(UInteger, SVGA3dRenderState())
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState(UInteger, VMwareSvgaII3D.SVGA3dRenderState())
+  name.vb: SetRenderState(UInteger, SVGA3dRenderState())
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState(System.UInt32,VMwareSvgaII3D.SVGA3dTextureState[])
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState(System.UInt32,VMwareSvgaII3D.SVGA3dTextureState[])
+  id: SetTextureState(System.UInt32,VMwareSvgaII3D.SVGA3dTextureState[])
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetTextureState(uint, SVGA3dTextureState[])
+  nameWithType: VMWareSVGAII3D.SetTextureState(uint, SVGA3dTextureState[])
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState(uint, VMwareSvgaII3D.SVGA3dTextureState[])
+  type: Method
+  source:
+    id: SetTextureState
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 465
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets texture states for a context
+  example: []
+  syntax:
+    content: public void SetTextureState(uint cid, SVGA3dTextureState[] states)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: states
+      type: VMwareSvgaII3D.SVGA3dTextureState[]
+      description: states to set
+    content.vb: Public Sub SetTextureState(cid As UInteger, states As SVGA3dTextureState())
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState*
+  nameWithType.vb: VMWareSVGAII3D.SetTextureState(UInteger, SVGA3dTextureState())
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState(UInteger, VMwareSvgaII3D.SVGA3dTextureState())
+  name.vb: SetTextureState(UInteger, SVGA3dTextureState())
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives(System.UInt32,VMwareSvgaII3D.SVGA3dVertexDecl[],VMwareSvgaII3D.SVGA3dPrimitiveRange[])
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives(System.UInt32,VMwareSvgaII3D.SVGA3dVertexDecl[],VMwareSvgaII3D.SVGA3dPrimitiveRange[])
+  id: DrawPrimitives(System.UInt32,VMwareSvgaII3D.SVGA3dVertexDecl[],VMwareSvgaII3D.SVGA3dPrimitiveRange[])
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DrawPrimitives(uint, SVGA3dVertexDecl[], SVGA3dPrimitiveRange[])
+  nameWithType: VMWareSVGAII3D.DrawPrimitives(uint, SVGA3dVertexDecl[], SVGA3dPrimitiveRange[])
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives(uint, VMwareSvgaII3D.SVGA3dVertexDecl[], VMwareSvgaII3D.SVGA3dPrimitiveRange[])
+  type: Method
+  source:
+    id: DrawPrimitives
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 513
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Draws primitives
+  example: []
+  syntax:
+    content: public void DrawPrimitives(uint cid, SVGA3dVertexDecl[] decls, SVGA3dPrimitiveRange[] ranges)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: decls
+      type: VMwareSvgaII3D.SVGA3dVertexDecl[]
+      description: vertex format declarations
+    - id: ranges
+      type: VMwareSvgaII3D.SVGA3dPrimitiveRange[]
+      description: index range declarations
+    content.vb: Public Sub DrawPrimitives(cid As UInteger, decls As SVGA3dVertexDecl(), ranges As SVGA3dPrimitiveRange())
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives*
+  nameWithType.vb: VMWareSVGAII3D.DrawPrimitives(UInteger, SVGA3dVertexDecl(), SVGA3dPrimitiveRange())
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives(UInteger, VMwareSvgaII3D.SVGA3dVertexDecl(), VMwareSvgaII3D.SVGA3dPrimitiveRange())
+  name.vb: DrawPrimitives(UInteger, SVGA3dVertexDecl(), SVGA3dPrimitiveRange())
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetTransform``1(System.UInt32,VMwareSvgaII3D.SVGA3dTransformType,``0)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetTransform``1(System.UInt32,VMwareSvgaII3D.SVGA3dTransformType,``0)
+  id: SetTransform``1(System.UInt32,VMwareSvgaII3D.SVGA3dTransformType,``0)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetTransform<T>(uint, SVGA3dTransformType, T)
+  nameWithType: VMWareSVGAII3D.SetTransform<T>(uint, SVGA3dTransformType, T)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetTransform<T>(uint, VMwareSvgaII3D.SVGA3dTransformType, T)
+  type: Method
+  source:
+    id: SetTransform
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 556
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets a transformation matrix for a context
+  example:
+  - canv.driver.SetTransform(context, SVGA3dTransformType.SVGA3D_TRANSFORM_PROJECTION, projection);
+  syntax:
+    content: public void SetTransform<T>(uint cid, SVGA3dTransformType type, T matrix4x4)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: type
+      type: VMwareSvgaII3D.SVGA3dTransformType
+      description: type of the transform
+    - id: matrix4x4
+      type: '{T}'
+      description: matrix data
+    typeParameters:
+    - id: T
+      description: this parameter has to be a column major matrix4x4 that has a Sequential layout
+    content.vb: Public Sub SetTransform(Of T)(cid As UInteger, type As SVGA3dTransformType, matrix4x4 As T)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetTransform*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: invalid matrix size
+  nameWithType.vb: VMWareSVGAII3D.SetTransform(Of T)(UInteger, SVGA3dTransformType, T)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetTransform(Of T)(UInteger, VMwareSvgaII3D.SVGA3dTransformType, T)
+  name.vb: SetTransform(Of T)(UInteger, SVGA3dTransformType, T)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.Byte[])
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DefineShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.Byte[])
+  id: DefineShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.Byte[])
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DefineShader(uint, SVGA3dShaderType, byte[])
+  nameWithType: VMWareSVGAII3D.DefineShader(uint, SVGA3dShaderType, byte[])
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineShader(uint, VMwareSvgaII3D.SVGA3dShaderType, byte[])
+  type: Method
+  source:
+    id: DefineShader
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 584
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Defines a shader
+  example: []
+  syntax:
+    content: public uint DefineShader(uint cid, SVGA3dShaderType type, byte[] bytecode)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: type
+      type: VMwareSvgaII3D.SVGA3dShaderType
+      description: type of the shader
+    - id: bytecode
+      type: System.Byte[]
+      description: shader code in HLSL bytecode
+    return:
+      type: System.UInt32
+      description: id of the shader
+    content.vb: Public Function DefineShader(cid As UInteger, type As SVGA3dShaderType, bytecode As Byte()) As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DefineShader*
+  nameWithType.vb: VMWareSVGAII3D.DefineShader(UInteger, SVGA3dShaderType, Byte())
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.DefineShader(UInteger, VMwareSvgaII3D.SVGA3dShaderType, Byte())
+  name.vb: DefineShader(UInteger, SVGA3dShaderType, Byte())
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.UInt32)
+  id: SetShader(System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetShader(uint, SVGA3dShaderType, uint)
+  nameWithType: VMWareSVGAII3D.SetShader(uint, SVGA3dShaderType, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetShader(uint, VMwareSvgaII3D.SVGA3dShaderType, uint)
+  type: Method
+  source:
+    id: SetShader
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 612
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets a shader as current for a context
+  example: []
+  syntax:
+    content: public void SetShader(uint cid, SVGA3dShaderType type, uint shid)
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: type
+      type: VMwareSvgaII3D.SVGA3dShaderType
+      description: type of the shader
+    - id: shid
+      type: System.UInt32
+      description: id of the shader
+    content.vb: Public Sub SetShader(cid As UInteger, type As SVGA3dShaderType, shid As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetShader*
+  nameWithType.vb: VMWareSVGAII3D.SetShader(UInteger, SVGA3dShaderType, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetShader(UInteger, VMwareSvgaII3D.SVGA3dShaderType, UInteger)
+  name.vb: SetShader(UInteger, SVGA3dShaderType, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform``1(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,VMwareSvgaII3D.SVGA3dShaderConstType,``0)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform``1(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,VMwareSvgaII3D.SVGA3dShaderConstType,``0)
+  id: SetShaderUniform``1(System.UInt32,System.UInt32,VMwareSvgaII3D.SVGA3dShaderType,VMwareSvgaII3D.SVGA3dShaderConstType,``0)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetShaderUniform<T>(uint, uint, SVGA3dShaderType, SVGA3dShaderConstType, T)
+  nameWithType: VMWareSVGAII3D.SetShaderUniform<T>(uint, uint, SVGA3dShaderType, SVGA3dShaderConstType, T)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform<T>(uint, uint, VMwareSvgaII3D.SVGA3dShaderType, VMwareSvgaII3D.SVGA3dShaderConstType, T)
+  type: Method
+  source:
+    id: SetShaderUniform
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 632
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets a shader uniform value for a context
+  example: []
+  syntax:
+    content: 'public void SetShaderUniform<T>(uint cid, uint reg, SVGA3dShaderType type, SVGA3dShaderConstType ctype, T value) where T : unmanaged'
+    parameters:
+    - id: cid
+      type: System.UInt32
+      description: id of the context
+    - id: reg
+      type: System.UInt32
+      description: register id of the value
+    - id: type
+      type: VMwareSvgaII3D.SVGA3dShaderType
+      description: shader type
+    - id: ctype
+      type: VMwareSvgaII3D.SVGA3dShaderConstType
+      description: type of value
+    - id: value
+      type: '{T}'
+      description: value to set
+    typeParameters:
+    - id: T
+      description: this parameter can be anything that is between 1 and 4 bytes in size and that has a Sequential layout
+    content.vb: Public Sub SetShaderUniform(Of T As Structure)(cid As UInteger, reg As UInteger, type As SVGA3dShaderType, [ctype] As SVGA3dShaderConstType, value As T)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform*
+  nameWithType.vb: VMWareSVGAII3D.SetShaderUniform(Of T)(UInteger, UInteger, SVGA3dShaderType, SVGA3dShaderConstType, T)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform(Of T)(UInteger, UInteger, VMwareSvgaII3D.SVGA3dShaderType, VMwareSvgaII3D.SVGA3dShaderConstType, T)
+  name.vb: SetShaderUniform(Of T)(UInteger, UInteger, SVGA3dShaderType, SVGA3dShaderConstType, T)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineContext
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DefineContext
+  id: DefineContext
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DefineContext()
+  nameWithType: VMWareSVGAII3D.DefineContext()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineContext()
+  type: Method
+  source:
+    id: DefineContext
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 662
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Defines a 3D context
+  example: []
+  syntax:
+    content: public uint DefineContext()
+    return:
+      type: System.UInt32
+      description: ''
+    content.vb: Public Function DefineContext() As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DefineContext*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer(System.UInt32,VMwareSvgaII3D.SVGAGuestPtr@)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer(System.UInt32,VMwareSvgaII3D.SVGAGuestPtr@)
+  id: SVGA3DUtil_AllocDMABuffer(System.UInt32,VMwareSvgaII3D.SVGAGuestPtr@)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA3DUtil_AllocDMABuffer(uint, out SVGAGuestPtr)
+  nameWithType: VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer(uint, out SVGAGuestPtr)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer(uint, out VMwareSvgaII3D.SVGAGuestPtr)
+  type: Method
+  source:
+    id: SVGA3DUtil_AllocDMABuffer
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\Driver3D.cs
+    startLine: 686
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Allocates a framebuffer-backed guest pointer
+  example: []
+  syntax:
+    content: public void* SVGA3DUtil_AllocDMABuffer(uint size, out SVGAGuestPtr ptr)
+    parameters:
+    - id: size
+      type: System.UInt32
+      description: size to allocate
+    - id: ptr
+      type: VMwareSvgaII3D.SVGAGuestPtr
+      description: returned guest pointer
+    return:
+      type: System.Void*
+      description: void pointer
+    content.vb: Public Function SVGA3DUtil_AllocDMABuffer(size As UInteger, ptr As SVGAGuestPtr) As Void*
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: gmr exception
+  - type: System.OutOfMemoryException
+    commentId: T:System.OutOfMemoryException
+    description: vram exception
+  nameWithType.vb: VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer(UInteger, SVGAGuestPtr)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer(UInteger, VMwareSvgaII3D.SVGAGuestPtr)
+  name.vb: SVGA3DUtil_AllocDMABuffer(UInteger, SVGAGuestPtr)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Is3DEnabled
+  commentId: F:VMwareSvgaII3D.VMWareSVGAII3D.Is3DEnabled
+  id: Is3DEnabled
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Is3DEnabled
+  nameWithType: VMWareSVGAII3D.Is3DEnabled
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Is3DEnabled
+  type: Field
+  source:
+    id: Is3DEnabled
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public bool Is3DEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public Is3DEnabled As Boolean
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.HW3DVer
+  commentId: F:VMwareSvgaII3D.VMWareSVGAII3D.HW3DVer
+  id: HW3DVer
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: HW3DVer
+  nameWithType: VMWareSVGAII3D.HW3DVer
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.HW3DVer
+  type: Field
+  source:
+    id: HW3DVer
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public uint HW3DVer
+    return:
+      type: System.UInt32
+    content.vb: Public HW3DVer As UInteger
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.#ctor
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.#ctor
+  id: '#ctor'
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: VMWareSVGAII3D()
+  nameWithType: VMWareSVGAII3D.VMWareSVGAII3D()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.VMWareSVGAII3D()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public VMWareSVGAII3D()
+    content.vb: Public Sub New()
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.#ctor*
+  nameWithType.vb: VMWareSVGAII3D.New()
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.New()
+  name.vb: New()
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO
+  id: InitializeFIFO
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: InitializeFIFO()
+  nameWithType: VMWareSVGAII3D.InitializeFIFO()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO()
+  type: Method
+  source:
+    id: InitializeFIFO
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 37
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Initialize FIFO.
+  example: []
+  syntax:
+    content: public void InitializeFIFO()
+    content.vb: Public Sub InitializeFIFO()
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetMode(System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetMode(System.UInt32,System.UInt32,System.UInt32)
+  id: SetMode(System.UInt32,System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetMode(uint, uint, uint)
+  nameWithType: VMWareSVGAII3D.SetMode(uint, uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetMode(uint, uint, uint)
+  type: Method
+  source:
+    id: SetMode
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 92
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Set video mode.
+  example: []
+  syntax:
+    content: public void SetMode(uint width, uint height, uint depth = 32)
+    parameters:
+    - id: width
+      type: System.UInt32
+      description: Width.
+    - id: height
+      type: System.UInt32
+      description: Height.
+    - id: depth
+      type: System.UInt32
+      description: Depth.
+    content.vb: Public Sub SetMode(width As UInteger, height As UInteger, depth As UInteger = 32)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetMode*
+  nameWithType.vb: VMWareSVGAII3D.SetMode(UInteger, UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetMode(UInteger, UInteger, UInteger)
+  name.vb: SetMode(UInteger, UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister(VMwareSvgaII3D.Register,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister(VMwareSvgaII3D.Register,System.UInt32)
+  id: WriteRegister(VMwareSvgaII3D.Register,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: WriteRegister(Register, uint)
+  nameWithType: VMWareSVGAII3D.WriteRegister(Register, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister(VMwareSvgaII3D.Register, uint)
+  type: Method
+  source:
+    id: WriteRegister
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 116
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Write register.
+  example: []
+  syntax:
+    content: public void WriteRegister(Register register, uint value)
+    parameters:
+    - id: register
+      type: VMwareSvgaII3D.Register
+      description: A register.
+    - id: value
+      type: System.UInt32
+      description: A value.
+    content.vb: Public Sub WriteRegister(register As Register, value As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister*
+  nameWithType.vb: VMWareSVGAII3D.WriteRegister(Register, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister(VMwareSvgaII3D.Register, UInteger)
+  name.vb: WriteRegister(Register, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister(VMwareSvgaII3D.Register)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister(VMwareSvgaII3D.Register)
+  id: ReadRegister(VMwareSvgaII3D.Register)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: ReadRegister(Register)
+  nameWithType: VMWareSVGAII3D.ReadRegister(Register)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister(VMwareSvgaII3D.Register)
+  type: Method
+  source:
+    id: ReadRegister
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 127
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Read register.
+  example: []
+  syntax:
+    content: public uint ReadRegister(Register register)
+    parameters:
+    - id: register
+      type: VMwareSvgaII3D.Register
+      description: A register.
+    return:
+      type: System.UInt32
+      description: uint value.
+    content.vb: Public Function ReadRegister(register As Register) As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO)
+  id: GetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: GetFIFO(FIFO)
+  nameWithType: VMWareSVGAII3D.GetFIFO(FIFO)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO)
+  type: Method
+  source:
+    id: GetFIFO
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 138
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Get FIFO.
+  example: []
+  syntax:
+    content: public uint GetFIFO(FIFO cmd)
+    parameters:
+    - id: cmd
+      type: Cosmos.HAL.Drivers.Video.SVGAII.FIFO
+      description: FIFO command.
+    return:
+      type: System.UInt32
+      description: uint value.
+    content.vb: Public Function GetFIFO(cmd As FIFO) As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO,System.UInt32)
+  id: SetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetFIFO(FIFO, uint)
+  nameWithType: VMWareSVGAII3D.SetFIFO(FIFO, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO, uint)
+  type: Method
+  source:
+    id: SetFIFO
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 146
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Set FIFO.
+  example: []
+  syntax:
+    content: public uint SetFIFO(FIFO cmd, uint value)
+    parameters:
+    - id: cmd
+      type: Cosmos.HAL.Drivers.Video.SVGAII.FIFO
+      description: Command.
+    - id: value
+      type: System.UInt32
+      description: Value.
+    return:
+      type: System.UInt32
+      description: ''
+    content.vb: Public Function SetFIFO(cmd As FIFO, value As UInteger) As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO*
+  nameWithType.vb: VMWareSVGAII3D.SetFIFO(FIFO, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO(Cosmos.HAL.Drivers.Video.SVGAII.FIFO, UInteger)
+  name.vb: SetFIFO(FIFO, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo
+  id: WaitForFifo
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: WaitForFifo()
+  nameWithType: VMWareSVGAII3D.WaitForFifo()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo()
+  type: Method
+  source:
+    id: WaitForFifo
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 151
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Wait for FIFO.
+  example: []
+  syntax:
+    content: public void WaitForFifo()
+    content.vb: Public Sub WaitForFifo()
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo(System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo(System.UInt32)
+  id: WriteToFifo(System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: WriteToFifo(uint)
+  nameWithType: VMWareSVGAII3D.WriteToFifo(uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo(uint)
+  type: Method
+  source:
+    id: WriteToFifo
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 161
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Write to FIFO.
+  example: []
+  syntax:
+    content: public void WriteToFifo(uint value)
+    parameters:
+    - id: value
+      type: System.UInt32
+      description: Value to write.
+    content.vb: Public Sub WriteToFifo(value As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo*
+  nameWithType.vb: VMWareSVGAII3D.WriteToFifo(UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo(UInteger)
+  name.vb: WriteToFifo(UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO(System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO(System.UInt32)
+  id: ReserveFIFO(System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: ReserveFIFO(uint)
+  nameWithType: VMWareSVGAII3D.ReserveFIFO(uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO(uint)
+  type: Method
+  source:
+    id: ReserveFIFO
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 178
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public void* ReserveFIFO(uint bytes)
+    parameters:
+    - id: bytes
+      type: System.UInt32
+    return:
+      type: System.Void*
+    content.vb: Public Function ReserveFIFO(bytes As UInteger) As Void*
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO*
+  nameWithType.vb: VMWareSVGAII3D.ReserveFIFO(UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO(UInteger)
+  name.vb: ReserveFIFO(UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Update(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Update(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: Update(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Update(uint, uint, uint, uint)
+  nameWithType: VMWareSVGAII3D.Update(uint, uint, uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Update(uint, uint, uint, uint)
+  type: Method
+  source:
+    id: Update
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 237
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Update FIFO.
+  example: []
+  syntax:
+    content: public void Update(uint x, uint y, uint width, uint height)
+    parameters:
+    - id: x
+      type: System.UInt32
+      description: X coordinate.
+    - id: y
+      type: System.UInt32
+      description: Y coordinate.
+    - id: width
+      type: System.UInt32
+      description: Width.
+    - id: height
+      type: System.UInt32
+      description: Height.
+    content.vb: Public Sub Update(x As UInteger, y As UInteger, width As UInteger, height As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Update*
+  nameWithType.vb: VMWareSVGAII3D.Update(UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.Update(UInteger, UInteger, UInteger, UInteger)
+  name.vb: Update(UInteger, UInteger, UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate
+  id: DoubleBufferUpdate
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DoubleBufferUpdate()
+  nameWithType: VMWareSVGAII3D.DoubleBufferUpdate()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate()
+  type: Method
+  source:
+    id: DoubleBufferUpdate
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 250
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Update video memory.
+  example: []
+  syntax:
+    content: public void DoubleBufferUpdate()
+    content.vb: Public Sub DoubleBufferUpdate()
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetPixel(System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetPixel(System.UInt32,System.UInt32,System.UInt32)
+  id: SetPixel(System.UInt32,System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetPixel(uint, uint, uint)
+  nameWithType: VMWareSVGAII3D.SetPixel(uint, uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetPixel(uint, uint, uint)
+  type: Method
+  source:
+    id: SetPixel
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 263
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Set pixel.
+  example: []
+  syntax:
+    content: public void SetPixel(uint x, uint y, uint color)
+    parameters:
+    - id: x
+      type: System.UInt32
+      description: X coordinate.
+    - id: y
+      type: System.UInt32
+      description: Y coordinate.
+    - id: color
+      type: System.UInt32
+      description: Color.
+    content.vb: Public Sub SetPixel(x As UInteger, y As UInteger, color As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetPixel*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown on memory access violation.
+  nameWithType.vb: VMWareSVGAII3D.SetPixel(UInteger, UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetPixel(UInteger, UInteger, UInteger)
+  name.vb: SetPixel(UInteger, UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.GetPixel(System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.GetPixel(System.UInt32,System.UInt32)
+  id: GetPixel(System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: GetPixel(uint, uint)
+  nameWithType: VMWareSVGAII3D.GetPixel(uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.GetPixel(uint, uint)
+  type: Method
+  source:
+    id: GetPixel
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 275
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Get pixel.
+  example: []
+  syntax:
+    content: public uint GetPixel(uint x, uint y)
+    parameters:
+    - id: x
+      type: System.UInt32
+      description: X coordinate.
+    - id: y
+      type: System.UInt32
+      description: Y coordinate.
+    return:
+      type: System.UInt32
+      description: uint value.
+    content.vb: Public Function GetPixel(x As UInteger, y As UInteger) As UInteger
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.GetPixel*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown on memory access violation.
+  nameWithType.vb: VMWareSVGAII3D.GetPixel(UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.GetPixel(UInteger, UInteger)
+  name.vb: GetPixel(UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Clear(System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Clear(System.UInt32)
+  id: Clear(System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Clear(uint)
+  nameWithType: VMWareSVGAII3D.Clear(uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Clear(uint)
+  type: Method
+  source:
+    id: Clear
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 286
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Clear screen to specified color.
+  example: []
+  syntax:
+    content: public void Clear(uint color)
+    parameters:
+    - id: color
+      type: System.UInt32
+      description: Color.
+    content.vb: Public Sub Clear(color As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Clear*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown on memory access violation.
+  - type: System.NotImplementedException
+    commentId: T:System.NotImplementedException
+    description: Thrown if VMWare SVGA 2 has no rectange copy capability
+  nameWithType.vb: VMWareSVGAII3D.Clear(UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.Clear(UInteger)
+  name.vb: Clear(UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Copy(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Copy(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: Copy(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Copy(uint, uint, uint, uint, uint, uint)
+  nameWithType: VMWareSVGAII3D.Copy(uint, uint, uint, uint, uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Copy(uint, uint, uint, uint, uint, uint)
+  type: Method
+  source:
+    id: Copy
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 301
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Copy rectangle.
+  example: []
+  syntax:
+    content: public void Copy(uint x, uint y, uint newX, uint newY, uint width, uint height)
+    parameters:
+    - id: x
+      type: System.UInt32
+      description: Source X coordinate.
+    - id: y
+      type: System.UInt32
+      description: Source Y coordinate.
+    - id: newX
+      type: System.UInt32
+      description: Destination X coordinate.
+    - id: newY
+      type: System.UInt32
+      description: Destination Y coordinate.
+    - id: width
+      type: System.UInt32
+      description: Width.
+    - id: height
+      type: System.UInt32
+      description: Height.
+    content.vb: Public Sub Copy(x As UInteger, y As UInteger, newX As UInteger, newY As UInteger, width As UInteger, height As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Copy*
+  exceptions:
+  - type: System.NotImplementedException
+    commentId: T:System.NotImplementedException
+    description: Thrown if VMWare SVGA 2 has no rectange copy capability
+  nameWithType.vb: VMWareSVGAII3D.Copy(UInteger, UInteger, UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.Copy(UInteger, UInteger, UInteger, UInteger, UInteger, UInteger)
+  name.vb: Copy(UInteger, UInteger, UInteger, UInteger, UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Fill(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Fill(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  id: Fill(System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Fill(uint, uint, uint, uint, uint)
+  nameWithType: VMWareSVGAII3D.Fill(uint, uint, uint, uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Fill(uint, uint, uint, uint, uint)
+  type: Method
+  source:
+    id: Fill
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 330
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Fill rectangle.
+  example: []
+  syntax:
+    content: public void Fill(uint x, uint y, uint width, uint height, uint color)
+    parameters:
+    - id: x
+      type: System.UInt32
+      description: X coordinate.
+    - id: y
+      type: System.UInt32
+      description: Y coordinate.
+    - id: width
+      type: System.UInt32
+      description: Width.
+    - id: height
+      type: System.UInt32
+      description: Height.
+    - id: color
+      type: System.UInt32
+      description: Color.
+    content.vb: Public Sub Fill(x As UInteger, y As UInteger, width As UInteger, height As UInteger, color As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Fill*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown on memory access violation.
+  - type: System.NotImplementedException
+    commentId: T:System.NotImplementedException
+    description: Thrown if VMWare SVGA 2 has no rectange copy capability
+  nameWithType.vb: VMWareSVGAII3D.Fill(UInteger, UInteger, UInteger, UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.Fill(UInteger, UInteger, UInteger, UInteger, UInteger)
+  name.vb: Fill(UInteger, UInteger, UInteger, UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor
+  id: DefineCursor
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DefineCursor()
+  nameWithType: VMWareSVGAII3D.DefineCursor()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor()
+  type: Method
+  source:
+    id: DefineCursor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 380
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define cursor.
+  example: []
+  syntax:
+    content: public void DefineCursor()
+    content.vb: Public Sub DefineCursor()
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor(System.UInt32,System.UInt32,System.Int32[])
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor(System.UInt32,System.UInt32,System.Int32[])
+  id: DefineAlphaCursor(System.UInt32,System.UInt32,System.Int32[])
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: DefineAlphaCursor(uint, uint, int[])
+  nameWithType: VMWareSVGAII3D.DefineAlphaCursor(uint, uint, int[])
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor(uint, uint, int[])
+  type: Method
+  source:
+    id: DefineAlphaCursor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 408
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Define alpha cursor.
+  example: []
+  syntax:
+    content: public void DefineAlphaCursor(uint width, uint height, int[] data)
+    parameters:
+    - id: width
+      type: System.UInt32
+    - id: height
+      type: System.UInt32
+    - id: data
+      type: System.Int32[]
+    content.vb: Public Sub DefineAlphaCursor(width As UInteger, height As UInteger, data As Integer())
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor*
+  nameWithType.vb: VMWareSVGAII3D.DefineAlphaCursor(UInteger, UInteger, Integer())
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor(UInteger, UInteger, Integer())
+  name.vb: DefineAlphaCursor(UInteger, UInteger, Integer())
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Enable
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Enable
+  id: Enable
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Enable()
+  nameWithType: VMWareSVGAII3D.Enable()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Enable()
+  type: Method
+  source:
+    id: Enable
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 429
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Enable the SVGA Driver, only needed after Disable() has been called.
+  example: []
+  syntax:
+    content: public void Enable()
+    content.vb: Public Sub Enable()
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Enable*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Disable
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.Disable
+  id: Disable
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: Disable()
+  nameWithType: VMWareSVGAII3D.Disable()
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Disable()
+  type: Method
+  source:
+    id: Disable
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 437
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Disable the SVGA Driver, returns to text mode.
+  example: []
+  syntax:
+    content: public void Disable()
+    content.vb: Public Sub Disable()
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.Disable*
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetCursor(System.Boolean,System.UInt32,System.UInt32)
+  commentId: M:VMwareSvgaII3D.VMWareSVGAII3D.SetCursor(System.Boolean,System.UInt32,System.UInt32)
+  id: SetCursor(System.Boolean,System.UInt32,System.UInt32)
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: SetCursor(bool, uint, uint)
+  nameWithType: VMWareSVGAII3D.SetCursor(bool, uint, uint)
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetCursor(bool, uint, uint)
+  type: Method
+  source:
+    id: SetCursor
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 448
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Sets the cursor position and draws it.
+  example: []
+  syntax:
+    content: public void SetCursor(bool visible, uint x, uint y)
+    parameters:
+    - id: visible
+      type: System.Boolean
+      description: Visible.
+    - id: x
+      type: System.UInt32
+      description: X coordinate.
+    - id: y
+      type: System.UInt32
+      description: Y coordinate.
+    content.vb: Public Sub SetCursor(visible As Boolean, x As UInteger, y As UInteger)
+  overload: VMwareSvgaII3D.VMWareSVGAII3D.SetCursor*
+  nameWithType.vb: VMWareSVGAII3D.SetCursor(Boolean, UInteger, UInteger)
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.SetCursor(Boolean, UInteger, UInteger)
+  name.vb: SetCursor(Boolean, UInteger, UInteger)
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.videoMemory
+  commentId: F:VMwareSvgaII3D.VMWareSVGAII3D.videoMemory
+  id: videoMemory
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: videoMemory
+  nameWithType: VMWareSVGAII3D.videoMemory
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.videoMemory
+  type: Field
+  source:
+    id: videoMemory
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 472
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Video memory block.
+  example: []
+  syntax:
+    content: public readonly MemoryBlock videoMemory
+    return:
+      type: Cosmos.Core.MemoryBlock
+    content.vb: Public ReadOnly videoMemory As MemoryBlock
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.capabilities
+  commentId: F:VMwareSvgaII3D.VMWareSVGAII3D.capabilities
+  id: capabilities
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: capabilities
+  nameWithType: VMWareSVGAII3D.capabilities
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.capabilities
+  type: Field
+  source:
+    id: capabilities
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 502
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  summary: Capabilities.
+  example: []
+  syntax:
+    content: public readonly uint capabilities
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly capabilities As UInteger
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.FrameSize
+  commentId: F:VMwareSvgaII3D.VMWareSVGAII3D.FrameSize
+  id: FrameSize
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: FrameSize
+  nameWithType: VMWareSVGAII3D.FrameSize
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.FrameSize
+  type: Field
+  source:
+    id: FrameSize
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 504
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public uint FrameSize
+    return:
+      type: System.UInt32
+    content.vb: Public FrameSize As UInteger
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.FrameOffset
+  commentId: F:VMwareSvgaII3D.VMWareSVGAII3D.FrameOffset
+  id: FrameOffset
+  parent: VMwareSvgaII3D.VMWareSVGAII3D
+  langs:
+  - csharp
+  - vb
+  name: FrameOffset
+  nameWithType: VMWareSVGAII3D.FrameOffset
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.FrameOffset
+  type: Field
+  source:
+    id: FrameOffset
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Driver\DriverBase.cs
+    startLine: 505
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public uint FrameOffset
+    return:
+      type: System.UInt32
+    content.vb: Public FrameOffset As UInteger
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_ReserveFIFO3D_System_UInt32_System_UInt32_
+  name: ReserveFIFO3D
+  nameWithType: VMWareSVGAII3D.ReserveFIFO3D
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO3D
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Void*
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.void
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.void
+  - name: '*'
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DefineSurface_System_UInt32_System_UInt32_VMwareSvgaII3D_SVGA3dSurfaceFormat_
+  name: DefineSurface
+  nameWithType: VMWareSVGAII3D.DefineSurface
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurface
+- uid: VMwareSvgaII3D.SVGA3dSurfaceFormat
+  commentId: T:VMwareSvgaII3D.SVGA3dSurfaceFormat
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dSurfaceFormat.html
+  name: SVGA3dSurfaceFormat
+  nameWithType: SVGA3dSurfaceFormat
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceFormat
+- uid: VMwareSvgaII3D.SVGA3dSurfaceImageId
+  commentId: T:VMwareSvgaII3D.SVGA3dSurfaceImageId
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dSurfaceImageId.html
+  name: SVGA3dSurfaceImageId
+  nameWithType: SVGA3dSurfaceImageId
+  fullName: VMwareSvgaII3D.SVGA3dSurfaceImageId
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetRenderTarget_System_UInt32_VMwareSvgaII3D_SVGA3dRenderTargetType_VMwareSvgaII3D_SVGA3dSurfaceImageId_
+  name: SetRenderTarget
+  nameWithType: VMWareSVGAII3D.SetRenderTarget
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderTarget
+- uid: VMwareSvgaII3D.SVGA3dRenderTargetType
+  commentId: T:VMwareSvgaII3D.SVGA3dRenderTargetType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dRenderTargetType.html
+  name: SVGA3dRenderTargetType
+  nameWithType: SVGA3dRenderTargetType
+  fullName: VMwareSvgaII3D.SVGA3dRenderTargetType
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetViewport*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetViewport
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetViewport_System_UInt32_VMwareSvgaII3D_SVGA3dRect_
+  name: SetViewport
+  nameWithType: VMWareSVGAII3D.SetViewport
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetViewport
+- uid: VMwareSvgaII3D.SVGA3dRect
+  commentId: T:VMwareSvgaII3D.SVGA3dRect
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dRect.html
+  name: SVGA3dRect
+  nameWithType: SVGA3dRect
+  fullName: VMwareSvgaII3D.SVGA3dRect
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetDepthRange_System_UInt32_System_Single_System_Single_
+  name: SetDepthRange
+  nameWithType: VMWareSVGAII3D.SetDepthRange
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetDepthRange
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Clear3D*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Clear3D
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Clear3D_System_UInt32_VMwareSvgaII3D_ClearFlags_VMwareSvgaII3D_SVGA3dRect_System_UInt32_System_Single_System_UInt32_
+  name: Clear3D
+  nameWithType: VMWareSVGAII3D.Clear3D
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Clear3D
+- uid: VMwareSvgaII3D.ClearFlags
+  commentId: T:VMwareSvgaII3D.ClearFlags
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.ClearFlags.html
+  name: ClearFlags
+  nameWithType: ClearFlags
+  fullName: VMwareSvgaII3D.ClearFlags
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Present*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Present
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Present_VMwareSvgaII3D_SVGA3dSurfaceImageId_VMwareSvgaII3D_SVGA3dRect_
+  name: Present
+  nameWithType: VMWareSVGAII3D.Present
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Present
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_PresentToImage_VMwareSvgaII3D_SVGA3dSurfaceImageId_VMwareSvgaII3D_SVGA3dRect_
+  name: PresentToImage
+  nameWithType: VMWareSVGAII3D.PresentToImage
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.PresentToImage
+- uid: Cosmos.System.Graphics.Image
+  commentId: T:Cosmos.System.Graphics.Image
+  parent: Cosmos.System.Graphics
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Cosmos.System.Graphics.Image
+- uid: Cosmos.System.Graphics
+  commentId: N:Cosmos.System.Graphics
+  isExternal: true
+  name: Cosmos.System.Graphics
+  nameWithType: Cosmos.System.Graphics
+  fullName: Cosmos.System.Graphics
+  spec.csharp:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics
+    name: Graphics
+    isExternal: true
+  spec.vb:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: Cosmos.System.Graphics
+    name: Graphics
+    isExternal: true
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_CreateStaticArrayBuffer__1___0___
+  name: CreateStaticArrayBuffer
+  nameWithType: VMWareSVGAII3D.CreateStaticArrayBuffer
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.CreateStaticArrayBuffer
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - name: T
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_TestDebugBuffer
+  name: TestDebugBuffer
+  nameWithType: VMWareSVGAII3D.TestDebugBuffer
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.TestDebugBuffer
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DefineSurfaceFromImage_Cosmos_System_Graphics_Image_
+  name: DefineSurfaceFromImage
+  nameWithType: VMWareSVGAII3D.DefineSurfaceFromImage
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineSurfaceFromImage
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetRenderState_System_UInt32_VMwareSvgaII3D_SVGA3dRenderState___
+  name: SetRenderState
+  nameWithType: VMWareSVGAII3D.SetRenderState
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetRenderState
+- uid: VMwareSvgaII3D.SVGA3dRenderState[]
+  isExternal: true
+  href: VMwareSvgaII3D.SVGA3dRenderState.html
+  name: SVGA3dRenderState[]
+  nameWithType: SVGA3dRenderState[]
+  fullName: VMwareSvgaII3D.SVGA3dRenderState[]
+  nameWithType.vb: SVGA3dRenderState()
+  fullName.vb: VMwareSvgaII3D.SVGA3dRenderState()
+  name.vb: SVGA3dRenderState()
+  spec.csharp:
+  - uid: VMwareSvgaII3D.SVGA3dRenderState
+    name: SVGA3dRenderState
+    href: VMwareSvgaII3D.SVGA3dRenderState.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: VMwareSvgaII3D.SVGA3dRenderState
+    name: SVGA3dRenderState
+    href: VMwareSvgaII3D.SVGA3dRenderState.html
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetTextureState_System_UInt32_VMwareSvgaII3D_SVGA3dTextureState___
+  name: SetTextureState
+  nameWithType: VMWareSVGAII3D.SetTextureState
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetTextureState
+- uid: VMwareSvgaII3D.SVGA3dTextureState[]
+  isExternal: true
+  href: VMwareSvgaII3D.SVGA3dTextureState.html
+  name: SVGA3dTextureState[]
+  nameWithType: SVGA3dTextureState[]
+  fullName: VMwareSvgaII3D.SVGA3dTextureState[]
+  nameWithType.vb: SVGA3dTextureState()
+  fullName.vb: VMwareSvgaII3D.SVGA3dTextureState()
+  name.vb: SVGA3dTextureState()
+  spec.csharp:
+  - uid: VMwareSvgaII3D.SVGA3dTextureState
+    name: SVGA3dTextureState
+    href: VMwareSvgaII3D.SVGA3dTextureState.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: VMwareSvgaII3D.SVGA3dTextureState
+    name: SVGA3dTextureState
+    href: VMwareSvgaII3D.SVGA3dTextureState.html
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DrawPrimitives_System_UInt32_VMwareSvgaII3D_SVGA3dVertexDecl___VMwareSvgaII3D_SVGA3dPrimitiveRange___
+  name: DrawPrimitives
+  nameWithType: VMWareSVGAII3D.DrawPrimitives
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DrawPrimitives
+- uid: VMwareSvgaII3D.SVGA3dVertexDecl[]
+  isExternal: true
+  href: VMwareSvgaII3D.SVGA3dVertexDecl.html
+  name: SVGA3dVertexDecl[]
+  nameWithType: SVGA3dVertexDecl[]
+  fullName: VMwareSvgaII3D.SVGA3dVertexDecl[]
+  nameWithType.vb: SVGA3dVertexDecl()
+  fullName.vb: VMwareSvgaII3D.SVGA3dVertexDecl()
+  name.vb: SVGA3dVertexDecl()
+  spec.csharp:
+  - uid: VMwareSvgaII3D.SVGA3dVertexDecl
+    name: SVGA3dVertexDecl
+    href: VMwareSvgaII3D.SVGA3dVertexDecl.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: VMwareSvgaII3D.SVGA3dVertexDecl
+    name: SVGA3dVertexDecl
+    href: VMwareSvgaII3D.SVGA3dVertexDecl.html
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.SVGA3dPrimitiveRange[]
+  isExternal: true
+  href: VMwareSvgaII3D.SVGA3dPrimitiveRange.html
+  name: SVGA3dPrimitiveRange[]
+  nameWithType: SVGA3dPrimitiveRange[]
+  fullName: VMwareSvgaII3D.SVGA3dPrimitiveRange[]
+  nameWithType.vb: SVGA3dPrimitiveRange()
+  fullName.vb: VMwareSvgaII3D.SVGA3dPrimitiveRange()
+  name.vb: SVGA3dPrimitiveRange()
+  spec.csharp:
+  - uid: VMwareSvgaII3D.SVGA3dPrimitiveRange
+    name: SVGA3dPrimitiveRange
+    href: VMwareSvgaII3D.SVGA3dPrimitiveRange.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: VMwareSvgaII3D.SVGA3dPrimitiveRange
+    name: SVGA3dPrimitiveRange
+    href: VMwareSvgaII3D.SVGA3dPrimitiveRange.html
+  - name: (
+  - name: )
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetTransform*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetTransform
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetTransform__1_System_UInt32_VMwareSvgaII3D_SVGA3dTransformType___0_
+  name: SetTransform
+  nameWithType: VMWareSVGAII3D.SetTransform
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetTransform
+- uid: VMwareSvgaII3D.SVGA3dTransformType
+  commentId: T:VMwareSvgaII3D.SVGA3dTransformType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dTransformType.html
+  name: SVGA3dTransformType
+  nameWithType: SVGA3dTransformType
+  fullName: VMwareSvgaII3D.SVGA3dTransformType
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineShader*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DefineShader
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DefineShader_System_UInt32_VMwareSvgaII3D_SVGA3dShaderType_System_Byte___
+  name: DefineShader
+  nameWithType: VMWareSVGAII3D.DefineShader
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineShader
+- uid: VMwareSvgaII3D.SVGA3dShaderType
+  commentId: T:VMwareSvgaII3D.SVGA3dShaderType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dShaderType.html
+  name: SVGA3dShaderType
+  nameWithType: SVGA3dShaderType
+  fullName: VMwareSvgaII3D.SVGA3dShaderType
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetShader*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetShader
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetShader_System_UInt32_VMwareSvgaII3D_SVGA3dShaderType_System_UInt32_
+  name: SetShader
+  nameWithType: VMWareSVGAII3D.SetShader
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetShader
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetShaderUniform__1_System_UInt32_System_UInt32_VMwareSvgaII3D_SVGA3dShaderType_VMwareSvgaII3D_SVGA3dShaderConstType___0_
+  name: SetShaderUniform
+  nameWithType: VMWareSVGAII3D.SetShaderUniform
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetShaderUniform
+- uid: VMwareSvgaII3D.SVGA3dShaderConstType
+  commentId: T:VMwareSvgaII3D.SVGA3dShaderConstType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dShaderConstType.html
+  name: SVGA3dShaderConstType
+  nameWithType: SVGA3dShaderConstType
+  fullName: VMwareSvgaII3D.SVGA3dShaderConstType
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineContext*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DefineContext
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DefineContext
+  name: DefineContext
+  nameWithType: VMWareSVGAII3D.DefineContext
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineContext
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: System.OutOfMemoryException
+  commentId: T:System.OutOfMemoryException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.outofmemoryexception
+  name: OutOfMemoryException
+  nameWithType: OutOfMemoryException
+  fullName: System.OutOfMemoryException
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SVGA3DUtil_AllocDMABuffer_System_UInt32_VMwareSvgaII3D_SVGAGuestPtr__
+  name: SVGA3DUtil_AllocDMABuffer
+  nameWithType: VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SVGA3DUtil_AllocDMABuffer
+- uid: VMwareSvgaII3D.SVGAGuestPtr
+  commentId: T:VMwareSvgaII3D.SVGAGuestPtr
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGAGuestPtr.html
+  name: SVGAGuestPtr
+  nameWithType: SVGAGuestPtr
+  fullName: VMwareSvgaII3D.SVGAGuestPtr
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.#ctor*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.#ctor
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D__ctor
+  name: VMWareSVGAII3D
+  nameWithType: VMWareSVGAII3D.VMWareSVGAII3D
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.VMWareSVGAII3D
+  nameWithType.vb: VMWareSVGAII3D.New
+  fullName.vb: VMwareSvgaII3D.VMWareSVGAII3D.New
+  name.vb: New
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_InitializeFIFO
+  name: InitializeFIFO
+  nameWithType: VMWareSVGAII3D.InitializeFIFO
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.InitializeFIFO
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetMode*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetMode
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetMode_System_UInt32_System_UInt32_System_UInt32_
+  name: SetMode
+  nameWithType: VMWareSVGAII3D.SetMode
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetMode
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_WriteRegister_VMwareSvgaII3D_Register_System_UInt32_
+  name: WriteRegister
+  nameWithType: VMWareSVGAII3D.WriteRegister
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.WriteRegister
+- uid: VMwareSvgaII3D.Register
+  commentId: T:VMwareSvgaII3D.Register
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.Register.html
+  name: Register
+  nameWithType: Register
+  fullName: VMwareSvgaII3D.Register
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_ReadRegister_VMwareSvgaII3D_Register_
+  name: ReadRegister
+  nameWithType: VMWareSVGAII3D.ReadRegister
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.ReadRegister
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_GetFIFO_Cosmos_HAL_Drivers_Video_SVGAII_FIFO_
+  name: GetFIFO
+  nameWithType: VMWareSVGAII3D.GetFIFO
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.GetFIFO
+- uid: Cosmos.HAL.Drivers.Video.SVGAII.FIFO
+  commentId: T:Cosmos.HAL.Drivers.Video.SVGAII.FIFO
+  parent: Cosmos.HAL.Drivers.Video.SVGAII
+  isExternal: true
+  name: FIFO
+  nameWithType: FIFO
+  fullName: Cosmos.HAL.Drivers.Video.SVGAII.FIFO
+- uid: Cosmos.HAL.Drivers.Video.SVGAII
+  commentId: N:Cosmos.HAL.Drivers.Video.SVGAII
+  isExternal: true
+  name: Cosmos.HAL.Drivers.Video.SVGAII
+  nameWithType: Cosmos.HAL.Drivers.Video.SVGAII
+  fullName: Cosmos.HAL.Drivers.Video.SVGAII
+  spec.csharp:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL
+    name: HAL
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL.Drivers
+    name: Drivers
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL.Drivers.Video
+    name: Video
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL.Drivers.Video.SVGAII
+    name: SVGAII
+    isExternal: true
+  spec.vb:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL
+    name: HAL
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL.Drivers
+    name: Drivers
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL.Drivers.Video
+    name: Video
+    isExternal: true
+  - name: .
+  - uid: Cosmos.HAL.Drivers.Video.SVGAII
+    name: SVGAII
+    isExternal: true
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetFIFO_Cosmos_HAL_Drivers_Video_SVGAII_FIFO_System_UInt32_
+  name: SetFIFO
+  nameWithType: VMWareSVGAII3D.SetFIFO
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetFIFO
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_WaitForFifo
+  name: WaitForFifo
+  nameWithType: VMWareSVGAII3D.WaitForFifo
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.WaitForFifo
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_WriteToFifo_System_UInt32_
+  name: WriteToFifo
+  nameWithType: VMWareSVGAII3D.WriteToFifo
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.WriteToFifo
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_ReserveFIFO_System_UInt32_
+  name: ReserveFIFO
+  nameWithType: VMWareSVGAII3D.ReserveFIFO
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.ReserveFIFO
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Update*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Update
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Update_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: Update
+  nameWithType: VMWareSVGAII3D.Update
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Update
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DoubleBufferUpdate
+  name: DoubleBufferUpdate
+  nameWithType: VMWareSVGAII3D.DoubleBufferUpdate
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DoubleBufferUpdate
+- uid: System.Exception
+  commentId: T:System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetPixel*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetPixel
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetPixel_System_UInt32_System_UInt32_System_UInt32_
+  name: SetPixel
+  nameWithType: VMWareSVGAII3D.SetPixel
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetPixel
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.GetPixel*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.GetPixel
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_GetPixel_System_UInt32_System_UInt32_
+  name: GetPixel
+  nameWithType: VMWareSVGAII3D.GetPixel
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.GetPixel
+- uid: System.NotImplementedException
+  commentId: T:System.NotImplementedException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.notimplementedexception
+  name: NotImplementedException
+  nameWithType: NotImplementedException
+  fullName: System.NotImplementedException
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Clear*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Clear
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Clear_System_UInt32_
+  name: Clear
+  nameWithType: VMWareSVGAII3D.Clear
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Clear
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Copy*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Copy
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Copy_System_UInt32_System_UInt32_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: Copy
+  nameWithType: VMWareSVGAII3D.Copy
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Copy
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Fill*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Fill
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Fill_System_UInt32_System_UInt32_System_UInt32_System_UInt32_System_UInt32_
+  name: Fill
+  nameWithType: VMWareSVGAII3D.Fill
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Fill
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DefineCursor
+  name: DefineCursor
+  nameWithType: VMWareSVGAII3D.DefineCursor
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineCursor
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_DefineAlphaCursor_System_UInt32_System_UInt32_System_Int32___
+  name: DefineAlphaCursor
+  nameWithType: VMWareSVGAII3D.DefineAlphaCursor
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.DefineAlphaCursor
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Enable*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Enable
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Enable
+  name: Enable
+  nameWithType: VMWareSVGAII3D.Enable
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Enable
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.Disable*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.Disable
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_Disable
+  name: Disable
+  nameWithType: VMWareSVGAII3D.Disable
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.Disable
+- uid: VMwareSvgaII3D.VMWareSVGAII3D.SetCursor*
+  commentId: Overload:VMwareSvgaII3D.VMWareSVGAII3D.SetCursor
+  href: VMwareSvgaII3D.VMWareSVGAII3D.html#VMwareSvgaII3D_VMWareSVGAII3D_SetCursor_System_Boolean_System_UInt32_System_UInt32_
+  name: SetCursor
+  nameWithType: VMWareSVGAII3D.SetCursor
+  fullName: VMwareSvgaII3D.VMWareSVGAII3D.SetCursor
+- uid: Cosmos.Core.MemoryBlock
+  commentId: T:Cosmos.Core.MemoryBlock
+  parent: Cosmos.Core
+  isExternal: true
+  name: MemoryBlock
+  nameWithType: MemoryBlock
+  fullName: Cosmos.Core.MemoryBlock
+- uid: Cosmos.Core
+  commentId: N:Cosmos.Core
+  isExternal: true
+  name: Cosmos.Core
+  nameWithType: Cosmos.Core
+  fullName: Cosmos.Core
+  spec.csharp:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.Core
+    name: Core
+    isExternal: true
+  spec.vb:
+  - uid: Cosmos
+    name: Cosmos
+    isExternal: true
+  - name: .
+  - uid: Cosmos.Core
+    name: Core
+    isExternal: true

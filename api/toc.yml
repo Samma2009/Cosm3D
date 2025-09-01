@@ -1,0 +1,160 @@
+### YamlMime:TableOfContent
+items:
+- uid: VMwareSvgaII3D
+  name: VMwareSvgaII3D
+  type: Namespace
+  items:
+  - uid: VMwareSvgaII3D.Capability
+    name: Capability
+    type: Enum
+  - uid: VMwareSvgaII3D.ClearFlags
+    name: ClearFlags
+    type: Enum
+  - uid: VMwareSvgaII3D.FIFOCommand
+    name: FIFOCommand
+    type: Enum
+  - uid: VMwareSvgaII3D.Register
+    name: Register
+    type: Enum
+  - uid: VMwareSvgaII3D.Register3D
+    name: Register3D
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dArray
+    name: SVGA3dArray
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dArrayRangeHint
+    name: SVGA3dArrayRangeHint
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdClear
+    name: SVGA3dCmdClear
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdDefineContext
+    name: SVGA3dCmdDefineContext
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdDefineShader
+    name: SVGA3dCmdDefineShader
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdDefineSurface
+    name: SVGA3dCmdDefineSurface
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdDrawPrimitives
+    name: SVGA3dCmdDrawPrimitives
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdHeader
+    name: SVGA3dCmdHeader
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdPresent
+    name: SVGA3dCmdPresent
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetRenderState
+    name: SVGA3dCmdSetRenderState
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetRenderTarget
+    name: SVGA3dCmdSetRenderTarget
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetShader
+    name: SVGA3dCmdSetShader
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetShaderConst
+    name: SVGA3dCmdSetShaderConst
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetTextureState
+    name: SVGA3dCmdSetTextureState
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetTransform
+    name: SVGA3dCmdSetTransform
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetViewport
+    name: SVGA3dCmdSetViewport
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSetZRange
+    name: SVGA3dCmdSetZRange
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCmdSurfaceDMA
+    name: SVGA3dCmdSurfaceDMA
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCopyBox
+    name: SVGA3dCopyBox
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dCopyRect
+    name: SVGA3dCopyRect
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dDeclMethod
+    name: SVGA3dDeclMethod
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dDeclType
+    name: SVGA3dDeclType
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dDeclUsage
+    name: SVGA3dDeclUsage
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dGuestImage
+    name: SVGA3dGuestImage
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dPrimitiveRange
+    name: SVGA3dPrimitiveRange
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dPrimitiveType
+    name: SVGA3dPrimitiveType
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dRect
+    name: SVGA3dRect
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dRenderState
+    name: SVGA3dRenderState
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dRenderStateName
+    name: SVGA3dRenderStateName
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dRenderTargetType
+    name: SVGA3dRenderTargetType
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dShaderConstType
+    name: SVGA3dShaderConstType
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dShaderType
+    name: SVGA3dShaderType
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dSize
+    name: SVGA3dSize
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dSurfaceFlags
+    name: SVGA3dSurfaceFlags
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dSurfaceFormat
+    name: SVGA3dSurfaceFormat
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dSurfaceImageId
+    name: SVGA3dSurfaceImageId
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dTextureState
+    name: SVGA3dTextureState
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dTextureStateName
+    name: SVGA3dTextureStateName
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dTransferType
+    name: SVGA3dTransferType
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dTransformType
+    name: SVGA3dTransformType
+    type: Enum
+  - uid: VMwareSvgaII3D.SVGA3dVertexArrayIdentity
+    name: SVGA3dVertexArrayIdentity
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dVertexDecl
+    name: SVGA3dVertexDecl
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGA3dZRange
+    name: SVGA3dZRange
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGAGuestPtr
+    name: SVGAGuestPtr
+    type: Struct
+  - uid: VMwareSvgaII3D.SVGAII3DCanvas
+    name: SVGAII3DCanvas
+    type: Class
+  - uid: VMwareSvgaII3D.VMWareSVGAII3D
+    name: VMWareSVGAII3D
+    type: Class
+memberLayout: SamePage

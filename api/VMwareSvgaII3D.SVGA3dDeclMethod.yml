@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod
+  commentId: T:VMwareSvgaII3D.SVGA3dDeclMethod
+  id: SVGA3dDeclMethod
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_CROSSUV
+  - VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_DEFAULT
+  - VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUP
+  - VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+  - VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALU
+  - VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALV
+  - VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_UV
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dDeclMethod
+  nameWithType: SVGA3dDeclMethod
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod
+  type: Enum
+  source:
+    id: SVGA3dDeclMethod
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public enum SVGA3dDeclMethod
+    content.vb: Public Enum SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_DEFAULT
+  commentId: F:VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_DEFAULT
+  id: SVGA3D_DECLMETHOD_DEFAULT
+  parent: VMwareSvgaII3D.SVGA3dDeclMethod
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_DECLMETHOD_DEFAULT
+  nameWithType: SVGA3dDeclMethod.SVGA3D_DECLMETHOD_DEFAULT
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_DEFAULT
+  type: Field
+  source:
+    id: SVGA3D_DECLMETHOD_DEFAULT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_DECLMETHOD_DEFAULT = 0
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALU
+  commentId: F:VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALU
+  id: SVGA3D_DECLMETHOD_PARTIALU
+  parent: VMwareSvgaII3D.SVGA3dDeclMethod
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_DECLMETHOD_PARTIALU
+  nameWithType: SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALU
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALU
+  type: Field
+  source:
+    id: SVGA3D_DECLMETHOD_PARTIALU
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_DECLMETHOD_PARTIALU = 1
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALV
+  commentId: F:VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALV
+  id: SVGA3D_DECLMETHOD_PARTIALV
+  parent: VMwareSvgaII3D.SVGA3dDeclMethod
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_DECLMETHOD_PARTIALV
+  nameWithType: SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALV
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_PARTIALV
+  type: Field
+  source:
+    id: SVGA3D_DECLMETHOD_PARTIALV
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_DECLMETHOD_PARTIALV = 2
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_CROSSUV
+  commentId: F:VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_CROSSUV
+  id: SVGA3D_DECLMETHOD_CROSSUV
+  parent: VMwareSvgaII3D.SVGA3dDeclMethod
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_DECLMETHOD_CROSSUV
+  nameWithType: SVGA3dDeclMethod.SVGA3D_DECLMETHOD_CROSSUV
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_CROSSUV
+  type: Field
+  source:
+    id: SVGA3D_DECLMETHOD_CROSSUV
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_DECLMETHOD_CROSSUV = 3
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_UV
+  commentId: F:VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_UV
+  id: SVGA3D_DECLMETHOD_UV
+  parent: VMwareSvgaII3D.SVGA3dDeclMethod
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_DECLMETHOD_UV
+  nameWithType: SVGA3dDeclMethod.SVGA3D_DECLMETHOD_UV
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_UV
+  type: Field
+  source:
+    id: SVGA3D_DECLMETHOD_UV
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 14
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_DECLMETHOD_UV = 4
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUP
+  commentId: F:VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUP
+  id: SVGA3D_DECLMETHOD_LOOKUP
+  parent: VMwareSvgaII3D.SVGA3dDeclMethod
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_DECLMETHOD_LOOKUP
+  nameWithType: SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUP
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUP
+  type: Field
+  source:
+    id: SVGA3D_DECLMETHOD_LOOKUP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 15
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_DECLMETHOD_LOOKUP = 5
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+  commentId: F:VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+  id: SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+  parent: VMwareSvgaII3D.SVGA3dDeclMethod
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+  nameWithType: SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod.SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+  type: Field
+  source:
+    id: SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\DeclMethod.cs
+    startLine: 16
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_DECLMETHOD_LOOKUPPRESAMPLED = 6
+    return:
+      type: VMwareSvgaII3D.SVGA3dDeclMethod
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.SVGA3dDeclMethod
+  commentId: T:VMwareSvgaII3D.SVGA3dDeclMethod
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dDeclMethod.html
+  name: SVGA3dDeclMethod
+  nameWithType: SVGA3dDeclMethod
+  fullName: VMwareSvgaII3D.SVGA3dDeclMethod

@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.ClearFlags
+  commentId: T:VMwareSvgaII3D.ClearFlags
+  id: ClearFlags
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.ClearFlags.Color
+  - VMwareSvgaII3D.ClearFlags.Depth
+  - VMwareSvgaII3D.ClearFlags.Stencil
+  langs:
+  - csharp
+  - vb
+  name: ClearFlags
+  nameWithType: ClearFlags
+  fullName: VMwareSvgaII3D.ClearFlags
+  type: Enum
+  source:
+    id: ClearFlags
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ClearFlags.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ClearFlags : uint
+    content.vb: >-
+      <Flags>
+
+      Public Enum ClearFlags As UInteger
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: VMwareSvgaII3D.ClearFlags.Color
+  commentId: F:VMwareSvgaII3D.ClearFlags.Color
+  id: Color
+  parent: VMwareSvgaII3D.ClearFlags
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: ClearFlags.Color
+  fullName: VMwareSvgaII3D.ClearFlags.Color
+  type: Field
+  source:
+    id: Color
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ClearFlags.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: Color = 1
+    return:
+      type: VMwareSvgaII3D.ClearFlags
+- uid: VMwareSvgaII3D.ClearFlags.Depth
+  commentId: F:VMwareSvgaII3D.ClearFlags.Depth
+  id: Depth
+  parent: VMwareSvgaII3D.ClearFlags
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: ClearFlags.Depth
+  fullName: VMwareSvgaII3D.ClearFlags.Depth
+  type: Field
+  source:
+    id: Depth
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ClearFlags.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: Depth = 2
+    return:
+      type: VMwareSvgaII3D.ClearFlags
+- uid: VMwareSvgaII3D.ClearFlags.Stencil
+  commentId: F:VMwareSvgaII3D.ClearFlags.Stencil
+  id: Stencil
+  parent: VMwareSvgaII3D.ClearFlags
+  langs:
+  - csharp
+  - vb
+  name: Stencil
+  nameWithType: ClearFlags.Stencil
+  fullName: VMwareSvgaII3D.ClearFlags.Stencil
+  type: Field
+  source:
+    id: Stencil
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ClearFlags.cs
+    startLine: 13
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: Stencil = 4
+    return:
+      type: VMwareSvgaII3D.ClearFlags
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.ClearFlags
+  commentId: T:VMwareSvgaII3D.ClearFlags
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.ClearFlags.html
+  name: ClearFlags
+  nameWithType: ClearFlags
+  fullName: VMwareSvgaII3D.ClearFlags

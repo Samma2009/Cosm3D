@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.Register3D
+  commentId: T:VMwareSvgaII3D.Register3D
+  id: Register3D
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS_LAST
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION_REVISED
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_BUSY
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_CAPABILITIES
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_COUNT
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_LAST_UPDATED
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_ON
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_SCREEN_ID
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_X
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_Y
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_DEAD
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE_GOAL
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_FLAGS
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_GUEST_3D_HWVERSION
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_MAX
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_MIN
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_NEXT_CMD
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_NUM_REGS
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_PITCHLOCK
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_RESERVED
+  - VMwareSvgaII3D.Register3D.SVGA_FIFO_STOP
+  langs:
+  - csharp
+  - vb
+  name: Register3D
+  nameWithType: Register3D
+  fullName: VMwareSvgaII3D.Register3D
+  type: Enum
+  source:
+    id: Register3D
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 50
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public enum Register3D
+    content.vb: Public Enum Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_MIN
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_MIN
+  id: SVGA_FIFO_MIN
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_MIN
+  nameWithType: Register3D.SVGA_FIFO_MIN
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_MIN
+  type: Field
+  source:
+    id: SVGA_FIFO_MIN
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 52
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_MIN = 0
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_MAX
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_MAX
+  id: SVGA_FIFO_MAX
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_MAX
+  nameWithType: Register3D.SVGA_FIFO_MAX
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_MAX
+  type: Field
+  source:
+    id: SVGA_FIFO_MAX
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 53
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_MAX = 1
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_NEXT_CMD
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_NEXT_CMD
+  id: SVGA_FIFO_NEXT_CMD
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_NEXT_CMD
+  nameWithType: Register3D.SVGA_FIFO_NEXT_CMD
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_NEXT_CMD
+  type: Field
+  source:
+    id: SVGA_FIFO_NEXT_CMD
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 54
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_NEXT_CMD = 2
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_STOP
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_STOP
+  id: SVGA_FIFO_STOP
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_STOP
+  nameWithType: Register3D.SVGA_FIFO_STOP
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_STOP
+  type: Field
+  source:
+    id: SVGA_FIFO_STOP
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 55
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_STOP = 3
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_CAPABILITIES
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_CAPABILITIES
+  id: SVGA_FIFO_CAPABILITIES
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_CAPABILITIES
+  nameWithType: Register3D.SVGA_FIFO_CAPABILITIES
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_CAPABILITIES
+  type: Field
+  source:
+    id: SVGA_FIFO_CAPABILITIES
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 57
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_CAPABILITIES = 4
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_FLAGS
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_FLAGS
+  id: SVGA_FIFO_FLAGS
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_FLAGS
+  nameWithType: Register3D.SVGA_FIFO_FLAGS
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_FLAGS
+  type: Field
+  source:
+    id: SVGA_FIFO_FLAGS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 58
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_FLAGS = 5
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE
+  id: SVGA_FIFO_FENCE
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_FENCE
+  nameWithType: Register3D.SVGA_FIFO_FENCE
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE
+  type: Field
+  source:
+    id: SVGA_FIFO_FENCE
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 60
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_FENCE = 6
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION
+  id: SVGA_FIFO_3D_HWVERSION
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_3D_HWVERSION
+  nameWithType: Register3D.SVGA_FIFO_3D_HWVERSION
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION
+  type: Field
+  source:
+    id: SVGA_FIFO_3D_HWVERSION
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 62
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_3D_HWVERSION = 7
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_PITCHLOCK
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_PITCHLOCK
+  id: SVGA_FIFO_PITCHLOCK
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_PITCHLOCK
+  nameWithType: Register3D.SVGA_FIFO_PITCHLOCK
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_PITCHLOCK
+  type: Field
+  source:
+    id: SVGA_FIFO_PITCHLOCK
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 64
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_PITCHLOCK = 8
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_ON
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_ON
+  id: SVGA_FIFO_CURSOR_ON
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_CURSOR_ON
+  nameWithType: Register3D.SVGA_FIFO_CURSOR_ON
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_ON
+  type: Field
+  source:
+    id: SVGA_FIFO_CURSOR_ON
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 67
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_CURSOR_ON = 9
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_X
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_X
+  id: SVGA_FIFO_CURSOR_X
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_CURSOR_X
+  nameWithType: Register3D.SVGA_FIFO_CURSOR_X
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_X
+  type: Field
+  source:
+    id: SVGA_FIFO_CURSOR_X
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 68
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_CURSOR_X = 10
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_Y
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_Y
+  id: SVGA_FIFO_CURSOR_Y
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_CURSOR_Y
+  nameWithType: Register3D.SVGA_FIFO_CURSOR_Y
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_Y
+  type: Field
+  source:
+    id: SVGA_FIFO_CURSOR_Y
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 69
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_CURSOR_Y = 11
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_COUNT
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_COUNT
+  id: SVGA_FIFO_CURSOR_COUNT
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_CURSOR_COUNT
+  nameWithType: Register3D.SVGA_FIFO_CURSOR_COUNT
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_COUNT
+  type: Field
+  source:
+    id: SVGA_FIFO_CURSOR_COUNT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 70
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_CURSOR_COUNT = 12
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_LAST_UPDATED
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_LAST_UPDATED
+  id: SVGA_FIFO_CURSOR_LAST_UPDATED
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_CURSOR_LAST_UPDATED
+  nameWithType: Register3D.SVGA_FIFO_CURSOR_LAST_UPDATED
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_LAST_UPDATED
+  type: Field
+  source:
+    id: SVGA_FIFO_CURSOR_LAST_UPDATED
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 71
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_CURSOR_LAST_UPDATED = 13
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_RESERVED
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_RESERVED
+  id: SVGA_FIFO_RESERVED
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_RESERVED
+  nameWithType: Register3D.SVGA_FIFO_RESERVED
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_RESERVED
+  type: Field
+  source:
+    id: SVGA_FIFO_RESERVED
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 74
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_RESERVED = 14
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_SCREEN_ID
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_SCREEN_ID
+  id: SVGA_FIFO_CURSOR_SCREEN_ID
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_CURSOR_SCREEN_ID
+  nameWithType: Register3D.SVGA_FIFO_CURSOR_SCREEN_ID
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_CURSOR_SCREEN_ID
+  type: Field
+  source:
+    id: SVGA_FIFO_CURSOR_SCREEN_ID
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 76
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_CURSOR_SCREEN_ID = 15
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_DEAD
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_DEAD
+  id: SVGA_FIFO_DEAD
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_DEAD
+  nameWithType: Register3D.SVGA_FIFO_DEAD
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_DEAD
+  type: Field
+  source:
+    id: SVGA_FIFO_DEAD
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 78
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_DEAD = 16
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION_REVISED
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION_REVISED
+  id: SVGA_FIFO_3D_HWVERSION_REVISED
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_3D_HWVERSION_REVISED
+  nameWithType: Register3D.SVGA_FIFO_3D_HWVERSION_REVISED
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_HWVERSION_REVISED
+  type: Field
+  source:
+    id: SVGA_FIFO_3D_HWVERSION_REVISED
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 80
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_3D_HWVERSION_REVISED = 17
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS
+  id: SVGA_FIFO_3D_CAPS
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_3D_CAPS
+  nameWithType: Register3D.SVGA_FIFO_3D_CAPS
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS
+  type: Field
+  source:
+    id: SVGA_FIFO_3D_CAPS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 82
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_3D_CAPS = 32
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS_LAST
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS_LAST
+  id: SVGA_FIFO_3D_CAPS_LAST
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_3D_CAPS_LAST
+  nameWithType: Register3D.SVGA_FIFO_3D_CAPS_LAST
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_3D_CAPS_LAST
+  type: Field
+  source:
+    id: SVGA_FIFO_3D_CAPS_LAST
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 83
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_3D_CAPS_LAST = 287
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_GUEST_3D_HWVERSION
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_GUEST_3D_HWVERSION
+  id: SVGA_FIFO_GUEST_3D_HWVERSION
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_GUEST_3D_HWVERSION
+  nameWithType: Register3D.SVGA_FIFO_GUEST_3D_HWVERSION
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_GUEST_3D_HWVERSION
+  type: Field
+  source:
+    id: SVGA_FIFO_GUEST_3D_HWVERSION
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 86
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_GUEST_3D_HWVERSION = 288
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE_GOAL
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE_GOAL
+  id: SVGA_FIFO_FENCE_GOAL
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_FENCE_GOAL
+  nameWithType: Register3D.SVGA_FIFO_FENCE_GOAL
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_FENCE_GOAL
+  type: Field
+  source:
+    id: SVGA_FIFO_FENCE_GOAL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 87
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_FENCE_GOAL = 289
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_BUSY
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_BUSY
+  id: SVGA_FIFO_BUSY
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_BUSY
+  nameWithType: Register3D.SVGA_FIFO_BUSY
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_BUSY
+  type: Field
+  source:
+    id: SVGA_FIFO_BUSY
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 88
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_BUSY = 290
+    return:
+      type: VMwareSvgaII3D.Register3D
+- uid: VMwareSvgaII3D.Register3D.SVGA_FIFO_NUM_REGS
+  commentId: F:VMwareSvgaII3D.Register3D.SVGA_FIFO_NUM_REGS
+  id: SVGA_FIFO_NUM_REGS
+  parent: VMwareSvgaII3D.Register3D
+  langs:
+  - csharp
+  - vb
+  name: SVGA_FIFO_NUM_REGS
+  nameWithType: Register3D.SVGA_FIFO_NUM_REGS
+  fullName: VMwareSvgaII3D.Register3D.SVGA_FIFO_NUM_REGS
+  type: Field
+  source:
+    id: SVGA_FIFO_NUM_REGS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\Register.cs
+    startLine: 90
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA_FIFO_NUM_REGS = 291
+    return:
+      type: VMwareSvgaII3D.Register3D
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.Register3D
+  commentId: T:VMwareSvgaII3D.Register3D
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.Register3D.html
+  name: Register3D
+  nameWithType: Register3D
+  fullName: VMwareSvgaII3D.Register3D

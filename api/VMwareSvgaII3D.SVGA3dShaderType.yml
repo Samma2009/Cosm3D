@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dShaderType
+  commentId: T:VMwareSvgaII3D.SVGA3dShaderType
+  id: SVGA3dShaderType
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_MAX
+  - VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_PS
+  - VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_VS
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dShaderType
+  nameWithType: SVGA3dShaderType
+  fullName: VMwareSvgaII3D.SVGA3dShaderType
+  type: Enum
+  source:
+    id: SVGA3dShaderType
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderType.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public enum SVGA3dShaderType
+    content.vb: Public Enum SVGA3dShaderType
+- uid: VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_VS
+  commentId: F:VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_VS
+  id: SVGA3D_SHADERTYPE_VS
+  parent: VMwareSvgaII3D.SVGA3dShaderType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SHADERTYPE_VS
+  nameWithType: SVGA3dShaderType.SVGA3D_SHADERTYPE_VS
+  fullName: VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_VS
+  type: Field
+  source:
+    id: SVGA3D_SHADERTYPE_VS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderType.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SHADERTYPE_VS = 1
+    return:
+      type: VMwareSvgaII3D.SVGA3dShaderType
+- uid: VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_PS
+  commentId: F:VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_PS
+  id: SVGA3D_SHADERTYPE_PS
+  parent: VMwareSvgaII3D.SVGA3dShaderType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SHADERTYPE_PS
+  nameWithType: SVGA3dShaderType.SVGA3D_SHADERTYPE_PS
+  fullName: VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_PS
+  type: Field
+  source:
+    id: SVGA3D_SHADERTYPE_PS
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderType.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SHADERTYPE_PS = 2
+    return:
+      type: VMwareSvgaII3D.SVGA3dShaderType
+- uid: VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_MAX
+  commentId: F:VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_MAX
+  id: SVGA3D_SHADERTYPE_MAX
+  parent: VMwareSvgaII3D.SVGA3dShaderType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_SHADERTYPE_MAX
+  nameWithType: SVGA3dShaderType.SVGA3D_SHADERTYPE_MAX
+  fullName: VMwareSvgaII3D.SVGA3dShaderType.SVGA3D_SHADERTYPE_MAX
+  type: Field
+  source:
+    id: SVGA3D_SHADERTYPE_MAX
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderType.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_SHADERTYPE_MAX = 3
+    return:
+      type: VMwareSvgaII3D.SVGA3dShaderType
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.SVGA3dShaderType
+  commentId: T:VMwareSvgaII3D.SVGA3dShaderType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dShaderType.html
+  name: SVGA3dShaderType
+  nameWithType: SVGA3dShaderType
+  fullName: VMwareSvgaII3D.SVGA3dShaderType

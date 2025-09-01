@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: VMwareSvgaII3D.SVGA3dShaderConstType
+  commentId: T:VMwareSvgaII3D.SVGA3dShaderConstType
+  id: SVGA3dShaderConstType
+  parent: VMwareSvgaII3D
+  children:
+  - VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_BOOL
+  - VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_FLOAT
+  - VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_INT
+  langs:
+  - csharp
+  - vb
+  name: SVGA3dShaderConstType
+  nameWithType: SVGA3dShaderConstType
+  fullName: VMwareSvgaII3D.SVGA3dShaderConstType
+  type: Enum
+  source:
+    id: SVGA3dShaderConstType
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderConstType.cs
+    startLine: 8
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: public enum SVGA3dShaderConstType
+    content.vb: Public Enum SVGA3dShaderConstType
+- uid: VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_FLOAT
+  commentId: F:VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_FLOAT
+  id: SVGA3D_CONST_TYPE_FLOAT
+  parent: VMwareSvgaII3D.SVGA3dShaderConstType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_CONST_TYPE_FLOAT
+  nameWithType: SVGA3dShaderConstType.SVGA3D_CONST_TYPE_FLOAT
+  fullName: VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_FLOAT
+  type: Field
+  source:
+    id: SVGA3D_CONST_TYPE_FLOAT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderConstType.cs
+    startLine: 10
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_CONST_TYPE_FLOAT = 0
+    return:
+      type: VMwareSvgaII3D.SVGA3dShaderConstType
+- uid: VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_INT
+  commentId: F:VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_INT
+  id: SVGA3D_CONST_TYPE_INT
+  parent: VMwareSvgaII3D.SVGA3dShaderConstType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_CONST_TYPE_INT
+  nameWithType: SVGA3dShaderConstType.SVGA3D_CONST_TYPE_INT
+  fullName: VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_INT
+  type: Field
+  source:
+    id: SVGA3D_CONST_TYPE_INT
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderConstType.cs
+    startLine: 11
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_CONST_TYPE_INT = 1
+    return:
+      type: VMwareSvgaII3D.SVGA3dShaderConstType
+- uid: VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_BOOL
+  commentId: F:VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_BOOL
+  id: SVGA3D_CONST_TYPE_BOOL
+  parent: VMwareSvgaII3D.SVGA3dShaderConstType
+  langs:
+  - csharp
+  - vb
+  name: SVGA3D_CONST_TYPE_BOOL
+  nameWithType: SVGA3dShaderConstType.SVGA3D_CONST_TYPE_BOOL
+  fullName: VMwareSvgaII3D.SVGA3dShaderConstType.SVGA3D_CONST_TYPE_BOOL
+  type: Field
+  source:
+    id: SVGA3D_CONST_TYPE_BOOL
+    path: C:\Users\samuele\source\repos\VMwareSvgaII3D\Enums\ShaderConstType.cs
+    startLine: 12
+  assemblies:
+  - VMwareSvgaII3D
+  namespace: VMwareSvgaII3D
+  syntax:
+    content: SVGA3D_CONST_TYPE_BOOL = 2
+    return:
+      type: VMwareSvgaII3D.SVGA3dShaderConstType
+references:
+- uid: VMwareSvgaII3D
+  commentId: N:VMwareSvgaII3D
+  href: VMwareSvgaII3D.html
+  name: VMwareSvgaII3D
+  nameWithType: VMwareSvgaII3D
+  fullName: VMwareSvgaII3D
+- uid: VMwareSvgaII3D.SVGA3dShaderConstType
+  commentId: T:VMwareSvgaII3D.SVGA3dShaderConstType
+  parent: VMwareSvgaII3D
+  href: VMwareSvgaII3D.SVGA3dShaderConstType.html
+  name: SVGA3dShaderConstType
+  nameWithType: SVGA3dShaderConstType
+  fullName: VMwareSvgaII3D.SVGA3dShaderConstType
