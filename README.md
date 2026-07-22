@@ -7,3 +7,6 @@
   <a href="https://github.com/Samma2009/Cosm3D/releases"><img src="https://img.shields.io/github/downloads/Samma2009/Cosm3D/total?style=for-the-badge"/><a/>
 </p>
 <h1 align="center">3D capabilities for CosmosOS VMwareSvgaII</h2>
+
+> [!IMPORTANT]  
+> Since Cosm3D is now part of [CosmosOS gen3](https://github.com/valentinbreiz/nativeaot-patcher), this repository, along with the gen2 version of this driver, will be archived.
